@@ -85,6 +85,7 @@ li, a, .menuText{
 .contact {
     padding-top: 0px;
     padding-bottom: 0;
+    
   }
   
 .mapa {
@@ -123,12 +124,6 @@ li, a, .menuText{
     font-size: 20px;
   }
   
-  .contact-info {
-    padding-left: 70px;
-    font-weight: 300;
-    font-size: 20px;
-  }
-  
   ul.address {
     margin-top: 30px;
     list-style: none;
@@ -137,14 +132,10 @@ li, a, .menuText{
     font-size: 20px;
   }
   
-  .contact-info ul li {
+  .contact-info {
     margin-bottom: 8px;
-    font-size: 20px;
-  }
-  
-  .contact-info ul li a {
-    color: #fff;
-    font-size: 20px;
+    font-size: 15px;
+    color: #000;
   }
   
   .btn-submit {
@@ -169,7 +160,7 @@ li, a, .menuText{
 footer {
     color: #fff;
     background-color: #333;
-    height: 200px;
+    height: 310px;
     font-family: 'Sarabun', sans-serif;
   }
   
