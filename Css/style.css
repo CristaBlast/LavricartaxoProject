@@ -1,24 +1,69 @@
-.menu
-{
-    width: 98%;
-    margin-left: -8px;
-    margin-top: -20px;
-    padding: 1%;
-    background-color: chartreuse;
-    position: fixed;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.menuButtons
+li, a, .menuText{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.main1{
+    justify-content: space-between;
+      background-color: #ACFA58;
+}
+
+.nav_menu,li{
+    display: inline-block;
+}
+
+.nav_menu,li,a{
+    
+    transition: all 0.3s ease auto;
+    padding: 0px 25px;
+    list-style: none;
+}
+
+.nav_menu,li,a:hover{
+    color:#E6E6E6;
+}
+
+.top
+{
+    margin-top: -5px;
+    margin-left: -5px;
+    width: auto;
+    padding-top: 1%;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.logo
 {
     vertical-align: middle;
     display: inline-block;
-    border-style: solid;
-    border-width: 1px;
-    padding: 1%;
-} 
+    margin: auto;
+    width: 30%;
+    margin-left: -20px;
+}
 
-.menuText
+.weatherWidget
 {
-    text-decoration: none;
-    color: black;
+    padding-left: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 25px;
+}
+
+.main2{
+    font-family:'Roboto', sans-serif;
 }
