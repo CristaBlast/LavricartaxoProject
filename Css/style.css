@@ -212,3 +212,18 @@ ul.address {
 .btn-submit:hover {
   background-color: #81bef7;
 }
+
+/*MARCAS*/
+
+.mainmarcas {
+  padding: 4%;
+  float: left;
+  display: block;
+  color: #494949;
+  width: 14%;
+  height: auto;
+  margin-right: 2, 8%;
+  margin-bottom: 3%;
+  padding: 1%;
+  display: block;
+}
