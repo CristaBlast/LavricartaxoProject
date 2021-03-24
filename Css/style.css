@@ -50,8 +50,8 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 nav {
@@ -135,11 +135,8 @@ footer {
   background-color: #333;
   height: 275px;
   font-family: "Roboto", sans-serif;
-}
-
-.footerBottom {
-  padding-left: 1%;
-  padding-top: 1%;
+  position: sticky;
+  padding: 20px;
 }
 
 /*FORM*/
