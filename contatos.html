@@ -55,51 +55,38 @@
               <li class="contact-info"><span> Email:</span><a href="geral@lavricartaxo.pt" class="contact-info"> geral@lavricartaxo.pt</a></li>
           </ul>                            
       </div>
- 
-   </section><!--contato-->
-        <section id="contact">
-            <div class="container">
-            <div class="row">
-                <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"></div>
-                    <h2></br>Contacte-nos</br></br></h2>
-                </div>
-            </div>
-                <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <form id="main-contact-form" name="contact-form" method="post" action="#">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" name="name" class="form-control" placeholder="Nome" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" class="form-control" placeholder="Email" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" name="local" class="form-control" placeholder="Local" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="tel" name="number" class="form-control" placeholder="Telefone" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" name="assunto" class="form-control" placeholder="Assunto" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensagem" required="required"></textarea>
-                                    </div>                        
-                                    <div class="form-group">
-                                        <button type="submit" class="btn-submit">Enviar</button>
-                                    </div>
-                                </div>
-                            </form>   
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="col-sm-6">
+        <h2></br>Contacte-nos</br></br></h2>
       </div>
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" class="form-control" id="nome">
+        </div>
+        <div class="form-group">
+          <label for="local">Local</label>
+          <input type="text" class="form-control" id="local">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="telefone">Telefone</label>
+          <input type="tel" class="form-control" id="telefone">
+        </div>
+        <div class="form-group">
+          <label for="assunto">Assunto</label>
+          <input type="text" class="form-control" id="assunto">
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" >Submeter</button>
+        <button type="submit" class="btn btn-danger">Limpar</button>
+      </form>
     </div>
-    </section>
   <footer>
     <div>
       <div class="row">
