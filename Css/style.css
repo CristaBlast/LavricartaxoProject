@@ -147,10 +147,10 @@ footer {
 }
 
 .form-control {
-  background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.1);
+  background-color: #fff;
+  border-color: #a4a4a4;
   height: 50px;
-  border-radius: 0;
+  border-radius: 20px;
   box-shadow: none;
   font-size: 20px;
 }
@@ -167,24 +167,23 @@ textarea.form-control {
 }
 
 .contact-info {
-  margin-bottom: 8px;
-  font-size: 15px;
   color: #000;
 }
 
-.btn-submit {
-  display: block;
-  padding: 12px;
-  width: 50%;
-  color: #000;
-  border: 0;
-  font-size: 20px;
-  margin-top: 40px;
-  font-weight: bold;
+.contact-a:hover {
+  color: #81f781;
 }
 
-.btn-submit:hover {
-  background-color: #81bef7;
+.contact-address {
+  float: right;
+  margin-left: 4%;
+  width: 35.3333%;
+}
+
+.btn {
+  width: 160px;
+  margin: 20px;
+  font-size: 18px;
 }
 
 /*MARCAS*/
@@ -200,4 +199,8 @@ textarea.form-control {
   margin-bottom: 3%;
   padding: 1%;
   display: block;
+}
+
+.planos:hover {
+  color: #81f781;
 }
