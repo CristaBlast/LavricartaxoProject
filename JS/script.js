@@ -1,6 +1,6 @@
+var num = 1;
 function slideShow()
 {
-    var num = 1;
     setInterval(() => 
     {
     if(num == 5)

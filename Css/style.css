@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap");
-/*#7EFA4E color green*/
-/*#955121 color brown*/
-/*BTW as cores que estão agora são só um exemplo não sao as finais*/
 
 * {
   box-sizing: border-box;
@@ -85,6 +82,10 @@ a:hover {
 
 .main {
   font-family: "Roboto", sans-serif;
+  background-image: url(../Images/background.jpg);
+  margin-top: -15px;
+  padding-top: 1%;
+  color: white;
 }
 
 .slideshow {
@@ -111,6 +112,7 @@ a:hover {
 .news {
   width: auto;
   float: right;
+  margin-right: 1%;
 }
 
 .welcome {
