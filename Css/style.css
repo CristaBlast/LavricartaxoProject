@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap");
-/*#7EFA4E color green*/
+/*#7EFA4E color green*/ 
 /*#955121 color brown*/
 /*BTW as cores que estão agora são só um exemplo não sao as finais*/
 
@@ -9,14 +9,14 @@
   padding: 0;
 }
 
-/*HEADER*/
+/* header */
 
 .header {
   justify-content: space-between;
   background: #81f781;
 }
 
-/*Top*/
+/* top */
 
 .top {
   width: auto;
@@ -40,7 +40,7 @@
   display: inline-block;
 }
 
-/*Menu*/
+/* menu */
 
 .menuText,
 li,
@@ -81,7 +81,7 @@ a:hover {
   text-decoration: none;
 }
 
-/*MAIN*/
+/* main */
 
 .main {
   font-family: "Roboto", sans-serif;
@@ -128,7 +128,7 @@ h2 {
   font-size: large;
 }
 
-/*FOOTER*/
+/* footer */
 
 footer {
   color: #fff;
@@ -140,7 +140,7 @@ footer {
   flex-shrink: 0;
 }
 
-/*FORM*/
+/* form */
 
 .mapa {
   height: none;
@@ -186,7 +186,7 @@ textarea.form-control {
   font-size: 18px;
 }
 
-/*MARCAS*/
+/* marcas */
 
 .mainmarcas {
   padding: 4%;
@@ -204,3 +204,46 @@ textarea.form-control {
 .planos:hover {
   color: #81f781;
 }
+
+/* contact Section */
+#contact .contact {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#contact .contact-items {
+  width: 400px;
+}
+#contact .contact-item {
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 18px 0 #0000002c;
+  transition: 0.3s ease box-shadow;
+}
+#contact .contact-item:hover {
+  box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#contact .icon {
+  width: 70px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#contact .contact-info h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#contact .contact-info h2 {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+/*End contact Section */
