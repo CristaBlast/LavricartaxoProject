@@ -1,3 +1,5 @@
+/*31/3/2021 widget deixou de funcionar pq o site está down*/
+
 var scripts = document.getElementsByTagName('script');
 var index = scripts.length - 1;
 var myScript = scripts[index];
