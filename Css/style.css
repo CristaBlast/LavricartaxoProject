@@ -54,6 +54,15 @@ a {
   padding-bottom: 10px;
 }
 
+.menuText {
+  border-bottom: 2px solid #81f781;
+}
+
+.menuText:hover {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
 nav {
   background-color: #81f781;
   position: -webkit-sticky;
@@ -88,7 +97,6 @@ a:hover {
 }
 
 .slideshow {
-  margin-top: 20px;
   margin-left: 20px;
   width: 78%;
   margin: auto;
