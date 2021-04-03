@@ -50,8 +50,8 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  /* padding-top: 1%; */
-  /* padding-bottom: 10px; */
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .menuText {
@@ -137,12 +137,45 @@ a:hover {
   vertical-align: middle;
 }
 
+/*********Marcas da pagina marcas*/
+.marcasI
+{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+ 
+}
+
+.marcaI
+{
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+/*******************/
+
 .welcome {
   margin-left: 1%;
   width: 54%;
   text-align: justify;
   margin-left: 11%;
   font-family: "Roboto", sans-serif;
+}
+
+.gallery
+{
+  width: 110%;
+  background-color: red;
+}
+
+.photo
+{
+  border-radius: 10px;
+  border: 2px white solid;
+  background-color: black;
+  display: inline-block;
+  width: 33%;
+  height: 300px;
 }
 
 h1 {
