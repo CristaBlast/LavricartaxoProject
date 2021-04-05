@@ -19,6 +19,6 @@ function slideShow()
 
 /* */
 
-function fuck() {
+function inicialStart() {
     document.getElementById("start").focus();
 }

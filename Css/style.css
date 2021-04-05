@@ -48,9 +48,9 @@
 
 /* menu */
 
-.menuText,
-li,
-a {
+
+.menuText {
+  border-bottom: 2px solid #81f781;
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -60,13 +60,19 @@ a {
   padding-bottom: 1%;
 }
 
-.menuText {
-  border-bottom: 2px solid #81f781;
-}
-
 .menuText:hover {
   border-bottom: 2px solid #fff;
   color: #fff;
+}
+
+.menuText:focus{
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
 
 nav {
@@ -75,17 +81,16 @@ nav {
   position: sticky;
   top: 0;
 }
-
+/*Have to adjust menu to center!:c*/
 .navMenu,
 li {
   display: inline-block;
 }
 
 .navMenu,
-li,
-a {
-  padding-left: 25px;
-  padding-right: 25px;
+li{
+  padding-left: 10px;
+  padding-right: 10px;
   list-style: none;
 }
 
@@ -97,10 +102,6 @@ a:hover {
 }
 
 /* main */
-
-.main {
-  font-family: "Roboto", sans-serif;
-}
 
 .slideshow {
   margin-left: 20px;
@@ -133,7 +134,6 @@ a:hover {
   text-align: center;
   display: inline-block;
   width: 100%;
-  /* margin-left: -130px; */
 }
 
 .marca
@@ -156,6 +156,7 @@ a:hover {
   }
 
 /*********Marcas da pagina marcas*/
+
 .marcasI
 {
   text-align: center;
@@ -170,6 +171,19 @@ a:hover {
   width: auto;
   vertical-align: middle;
 }
+
+.marcasTabletI
+  {
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .marcaTabletI
+  {
+    position: absolute;
+    visibility: hidden;
+  }
+
 /*******************/
 
 .welcome {
@@ -183,7 +197,6 @@ a:hover {
 .gallery
 {
   width: 110%;
-  background-color: red;
 }
 
 .photo
@@ -303,6 +316,7 @@ textarea.form-control {
   box-shadow: 0px 0px 18px 0 #0000002c;
   transition: 0.3s ease box-shadow;
 }
+
 .contact-item:hover {
   box-shadow: 0px 0px 5px 0 #0000002c;
 }
@@ -360,9 +374,8 @@ textarea.form-control {
   
   /* menu */
 
-  .menuText,
-  li,
-  a {
+  .menuText {
+    border-bottom: 2px solid #81f781;
     text-decoration: none;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -370,10 +383,6 @@ textarea.form-control {
     font-weight: 500;
     padding-top: 1%;
     padding-bottom: 1%;
-  }
-  
-  .menuText {
-    border-bottom: 2px solid #81f781;
   }
   
   .menuText:hover {
@@ -396,11 +405,10 @@ textarea.form-control {
   }
   
   .navMenu,
-  li,
-  a {
+  li{
     padding-top: 1%;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
     list-style:none;
     text-align: center;
   }
@@ -468,19 +476,36 @@ textarea.form-control {
   }
   
   /*********Marcas da pagina marcas**********/
+
   .marcasI
   {
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-   
+    visibility: hidden;
+    position: absolute;
   }
   
   .marcaI
   {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .marcasTabletI
+  {
+    text-align: center;
     display: inline-block;
-    width: auto;
+    width: 100%;
+    margin-left: 0px;
+    visibility: visible;
+    position: inherit;
+  }
+  
+  .marcaTabletI
+  {
+    display: inline-block;
+    width: 30%;
     vertical-align: middle;
+    visibility: visible;
+    position: inherit;
   }
   /******************************************/
   
@@ -495,7 +520,6 @@ textarea.form-control {
   .gallery
   {
     width: 100%;
-    background-color: red;
   }
   
   .photo
@@ -517,10 +541,6 @@ textarea.form-control {
   }
   
   /* footer */
-  
-  footer {
-    font-family: "Roboto", sans-serif;
-  }
   
   .footerBottom {
     padding-left: 1%;
@@ -544,6 +564,7 @@ textarea.form-control {
   .openFooter {
     float: left;
     width: 100%;
+    padding-top: 3%;
     padding-bottom: 2%;
   }
   
@@ -857,4 +878,3 @@ textarea.form-control {
     font-size: 18px;
   }
 }
-
