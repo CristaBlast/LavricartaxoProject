@@ -1,4 +1,4 @@
-
+/* */
 function slideShow()
 {
     var num = 1;
@@ -15,4 +15,10 @@ function slideShow()
         }
         document.getElementById("slideshowIMG").src = "Images/slideshow/" + num + ".jpg";    
     },3000);    
+}
+
+/* */
+
+function fuck() {
+    document.getElementById("start").focus();
 }

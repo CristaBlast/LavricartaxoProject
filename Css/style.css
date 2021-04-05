@@ -39,11 +39,11 @@
 .weatherWidget {
   vertical-align: middle;
   display: inline-block;
-  
 }
 
 .weatherWidgetTablet {
-  visibility: hidden
+  visibility: hidden;
+  position: absolute;
 }
 
 /* menu */
@@ -132,8 +132,8 @@ a:hover {
 {
   text-align: center;
   display: inline-block;
-  width: 140%;
-  margin-left: -130px;
+  width: 100%;
+  /* margin-left: -130px; */
 }
 
 .marca
@@ -142,6 +142,18 @@ a:hover {
   width: auto;
   vertical-align: middle;
 }
+
+.marcasTablet
+  {
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .marcaTablet
+  {
+    position: absolute;
+    visibility: hidden;
+  }
 
 /*********Marcas da pagina marcas*/
 .marcasI
@@ -343,7 +355,7 @@ textarea.form-control {
     display: inline-block;
     visibility: visible;
     margin-top: -15%;
-
+    position: inherit;
   }
   
   /* menu */
@@ -374,8 +386,8 @@ textarea.form-control {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding-left: 1%;
     margin-top: -4%;
+    text-align: center;
   }
 
   .navMenu,
@@ -386,8 +398,9 @@ textarea.form-control {
   .navMenu,
   li,
   a {
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-top: 1%;
+    padding-left: 3px;
+    padding-right: 3px;
     list-style:none;
     text-align: center;
   }
@@ -402,22 +415,16 @@ textarea.form-control {
   /* main */
   
   .slideshow {
-    margin-left: 20px;
-    width: 78%;
-    margin: auto;
-    margin-top: 20px;
+    width: 100%;
   }
   
   .slideshowGaleria {
-    margin-top: 20px;
-    width: 78%;
+    width: 100%;
     margin: 20px;
-    margin-top: 20px;
-    margin-left: 22%;
   }
   
   .slideshowimgs {
-    width: 70%;
+    width: 100%;
     height: 400px;
   }
   
@@ -431,20 +438,36 @@ textarea.form-control {
   
   .marcas
   {
-    text-align: center;
-    display: inline-block;
-    /* width: 100%;
-    margin-left: -130px; */
+    visibility: hidden;
+    position: absolute;
   }
   
   .marca
   {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .marcasTablet
+  {
+    text-align: center;
     display: inline-block;
-    width: auto;
-    vertical-align: middle;
+    width: 100%;
+    margin-left: 0px;
+    visibility: visible;
+    position: inherit;
   }
   
-  /*********Marcas da pagina marcas*/
+  .marcaTablet
+  {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    visibility: visible;
+    position: inherit;
+  }
+  
+  /*********Marcas da pagina marcas**********/
   .marcasI
   {
     text-align: center;
@@ -459,7 +482,7 @@ textarea.form-control {
     width: auto;
     vertical-align: middle;
   }
-  /*******************/
+  /******************************************/
   
   .welcome {
     margin-left: 1%;
@@ -471,7 +494,7 @@ textarea.form-control {
   
   .gallery
   {
-    width: 110%;
+    width: 100%;
     background-color: red;
   }
   
@@ -481,8 +504,8 @@ textarea.form-control {
     border: 2px white solid;
     background-color: black;
     display: inline-block;
-    width: 33%;
-    height: 300px;
+    width: 32.7%;
+    height: 200px;
   }
   
   h1 {
@@ -500,8 +523,8 @@ textarea.form-control {
   }
   
   .footerBottom {
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 1%;
+    padding-top: 1%;
     padding-bottom: 2%;
     position: absolute;
     width: 100%;
@@ -514,13 +537,14 @@ textarea.form-control {
   }
   
   .contactusFooter {
-    margin-left: 20%;
     float: left;
+    margin-right: 4%;
   }
   
   .openFooter {
-    float: right;
-    margin-right: 20px;
+    float: left;
+    width: 100%;
+    padding-bottom: 2%;
   }
   
   /* form */
