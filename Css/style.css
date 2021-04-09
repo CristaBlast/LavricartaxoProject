@@ -151,6 +151,15 @@ a:hover {
   visibility: hidden;
 }
 
+.marcasPhone {
+  position: absolute;
+  visibility: hidden;
+}
+
+.marcaPhone {
+  position: absolute;
+  visibility: hidden;
+}
 /*********Marcas da pagina marcas*/
 
 .marcasI {
@@ -458,6 +467,15 @@ textarea.form-control {
     position: inherit;
   }
 
+  .marcasPhone {
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .marcaPhone {
+    position: absolute;
+    visibility: hidden;
+  }
   /*********Marcas da pagina marcas**********/
 
   .marcasI {
@@ -639,6 +657,8 @@ textarea.form-control {
   .weatherWidgetPhone{
     position: relative;
     visibility: visible;
+    vertical-align: middle;
+    display: inline-block;
   }
 
   /* menu */
@@ -665,10 +685,12 @@ textarea.form-control {
   }
 
   nav {
-    background-color: #81f781;
+    /* background-color: #81f781;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 0; */
+    visibility: hidden;
+    position: absolute;
   }
 
   li{
@@ -719,16 +741,37 @@ textarea.form-control {
   }
 
   .marcas {
-    text-align: center;
-    display: inline-block;
-    width: 140%;
-    margin-left: -130px;
+    position: absolute;
+    visibility: hidden;
   }
 
   .marca {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .marcasTablet {
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .marcaTablet {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .marcasPhone {
+    visibility: visible;
+    position: inherit;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .marcaPhone {
+    visibility: visible;
+    position: inherit;
     display: inline-block;
-    width: auto;
-    vertical-align: middle;
+    width: 48%;
   }
 
   /*********Marcas da pagina marcas*/
