@@ -433,9 +433,6 @@ textarea.form-control {
   }
 
   .news {
-    width: auto;
-    float: right;
-    margin-right: 1%;
     visibility: hidden;
     position: absolute;
   }
@@ -454,7 +451,6 @@ textarea.form-control {
     text-align: center;
     display: inline-block;
     width: 100%;
-    margin-left: 0px;
     visibility: visible;
     position: inherit;
   }
@@ -476,6 +472,7 @@ textarea.form-control {
     position: absolute;
     visibility: hidden;
   }
+
   /*********Marcas da pagina marcas**********/
 
   .marcasI {
@@ -492,7 +489,6 @@ textarea.form-control {
     text-align: center;
     display: inline-block;
     width: 100%;
-    margin-left: 0px;
     visibility: visible;
     position: inherit;
   }
@@ -504,14 +500,13 @@ textarea.form-control {
     visibility: visible;
     position: inherit;
   }
+
   /******************************************/
 
   .welcome {
-    margin-left: 1%;
-    width: 54%;
+    width: 98%;
     text-align: justify;
-    margin-left: 11%;
-    font-family: "Roboto", sans-serif;
+    margin-left: 1%;
   }
 
   .gallery {
@@ -663,6 +658,15 @@ textarea.form-control {
 
   /* menu */
 
+  .sideBtnPhone
+  {
+    width: 5%;
+    background-color: #81f781;
+    position: absolute;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
   .menuText,
   li,
   a {
@@ -710,28 +714,22 @@ textarea.form-control {
 
   /* main */
 
-  .main {
-    font-family: "Roboto", sans-serif;
-  }
-
   .slideshow {
-    margin-left: 20px;
-    width: 78%;
-    margin: auto;
+    width: 100%;
     margin-top: 20px;
   }
 
-  .slideshowGaleria {
+  /* .slideshowGaleria {
     margin-top: 20px;
-    width: 78%;
+    width: 100%;
     margin: 20px;
     margin-top: 20px;
     margin-left: 22%;
-  }
+  } */
 
   .slideshowimgs {
-    width: 70%;
-    height: 400px;
+    width: 100%;
+    height: 300px;
   }
 
   .news {
@@ -789,11 +787,8 @@ textarea.form-control {
   /*******************/
 
   .welcome {
-    margin-left: 1%;
-    width: 54%;
+    width: 98%;
     text-align: justify;
-    margin-left: 11%;
-    font-family: "Roboto", sans-serif;
   }
 
   .gallery {
