@@ -46,6 +46,11 @@
   position: absolute;
 }
 
+.weatherWidgetPhone{
+  visibility: hidden;
+  position: absolute;
+}
+
 /* menu */
 
 .menuText {
@@ -80,7 +85,6 @@ nav {
   position: sticky;
   top: 0;
   text-align: center;
-  width: 100%;
 }
 
 li {
@@ -348,14 +352,18 @@ textarea.form-control {
 
   .weatherWidget {
     visibility: hidden;
+    position: absolute;
   }
 
   .weatherWidgetTablet {
-    vertical-align: middle;
     display: inline-block;
     visibility: visible;
-    margin-top: -15%;
-    position: inherit;
+    position:inherit;
+  }
+
+  .weatherWidgetPhone{
+    visibility: hidden;
+    position: absolute;
   }
 
   /* menu */
@@ -381,22 +389,15 @@ textarea.form-control {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    margin-top: -4%;
     text-align: center;
   }
 
-  .navMenu,
   li {
     display: inline-block;
-  }
-
-  .navMenu,
-  li {
     padding-top: 1%;
     padding-left: 5px;
     padding-right: 5px;
     list-style: none;
-    text-align: center;
   }
 
   .navMenu,
@@ -626,9 +627,18 @@ textarea.form-control {
   }
 
   .weatherWidget {
-    vertical-align: middle;
-    display: inline-block;
+    position: absolute;
     visibility: hidden;
+  }
+
+  .weatherWidgetTablet{
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .weatherWidgetPhone{
+    position: relative;
+    visibility: visible;
   }
 
   /* menu */
@@ -661,16 +671,11 @@ textarea.form-control {
     top: 0;
   }
 
-  .navMenu,
-  li {
+  li{
     display: inline-block;
-  }
-
-  .navMenu,
-  li,
-  a {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
     list-style: none;
   }
 
@@ -795,10 +800,9 @@ textarea.form-control {
     float: left;
   }
 
-  .openFooter {
-    float: right;
-    margin-right: 20px;
-  }
+  /* .openFooter {
+    
+  } */
 
   /* form */
 
