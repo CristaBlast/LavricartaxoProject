@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap");
-/*#7EFA4E color green*/
-/*#955121 color brown*/
 /*BTW as cores que estão agora são só um exemplo não sao as finais*/
 
 * {
@@ -14,7 +12,7 @@
 
 .header {
   justify-content: space-between;
-  background: #81f781;
+  background: #45d42f;
 }
 
 /* top */
@@ -53,8 +51,13 @@
 
 /* menu */
 
+.sideBtnPhone{
+  visibility: hidden;
+  position: absolute;
+}
+
 .menuText {
-  border-bottom: 2px solid #81f781;
+  border-bottom: 2px solid #45d42f;
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -80,7 +83,7 @@ a {
 }
 
 nav {
-  background-color: #81f781;
+  background-color: #45d42f;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -102,6 +105,11 @@ a:hover {
 }
 
 /* main */
+
+.main{
+  font-size: 14px;
+  text-align: justify;
+}
 
 .slideshow {
   margin-left: 20px;
@@ -129,8 +137,67 @@ a:hover {
   margin-right: 1%;
 }
 
-.marcas {
-  text-align: center;
+/*Mudar para carroucel*/
+
+.marcass
+{
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 20px -5px rgba(0,0,0,0,5);
+}
+
+.marcass::before,.marcass::after
+{
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  content: '';
+  position: absolute;
+}
+
+.marcass::before
+{
+  top: 0;
+  left: 0;
+}
+
+.marcass::after
+{
+  top: 0;
+  right: 0;
+  transform: rotateZ(180dge);
+}
+
+.marcass .marcas
+{
+  display: flex;
+  width: calc(250px*13);
+  animation: scroll 40s infinite linear;
+}
+
+.marcass .marca img
+{
+  width: 250px;
+  height: 100px;
+}
+
+@keyframes scroll
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+/* .marcas {
+  text-align: justify;
   display: inline-block;
   width: 100%;
 }
@@ -139,9 +206,9 @@ a:hover {
   display: inline-block;
   width: auto;
   vertical-align: middle;
-}
+} */
 
-.marcasTablet {
+/* .marcasTablet {
   position: absolute;
   visibility: hidden;
 }
@@ -159,7 +226,7 @@ a:hover {
 .marcaPhone {
   position: absolute;
   visibility: hidden;
-}
+} */
 /*********Marcas da pagina marcas*/
 
 .marcasI {
@@ -211,6 +278,7 @@ h1 {
   font-size: 1.5em;
   font-weight: bold;
 }
+
 h2 {
   font-size: large;
 }
@@ -377,6 +445,11 @@ textarea.form-control {
 
   /* menu */
 
+  .sideBtnPhone{
+    visibility: hidden;
+    position: absolute;
+  }
+
   .menuText {
     border-bottom: 2px solid #81f781;
     text-decoration: none;
@@ -437,7 +510,7 @@ textarea.form-control {
     position: absolute;
   }
 
-  .marcas {
+  /* .marcas {
     visibility: hidden;
     position: absolute;
   }
@@ -471,7 +544,7 @@ textarea.form-control {
   .marcaPhone {
     position: absolute;
     visibility: hidden;
-  }
+  } */
 
   /*********Marcas da pagina marcas**********/
 
@@ -662,9 +735,9 @@ textarea.form-control {
   {
     width: 5%;
     background-color: #81f781;
-    position: absolute;
     margin-top: 20%;
     margin-bottom: 20%;
+    visibility: visible;
   }
 
   .menuText,
@@ -738,7 +811,7 @@ textarea.form-control {
     margin-right: 1%;
   }
 
-  .marcas {
+  /* .marcas {
     position: absolute;
     visibility: hidden;
   }
@@ -770,7 +843,7 @@ textarea.form-control {
     position: inherit;
     display: inline-block;
     width: 48%;
-  }
+  } */
 
   /*********Marcas da pagina marcas*/
   .marcasI {

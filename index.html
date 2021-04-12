@@ -6,7 +6,8 @@
       <meta name="description" content="LAVRICARTAXO Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="fontawesome"></script>
+      <link rel="stylesheet" href="fontawesome/css/all.css">
+      <link rel="stylesheet" href="fontawesome/css/all.min.css">
       <link rel="icon" type="image/jpg" href="Images/icon.png" />
       <link rel="stylesheet" href="CSS/style.css" type="text/css">
       <script src="JS/script.js"></script>
@@ -36,8 +37,8 @@
     </div>    
   </div>
   <nav>
-    <i class="fas fa-chevron-right sideBtnPhone"></i> <!--Sidebutton Phone Mode-->
-    <i class="fas fa-chevron-left sideBtnPhone"></i> <!--Sidebutton Phone Mode-->
+    <button class="sideBtnPhone" id="sideBtnRight"><i class="fas fa-chevron-right"></i></button> <!--Sidebutton Phone Mode-->
+    <button class="sideBtnPhone" id="sideBtnLeft"><i class="fas fa-chevron-left"></i></button> <!--Sidebutton Phone Mode-->
     <ul class="navMenu"> <!--Menu-->
       <a href="index.html"><li class="menuText" id="start">INICIO</li></a>
       <a href="quemsomos.html"><li class="menuText">QUEM SOMOS</li></a>
@@ -53,246 +54,83 @@
       <script type="text/javascript" src="JS/newsWidget.js?widgettitle=Noticías&amp;categories=126,127,128,129,&amp;showRelease=1&amp;width=300px&amp;headlinebold=1&amp;headlinesonly=0&amp;headlinecolor=2d57a1&amp;briefcolor=666666&amp;textcolor=333333&amp;typeface=arial&amp;fontsize=11&amp;width=300px&amp;headlinesepstyle=dotted&amp;showimages=1&amp;numstories=5&amp;bgcolor=ffffff&amp;urldest=247pr "></script> <!--News widget-->
     </div>
     <div class="slideshow"> <!--Div slideshow-->
-      <img src="Images/slideshow/1.jpg" id="slideshowIMG" onload="setTimeout(slideShow(),3000)" class="slideshowimgs"> <!--Slideshow-->
+      <img src="Images/slideshow/bowl tomatos.jpg" id="slideshowIMG" onload="setTimeout(slideShow(),3000)" class="slideshowimgs"> <!--Slideshow-->
     </div>
     <div class="welcome"> <!--Text-->
       <p><br><h2><b>Seja bem vindo ao nosso site</b></h2><br>É com enorme prazer que registamos a sua presença no nosso site, esperamos que encontre tudo o que precisa para realizar os seus projectos com sucesso!.<br><br>A LAVRICARTAXO - Cooperativa Agro-Pecuária do Cartaxo, C.R.L.. coloca ao seu dispôr uma vasta equipa para que possa ter todo o apoio que considere necessário.<br><br>O nosso objectivo é servir os nossos clientes com competência e dedicação para que o nosso cliente volte sempre!<br><br>Ao adquirir produtos na nossa empresa deve saber que estará sempre a comprar qualidade ao melhor preço! Volte sempre, será sempre um gosto tê-lo de volta!</p>
-      <h2><b><br><br>As nossas marcas</b></h2>       
+      <br><br><h2><b>As nossas marcas</b></h2>       
     </div>
 
     <!--Brands-->
-    <!--PC Marcas-->
 
-    <div class="marcas">
-      <a href="" >
-        <div class="marca">
-          <img src="Images/marcas/agrolex.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/sirosubs.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/belchim.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/nutrofertil.png" >
-        </div>
-      </a>
-    </div>
-    <div class="marcas">
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/biona.png">
-        </div>
-      </a>
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/cadubal.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/deiba.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/lena.png">
-        </div>
-      </a>
-    </div>
-    <div class="marcas">
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/einhell.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/epagro.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/fertiprado.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/fito.png">
-        </div>
-      </a>
-      <a href="">
-        <div class="marca">
-          <img src="Images/marcas/iqv.png">
-        </div>
-      </a>
-    </div>
-
-    <!------------------Tablet Marcas------------------>
-
-    <div class="marcasTablet">
-      <a href="" >
-        <div class="marcaTablet">
-          <img src="Images/marcas/agrolex.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/sirosubs.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/belchim.png" >
-        </div>
-      </a>   
-    </div>
-    <div class="marcasTablet">
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/nutrofertil.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/biona.png">
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/cadubal.png" >
-        </div>
-      </a>
-    </div>
-    <div class="marcasTablet">
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/deiba.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/lena.png">
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/einhell.png" >
-        </div>
-      </a> 
-    </div>
-    <div class="marcasTablet">
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/epagro.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/fertiprado.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/fito.png">
-        </div>
-      </a>  
-    </div>
-    <div class="marcasTablet">
-      <a href="">
-        <div class="marcaTablet">
-          <img src="Images/marcas/iqv.png">
-        </div>
-      </a>
-    </div>
-
-    <!------------------Phone Marcas------------------>
-
-    <div class="marcasPhone">
-      <a href="" >
-        <div class="marcaPhone">
-          <img src="Images/marcas/agrolex.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/sirosubs.png" >
-        </div>
-      </a>   
-    </div>
-    <div class="marcasPhone">
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/belchim.png" >
-        </div>
-      </a>  
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/nutrofertil.png" >
-        </div>
-      </a>
-    </div>
-    <div class="marcasPhone">
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/biona.png">
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/cadubal.png" >
-        </div>
-      </a>
-    </div>
-    <div class="marcasPhone">
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/deiba.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/lena.png">
-        </div>
-      </a>
-    </div>
-    <div class="marcasPhone">
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/einhell.png" >
-        </div>
-      </a> 
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/epagro.png" >
-        </div>
-      </a>
-    </div>
-    <div class="marcasPhone">
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/fertiprado.png" >
-        </div>
-      </a>
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/fito.png">
-        </div>
-      </a>
-    </div>
-    <div class="marcasPhone">
-      <a href="">
-        <div class="marcaPhone">
-          <img src="Images/marcas/iqv.png">
-        </div>
-      </a>
+    <div class="marcass">
+      <div class="marcas">
+        <a href="" >
+          <div class="marca">
+            <img src="Images/marcas/agrolex.png" >
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/sirosubs.png" >
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/belchim.png" >
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/nutrofertil.png" >
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/biona.png">
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/cadubal.png" >
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/deiba.png" >
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/lena.png">
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/einhell.png" >
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/epagro.png" >
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/fertiprado.png" >
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/fito.png">
+          </div>
+        </a>
+        <a href="">
+          <div class="marca">
+            <img src="Images/marcas/iqv.png">
+          </div>
+        </a>
+      </div>     
     </div>
   </div><!--/Main-->
     <br>
