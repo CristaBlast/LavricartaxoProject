@@ -374,7 +374,7 @@ textarea.form-control {
   /* header */
 
   .header {
-    background: #81f781;
+    background: #45d42f;
   }
 
   /* top */
@@ -420,7 +420,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #81f781;
+    border-bottom: 2px solid #45d42f;
     text-decoration: none;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -436,7 +436,7 @@ textarea.form-control {
   }
 
   nav {
-    background-color: #81f781;
+    background-color: #45d42f;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -618,7 +618,7 @@ textarea.form-control {
 
   .header {
     justify-content: space-between;
-    background: #81f781;
+    background: #45d42f;
   }
 
   /* top */
@@ -661,11 +661,25 @@ textarea.form-control {
 
   .sideBtnPhone
   {
-    width: 5%;
-    background-color: #81f781;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    width: 10%;
+    height: 10%;
+    background-color: white;
+    border: none;
+    float: left;
     visibility: visible;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+  .rightBtn
+  {
+
+  }
+
+  .leftBtn
+  {
+    visibility: hidden;
   }
 
   .menuText,
@@ -681,7 +695,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #81f781;
+    border-bottom: 2px solid #45d42f;
   }
 
   .menuText:hover {
@@ -690,10 +704,6 @@ textarea.form-control {
   }
 
   nav {
-    /* background-color: #81f781;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0; */
     visibility: hidden;
     position: absolute;
   }
@@ -796,10 +806,6 @@ textarea.form-control {
     margin-left: 20%;
     float: left;
   }
-
-  /* .openFooter {
-    
-  } */
 
   /* form */
 
