@@ -137,7 +137,7 @@ a:hover {
   margin-right: 1%;
 }
 
-/*Mudar para carroucel*/
+/*Caroussel*/
 
 .marcass
 {
@@ -145,14 +145,13 @@ a:hover {
   height: 100px;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 10px 20px -5px rgba(0,0,0,0,5);
 }
 
 .marcass::before,.marcass::after
 {
   width: 200px;
   height: 100px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   content: '';
   position: absolute;
 }
@@ -192,41 +191,12 @@ a:hover {
 
   100%
   {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7)); /*Velocidade*/
   }
 }
 
-/* .marcas {
-  text-align: justify;
-  display: inline-block;
-  width: 100%;
-}
+/*End Caroussel*/
 
-.marca {
-  display: inline-block;
-  width: auto;
-  vertical-align: middle;
-} */
-
-/* .marcasTablet {
-  position: absolute;
-  visibility: hidden;
-}
-
-.marcaTablet {
-  position: absolute;
-  visibility: hidden;
-}
-
-.marcasPhone {
-  position: absolute;
-  visibility: hidden;
-}
-
-.marcaPhone {
-  position: absolute;
-  visibility: hidden;
-} */
 /*********Marcas da pagina marcas*/
 
 .marcasI {
@@ -510,42 +480,6 @@ textarea.form-control {
     position: absolute;
   }
 
-  /* .marcas {
-    visibility: hidden;
-    position: absolute;
-  }
-
-  .marca {
-    visibility: hidden;
-    position: absolute;
-  }
-
-  .marcasTablet {
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    visibility: visible;
-    position: inherit;
-  }
-
-  .marcaTablet {
-    display: inline-block;
-    width: 30%;
-    vertical-align: middle;
-    visibility: visible;
-    position: inherit;
-  }
-
-  .marcasPhone {
-    position: absolute;
-    visibility: hidden;
-  }
-  
-  .marcaPhone {
-    position: absolute;
-    visibility: hidden;
-  } */
-
   /*********Marcas da pagina marcas**********/
 
   .marcasI {
@@ -810,40 +744,6 @@ textarea.form-control {
     float: right;
     margin-right: 1%;
   }
-
-  /* .marcas {
-    position: absolute;
-    visibility: hidden;
-  }
-
-  .marca {
-    position: absolute;
-    visibility: hidden;
-  }
-
-  .marcasTablet {
-    position: absolute;
-    visibility: hidden;
-  }
-  
-  .marcaTablet {
-    position: absolute;
-    visibility: hidden;
-  }
-
-  .marcasPhone {
-    visibility: visible;
-    position: inherit;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .marcaPhone {
-    visibility: visible;
-    position: inherit;
-    display: inline-block;
-    width: 48%;
-  } */
 
   /*********Marcas da pagina marcas*/
   .marcasI {
