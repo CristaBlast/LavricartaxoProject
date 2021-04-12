@@ -16,7 +16,12 @@ function slideshow()
     setTimeout(slideshow, 2500);    
 }
 
-function sidebutton()
+function sidebuttonR()
 {
-    
+    document.getElementsByClassName("nav").
+}
+
+function sidebuttonL()
+{
+
 }

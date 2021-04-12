@@ -670,6 +670,8 @@ textarea.form-control {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    font-size: 50px;
+    position: absolute;
   }
 
   .rightBtn
@@ -696,6 +698,7 @@ textarea.form-control {
 
   .menuText {
     border-bottom: 2px solid #45d42f;
+    
   }
 
   .menuText:hover {
@@ -704,6 +707,11 @@ textarea.form-control {
   }
 
   nav {
+    background-color: #45d42f;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
     visibility: hidden;
     position: absolute;
   }
