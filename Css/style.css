@@ -111,6 +111,12 @@ a:hover {
   text-align: justify;
 }
 
+/*Slideshow*/
+
+
+
+/*End Slideshow*/
+
 .slideshow {
   margin-left: 20px;
   width: 78%;
@@ -138,6 +144,7 @@ a:hover {
 }
 
 /*Caroussel*/
+/*Not infinite*/
 
 .marcass
 {
@@ -149,7 +156,7 @@ a:hover {
 
 .marcass::before,.marcass::after
 {
-  width: 200px;
+  width: 100px;
   height: 100px;
   background-color: rgba(255, 255, 255, 0);
   content: '';
@@ -172,8 +179,8 @@ a:hover {
 .marcass .marcas
 {
   display: flex;
-  width: calc(250px*13);
-  animation: scroll 40s infinite linear;
+  width: calc(100px*26); /*Bar size*/
+  animation: scroll 40s infinite linear; /*Velocidade*/
 }
 
 .marcass .marca img
@@ -191,13 +198,13 @@ a:hover {
 
   100%
   {
-    transform: translateX(calc(-250px * 7)); /*Velocidade*/
+    transform: translateX(calc(-100px * 7)); /*"Velocidade"*/
   }
 }
 
 /*End Caroussel*/
 
-/*********Marcas da pagina marcas*/
+/*Marcas da pagina marcas*/
 
 .marcasI {
   text-align: center;
