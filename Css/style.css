@@ -124,14 +124,6 @@ a:hover {
   margin-top: 20px;
 }
 
-.slideshowGaleria {
-  margin-top: 20px;
-  width: 78%;
-  margin: 20px;
-  margin-top: 20px;
-  margin-left: 22%;
-}
-
 .slideshowimgs {
   width: 70%;
   height: 400px;
@@ -472,11 +464,6 @@ textarea.form-control {
     width: 100%;
   }
 
-  .slideshowGaleria {
-    width: 100%;
-    margin: 20px;
-  }
-
   .slideshowimgs {
     width: 100%;
     height: 400px;
@@ -732,14 +719,6 @@ textarea.form-control {
     width: 100%;
     margin-top: 20px;
   }
-
-  /* .slideshowGaleria {
-    margin-top: 20px;
-    width: 100%;
-    margin: 20px;
-    margin-top: 20px;
-    margin-left: 22%;
-  } */
 
   .slideshowimgs {
     width: 100%;
