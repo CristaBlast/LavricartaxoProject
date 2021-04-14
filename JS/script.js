@@ -18,10 +18,14 @@ function slideshow()
 
 function sidebuttonR()
 {
-    document.getElementsByClassName("nav").
+    document.getElementsByClassName("nav").style.visibility = "visible";
+    document.getElementsByClassName("leftBtn").style.visibility = "visible";
+    document.getElementsByClassName("rightBtn").style.visibility = "hidden";
 }
 
 function sidebuttonL()
 {
-
+    document.getElementsByClassName("nav").style.visibility = "hidden";
+    document.getElementsByClassName("leftBtn").style.visibility = "hidden";
+    document.getElementsByClassName("rightBtn").style.visibility = "visible";
 }

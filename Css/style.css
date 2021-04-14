@@ -44,14 +44,14 @@
   position: absolute;
 }
 
-.weatherWidgetPhone{
+.weatherWidgetPhone {
   visibility: hidden;
   position: absolute;
 }
 
 /* menu */
 
-.sideBtnPhone{
+.sideBtnPhone {
   visibility: hidden;
   position: absolute;
 }
@@ -106,14 +106,12 @@ a:hover {
 
 /* main */
 
-.main{
+.main {
   font-size: 14px;
   text-align: justify;
 }
 
 /*Slideshow*/
-
-
 
 /*End Slideshow*/
 
@@ -138,59 +136,52 @@ a:hover {
 /*Caroussel*/
 /*Not infinite*/
 
-.marcass
-{
+.marcass {
   width: 100%;
   height: 100px;
   overflow: hidden;
   position: relative;
 }
 
-.marcass::before,.marcass::after
-{
+.marcass::before,
+.marcass::after {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 255, 255, 0);
-  content: '';
+  content: "";
   position: absolute;
 }
 
-.marcass::before
-{
+.marcass::before {
   top: 0;
   left: 0;
 }
 
-.marcass::after
-{
+.marcass::after {
   top: 0;
   right: 0;
   transform: rotateZ(180dge);
 }
 
-.marcass .marcas
-{
+.marcass .marcas {
   display: flex;
-  width: calc(100px*26); /*Bar size*/
+  width: calc(100px * 26); /*Bar size*/
   animation: scroll 40s infinite linear; /*Velocidade*/
 }
 
-.marcass .marca img
-{
+.marcass .marca img {
   width: auto;
   height: 100px;
+  display: flex;
 }
 
-@keyframes scroll
-{
-  0%
-  {
+@keyframes scroll {
+  0% {
     transform: translateX(0%);
   }
 
-  100%
-  {
-    transform: translateX(calc(-100px * 7)); /*"Velocidade"*/
+  100% {
+    transform: translateX(calc(-100px * 10)); /*"Velocidade"*/
   }
 }
 
@@ -220,7 +211,7 @@ a:hover {
   visibility: hidden;
 }
 
-/*******************/
+/*********gallery**********/
 
 .welcome {
   margin-left: 1%;
@@ -404,17 +395,17 @@ textarea.form-control {
   .weatherWidgetTablet {
     display: inline-block;
     visibility: visible;
-    position:inherit;
+    position: inherit;
   }
 
-  .weatherWidgetPhone{
+  .weatherWidgetPhone {
     visibility: hidden;
     position: absolute;
   }
 
   /* menu */
 
-  .sideBtnPhone{
+  .sideBtnPhone {
     visibility: hidden;
     position: absolute;
   }
@@ -645,12 +636,12 @@ textarea.form-control {
     visibility: hidden;
   }
 
-  .weatherWidgetTablet{
+  .weatherWidgetTablet {
     position: absolute;
     visibility: hidden;
   }
 
-  .weatherWidgetPhone{
+  .weatherWidgetPhone {
     position: relative;
     visibility: visible;
     vertical-align: middle;
@@ -659,8 +650,7 @@ textarea.form-control {
 
   /* menu */
 
-  .sideBtnPhone
-  {
+  .sideBtnPhone {
     width: 10%;
     height: 10%;
     background-color: white;
@@ -674,13 +664,10 @@ textarea.form-control {
     position: absolute;
   }
 
-  .rightBtn
-  {
-
+  .rightBtn {
   }
 
-  .leftBtn
-  {
+  .leftBtn {
     visibility: hidden;
   }
 
@@ -698,7 +685,6 @@ textarea.form-control {
 
   .menuText {
     border-bottom: 2px solid #45d42f;
-    
   }
 
   .menuText:hover {
@@ -716,7 +702,7 @@ textarea.form-control {
     position: absolute;
   }
 
-  li{
+  li {
     display: inline-block;
     padding-top: 1%;
     padding-bottom: 1%;
