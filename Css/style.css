@@ -104,7 +104,7 @@ li {
 .navMenu,
 li,
 a:hover {
-  color: #f5f6ce;
+  color: white;
   text-decoration: none;
 }
 
@@ -360,7 +360,7 @@ textarea.form-control {
   /* header */
 
   .header {
-    background: #80ff80;
+    background: #32cd32;
   }
 
   /* top */
@@ -407,7 +407,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #80ff80;
+    border-bottom: 2px solid #32cd32;
     text-decoration: none;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -423,7 +423,7 @@ textarea.form-control {
   }
 
   nav {
-    background-color: #80ff80;
+    background-color: #32cd32;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -446,7 +446,6 @@ textarea.form-control {
   }
 
   /* main */
-
   .slideshow {
     width: 100%;
   }
@@ -605,7 +604,7 @@ textarea.form-control {
 
   .header {
     justify-content: space-between;
-    background: #80ff80;
+    background: #32cd32;
   }
 
   /* top */
@@ -681,7 +680,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #80ff80;
+    border-bottom: 2px solid #32cd32;
   }
 
   .menuText:hover {
@@ -690,7 +689,7 @@ textarea.form-control {
   }
 
   nav {
-    background-color: #80ff80;
+    background-color: #32cd32;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -718,7 +717,6 @@ textarea.form-control {
 
   .slideshow {
     width: 100%;
-    margin-top: 20px;
   }
 
   .slideshowimgs {
@@ -752,7 +750,6 @@ textarea.form-control {
 
   .gallery {
     width: 110%;
-    background-color: red;
   }
 
   .photo {
