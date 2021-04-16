@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap");
 /*BTW as cores que estão agora são só um exemplo não sao as finais*/
 /*rgba(255, 255, 255, 0) transparent*/
+/*Letra roboto não está a funcionar ;-; por isso até resposta postetior ira ser arial*/
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: Arial;
 }
 
 /* header */
@@ -122,6 +123,13 @@ li {
 .news {
   float: right;
   background-color: #487710;
+  width: 23%;
+}
+
+.welcome {
+  margin-left: 1%;
+  width: 77%;
+  text-align: justify;
 }
 
 /*Caroussel*/
@@ -204,12 +212,7 @@ li {
 
 /*********gallery**********/
 
-.welcome {
-  margin-left: 1%;
-  width: 78%;
-  text-align: justify;
-  font-family: "Roboto", sans-serif;
-}
+
 
 .gallery {
   width: 110%;
