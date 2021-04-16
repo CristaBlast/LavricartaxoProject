@@ -39,6 +39,7 @@
 .weatherWidget {
   vertical-align: middle;
   display: inline-block;
+  position: relative;
 }
 
 .weatherWidgetTablet {
@@ -137,8 +138,6 @@ a:hover {
 
 /*Caroussel*/
 
-/*Not infinite*/
-
 .marcass {
   width: 100%;
   height: 100px;
@@ -214,7 +213,7 @@ a:hover {
   visibility: hidden;
 }
 
-/*********gallery**********/
+/*gallery*/
 
 .gallery {
   width: 110%;
@@ -238,7 +237,7 @@ h2 {
   font-size: large;
 }
 
-/* footer */
+/*footer*/
 
 footer {
   font-family: "Roboto", sans-serif;
@@ -352,6 +351,7 @@ textarea.form-control {
   line-height: 2rem;
   font-weight: 500;
 }
+
 /*End contact Section */
 
 @media only screen and (max-width: 992px) {
@@ -384,7 +384,8 @@ textarea.form-control {
 
   .weatherWidget {
     visibility: hidden;
-    position: absolute;
+    position:absolute;
+    left: -99999px;
   }
 
   .weatherWidgetTablet {
@@ -632,8 +633,9 @@ textarea.form-control {
   }
 
   .weatherWidgetTablet {
-    position: absolute;
     visibility: hidden;
+    position:absolute;
+    left: -99999px;
   }
 
   .weatherWidgetPhone {
