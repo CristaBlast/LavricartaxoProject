@@ -1,125 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/jpg" href="Images/icon.png" />
     <meta name="keywords" content="Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
     <meta name="description" content="LAVRICARTAXO Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="Images/icon.png" />
     <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css"> 
     <script src="JS/script.js"></script>
+    <!-- bootstrap-->
+    <!-- <link href="Css/bootstrap.min.css" rel="stylesheet">
+    <script src="JS/bootstrap.bundle.mi.js"></script> -->
+    <!--/bootstrap -->
+   
     <title>Lavricartaxo</title>
 </head>
 <body>
-    <div class="main1">
+    <div class="header">
         <div class="top">
-            <div class="logo">
-            <a href="index.html"><img src="Images/logo.png" alt="logo" width="auto"></a> 
+          <div class="logo">
+            <a href="index.html"><img src="Images/logo.png" alt="logo" class="logoIMG"></a> 
+          </div>
+          <div class="weatherWidget">
+            <div id="weatherWidget" >
+              <script type="text/javascript" async src="JS/weatherWidget.js"></script>
+            </div> 
+          </div>
+          <div class="weatherWidgetTablet">
+            <div id="weatherWidgetTablet">
+              <script type="text/javascript" async src="JS/weatherWidgetTablet.js"></script>
             </div>
-            <div class="weatherWidget">
-                <div id="weatherWidget" >
-                    <script type="text/javascript" async src="JS/weatherWidget.js"></script>
-                </div> 
-            </div>               
+          </div>              
+        </div>    
+      </div>
+      <nav>
+        <ul class="navMenu">
+          <a href="index.html"><li class="menuText">INICIO</li></a>
+          <a href="quemsomos.html"><li class="menuText">QUEM SOMOS</li></a>
+          <a href="galeria.html"><li class="menuText">GALERIA</li></a>
+          <a href="produtos.html"><li class="menuText">PRODUTOS</li></a>
+          <a href="#"><li class="menuText">CONTATOS</li></a>
+          <a href="marcas.html"><li class="menuText">MARCAS</li></a>
+          <a href="associados.html"><li class="menuText">ASSOCIADOS</li></a>
+        </ul>
+      </nav>
+    <div class="welcome">
+      <div class="info">
+        <div class="mapa">
+          <h1></br>Encontre-nos aqui</h1>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12373.9691393483!2d-8.791160000000001!3d39.163528!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb27463f5a3d96d77!2sLavricartaxo-Cooperativa%20Agro-Pecu%C3%A1ria%20do%20Cartaxo%20C.R.L.!5e0!3m2!1spt-PT!2spt!4v1616068831267!5m2!1spt-PT!2spt" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <div id="menu" class="menu">
-            <nav>
-                <ul class="nav_menu">
-                    <div class="menuButtons">
-                        <li class="menuText"><a href="index.html" >INICIO</a></li>
-                        <li class="menuText"><a href="quemsomos.html">QUEM SOMOS</a></li>
-                        <li class="menuText"><a href="galeria.html">GALERIA</a></li>
-                        <li class="menuText"><a href="produtos.html" >PRODUTOS</a></li>
-                        <li class="menuText"><a href="contatos.html" >CONTATOS</a></li>
-                        <li class="menuText"><a href="marcas.html" >MARCAS</a></li>
-                        <li class="menuText"><a href="associados.html" >ASSOCIADOS</a></li>
-                    </div>     
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div class="mapa">
-        <h2></br>Encontre-nos aqui</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12373.9691393483!2d-8.791160000000001!3d39.163528!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb27463f5a3d96d77!2sLavricartaxo-Cooperativa%20Agro-Pecu%C3%A1ria%20do%20Cartaxo%20C.R.L.!5e0!3m2!1spt-PT!2spt!4v1616068831267!5m2!1spt-PT!2spt" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-    <div class="col-sm-6">
-        <h2></br>Endereço </h2>
-        <ul class="contact-info">
-            <li class="contact-info"><span> Address:</span>Rua Batalhoz, n.? 81 </li>
-            <li class="contact-info"><span> Código Postal:</span> 2070-069 Cartaxo Portugal </li>
-            <li class="contact-info"><span> Telefone:</span> (351) 243 700 240 </li>
-            <li class="contact-info"><span> Fax:</span> (351) 243 700 249 </li>
-            <li class="contact-info"><span> Email:</span><a href="geral@lavricartaxo.pt" class="contact-info"> geral@lavricartaxo.pt</a></li>
-        </ul>                            
-    </div>
-   </section><!--contato-->
-        <section id="contact">
-            <div class="container">
-            <div class="row">
-                <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"></div>
-                    <h2></br>Contacte-nos</h2>
-                </div>
-            </div>
-                <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <form id="main-contact-form" name="contact-form" method="post" action="#">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" name="name" class="form-control" placeholder="Nome" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" class="form-control" placeholder="Email" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" name="local" class="form-control" placeholder="Local" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="tel" name="number" class="form-control" placeholder="Telefone" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" name="assunto" class="form-control" placeholder="Assunto" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensagem" required="required"></textarea>
-                                    </div>                        
-                                    <div class="form-group">
-                                        <button type="submit" class="btn-submit">Enviar</button>
-                                    </div>
-                                </div>
-                            </form>   
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>        
-    </section><!--/#contact-->
-    <footer id="footer">
-        <div class="footer-bottom">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <p>LAVRICARTAXO-Cooperativa Agro-Pecuaria do Cartaxo, C.R.L. </br>Rua Batalhoz nr.81</br>2070-069 Cartaxo</p>
-              </div>
-              <div class="col-sm-6">
-                <p></br>243 700 240</br></p>
-              </div>
-              <div class="col-sm-6">
-                <p>243 700 249</br></br></p>
-              </div>
-              <div class="col-sm-6">
-                <p>De Segunda a Sexta-feira das 9H ás 13H e das 14.30H ás 18.30H</br>Aos Sábados das 9H ás 12.30H</p>
-              </div>
-              <div class="col-sm-6">
-                </br>Copyright &copy; 2021 Lavricartaxo-Cooperativa Agro-Pecuária do Cartaxo, C.R.L.
-              </div>
-              <div class="col-sm-6" class="footer">
-                <p></br>Desenvolvimento e Design: <a href="https://www.analogia.net/?opx=entrar">ANALOGIA.NET</a></p>
-              </div>
-            </div>
+        <!--<div class="col-sm-6" class="contact-address">
+            <h2></br>Endereço </h2>
+            <ul>
+                <li class="contact-info"><span> Address:</span>Rua Batalhoz, n.81 </li></br>
+                <li class="contact-info"><span> Código Postal:</span> 2070-069 Cartaxo Portugal </li></br>
+                <li class="contact-info"><span> Telefone:</span> (351) 243 700 240 </li></br>
+                <li class="contact-info"><span> Fax:</span> (351) 243 700 249 </li></br>
+                <li class="contact-info"><span> Email:</span><a href="" > geral@lavricartaxo.pt</a></li>
+            </ul>                            
+        </div>-->
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+    </br><div><h1 class="section-title">Informações <span>de contacto</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+          <div class="contact-info">
+            <h2>Endereço</h2>
+            <p>Rua Batalhoz, n.81</p>
+            <p>2070-069 Cartaxo, Portugal</p>
           </div>
         </div>
-      </footer>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h2>Email</h2>
+            <a href="geral@lavricartaxo.pt" class="contact-a">geral@lavricartaxo.pt</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h2>Telefone/Fax</h2>
+            <p>(+351) 243 700 240</p>
+            <p>(+351) 243 700 249</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+      </div>
+      <div class="col-sm-6">
+        <h1></br>Contacte-nos</br></br></h1>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" class="form-control" id="nome" required>
+        </div>
+        <div class="form-group">
+          <label for="local">Local</label>
+          <input type="text" class="form-control" id="local" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email"required>
+        </div>
+        <div class="form-group">
+          <label for="telefone">Telefone</label>
+          <input type="tel" class="form-control" id="telefone" required>
+        </div>
+        <div class="form-group">
+          <label for="assunto">Assunto</label>
+          <input type="text" class="form-control" id="assunto" required>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" class="btn">Submeter</button>
+        <button type="reset" class="btn btn-danger" >Limpar</button>
+      </form>
+    </div>
+<footer class="footerBottom">
+    <div class="wheretofindusFooter">
+      <p>ONDE NOS ENCONTRAR<br><br>Rua Batalhoz nr.81<br>2070-069 Cartaxo</p>
+    </div>
+    <div class="contactusFooter">
+      <p>CONTACTE-NOS<br><br>243 700 240<br>243 700 249</p>
+    </div>
+    <div class="openFooter">
+      <p>ABERTOS<br><br>De Segunda a Sexta-feira das 9H ás 13H e das 14:30H ás 18:30H</br>Aos Sábados das 9H ás 12:30H</p>
+    </div>
+      <br><br><br><br><br><br>
+      <p>Copyright &copy; 2021 Lavricartaxo-Cooperativa Agro-Pecuária do Cartaxo, C.R.L.</p>
+      <p>Desenvolvimento e Design:<a href="https://www.analogia.net/?opx=entrar">ANALOGIA.NET</a></p>
+  </footer>
 </body>
 </html>

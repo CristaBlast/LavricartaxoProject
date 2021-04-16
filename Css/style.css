@@ -1,174 +1,838 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap");
+/*BTW as cores que estão agora são só um exemplo não sao as finais*/
+/*rgba(255, 255, 255, 0) transparent*/
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-li, a, .menuText{
-   /* font-family:'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
-    */
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Sarabun', sans-serif;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 500;
-    padding-top: 30px;
-    padding-bottom: 30px;
+/* header */
+
+.header {
+  justify-content: space-between;
+  background: #487710;
 }
 
-.main1{
-    justify-content: space-between;
-    background: #333;
+/* top */
+
+.top {
+  width: auto;
+  padding-top: 1%;
+  vertical-align: middle;
+  text-align: center;
 }
 
-.nav_menu,li{
-    display: inline-block;
+.logo {
+  vertical-align: middle;
+  display: inline-block;
+  width: auto;
 }
 
-.nav_menu,li,a{
-    
-    transition: all 0.3s ease auto;
-    padding: 0px 25px;
-    list-style: none;
+.logoIMG {
+  height: 70px;
 }
 
-.nav_menu,li,a:hover{
-    color:#81BEF7;
-    text-decoration: none;
+.weatherWidget {
+  vertical-align: middle;
+  display: inline-block;
 }
 
-.top
-{
-    margin-top: -5px;
-    margin-left: -5px;
-    width: auto;
+.weatherWidgetTablet {
+  visibility: hidden;
+  position: absolute;
+}
+
+.weatherWidgetPhone {
+  visibility: hidden;
+  position: absolute;
+}
+
+/* menu */
+
+.sideBtnPhone {
+  visibility: hidden;
+  position: absolute;
+}
+
+.menuText {
+  border-bottom: 2px solid #487710;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.menuText:hover {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.menuText:focus {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  background-color: #487710;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding-left: 4%;
+  padding-right: 4%;
+  list-style: none;
+}
+
+.navMenu,li,a:hover {
+  color: #f5f6ce;
+  text-decoration: none;
+}
+
+/* main */
+
+.main {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.slideshow {
+  width: 100%;
+}
+
+.slideshowimgs {
+  width: 77%;
+  height: 500px;
+}
+
+.news {
+  float: right;
+  background-color: #487710;
+}
+
+/*Caroussel*/
+
+/*Not infinite*/
+
+.marcass {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.marcass::before,.marcass::after {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  content: "";
+  position: absolute;
+}
+
+.marcass::before {
+  top: 0;
+  left: 0;
+}
+
+.marcass::after {
+  top: 0;
+  right: 0;
+  transform: rotateZ(180dge);
+}
+
+.marcass .marcas {
+  display: flex;
+  width: calc(100px * 26); /*Bar size*/
+  animation: scroll 40s infinite linear; /*Velocidade*/
+}
+
+.marcass .marca img {
+  width: auto;
+  height: 100px;
+  display: flex;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(calc(-100px * 10)); /*"Velocidade"*/
+  }
+}
+
+/*End Caroussel*/
+
+/*Marcas da pagina marcas*/
+
+.marcasI {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.marcaI {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.marcasTabletI {
+  position: absolute;
+  visibility: hidden;
+}
+
+.marcaTabletI {
+  position: absolute;
+  visibility: hidden;
+}
+
+/*********gallery**********/
+
+.welcome {
+  margin-left: 1%;
+  width: 78%;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+
+.gallery {
+  width: 110%;
+}
+
+.photo {
+  border-radius: 10px;
+  border: 2px white solid;
+  background-color: black;
+  display: inline-block;
+  width: 33%;
+  height: 300px;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: large;
+}
+
+/* footer */
+
+footer {
+  font-family: "Roboto", sans-serif;
+}
+
+.footerBottom {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 2%;
+  position: absolute;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+.wheretofindusFooter {
+  float: left;
+}
+
+.contactusFooter {
+  margin-left: 20%;
+  float: left;
+}
+
+.openFooter {
+  float: right;
+  margin-right: 20px;
+}
+
+/* form */
+
+.mapa {
+  height: none;
+}
+
+.form-control {
+  background-color: #fff;
+  border-color: #a4a4a4;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: none;
+  font-size: 20px;
+}
+
+textarea.form-control {
+  min-height: 180px;
+  resize: none;
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.contact-info {
+  color: #000;
+}
+
+.contact-a:hover {
+  color: #81f781;
+}
+
+.contact-address {
+  float: right;
+  margin-left: 4%;
+  width: 35.3333%;
+}
+
+.btn {
+  width: 160px;
+  margin: 20px;
+  font-size: 18px;
+}
+
+/* contactos */
+
+.contact {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.contact-items {
+  width: 400px;
+}
+.contact-item {
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 18px 0 #0000002c;
+  transition: 0.3s ease box-shadow;
+}
+
+.contact-item:hover {
+  box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+.contact-info h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.contact-info h2 {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+/*End contact Section */
+
+@media only screen and (max-width: 992px) {
+  /*Tablet*/
+
+  /* header */
+
+  .header {
+    background: #487710;
+  }
+
+  /* top */
+
+  .top {
+    width: 100%;
     padding-top: 1%;
     vertical-align: middle;
     text-align: center;
-    margin-bottom: 14px;
-}
-
-.logo
-{
-    vertical-align: middle;
-    display: inline-block;
-    margin: auto;
-    width: 30%;
-    margin-left: -20px;
-}
-
-.weatherWidget
-{
-    padding-left: 10px;
-    vertical-align: middle;
-    display: inline-block;
-    margin: auto;
-    margin-right: 0px;
-    margin-left: 25px;
-}
-
-.main2{
-    font-family:'Roboto', sans-serif;
-}
-
-/*************************
-********Contact CSS*******
-**************************/
-
-.contact {
-    padding-top: 0px;
-    padding-bottom: 0;
-    
   }
-  
-.mapa {
+
+  .logo {
+    vertical-align: middle;
+    display: inline-block;
+    width: auto;
+  }
+
+  .logoIMG {
+    height: 70px;
+  }
+
+  .weatherWidget {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .weatherWidgetTablet {
+    display: inline-block;
+    visibility: visible;
+    position: inherit;
+  }
+
+  .weatherWidgetPhone {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  /* menu */
+
+  .sideBtnPhone {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .menuText {
+    border-bottom: 2px solid #487710;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .menuText:hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+  }
+
+  nav {
+    background-color: #487710;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    padding-top: 1%;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+  }
+
+  .navMenu,
+  li,
+  a:hover {
+    color: #f5f6ce;
+    text-decoration: none;
+  }
+
+  /* main */
+
+  .slideshow {
+    width: 100%;
+  }
+
+  .slideshowimgs {
+    width: 100%;
+    height: 400px;
+  }
+
+  .news {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  /*********Marcas da pagina marcas**********/
+
+  .marcasI {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .marcaI {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .marcasTabletI {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    visibility: visible;
+    position: inherit;
+  }
+
+  .marcaTabletI {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    visibility: visible;
+    position: inherit;
+  }
+
+  /******************************************/
+
+  .welcome {
+    width: 98%;
+    text-align: justify;
+    margin-left: 1%;
+  }
+
+  .gallery {
+    width: 100%;
+  }
+
+  .photo {
+    border-radius: 10px;
+    border: 2px white solid;
+    background-color: black;
+    display: inline-block;
+    width: 32.7%;
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: large;
+  }
+
+  /* footer */
+
+  .footerBottom {
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    position: absolute;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .wheretofindusFooter {
+    float: left;
+  }
+
+  .contactusFooter {
+    float: left;
+    margin-right: 4%;
+  }
+
+  .openFooter {
+    float: left;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+  /* form */
+
+  .mapa {
     height: none;
   }
-  
-  .contact-us {
 
-    padding-bottom: 90px;
-  
-    font-size: 20px;
-  }
-  
-  .contact-us .heading {
-    padding-top: 15px;
-    font-size: 20px;
-  }
-  
   .form-control {
-    background-color: transparent;
-    border-color:  rgba(255, 255, 255, 0.1);;
+    background-color: #fff;
+    border-color: #a4a4a4;
     height: 50px;
-    border-radius: 0;
+    border-radius: 20px;
     box-shadow: none;
     font-size: 20px;
   }
-  
+
   textarea.form-control {
     min-height: 180px;
     resize: none;
     font-size: 20px;
   }
-  
+
   .form-group {
     margin-bottom: 30px;
     font-size: 20px;
   }
-  
-  ul.address {
-    margin-top: 30px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-  }
-  
+
   .contact-info {
-    margin-bottom: 8px;
-    font-size: 15px;
     color: #000;
   }
-  
-  .btn-submit {
-    display: block;
-    padding: 12px;
-    width: 50%;
-    color: #000;
-    border: 0;
-    font-size: 20px;
-    margin-top: 40px;
+
+  .contact-a:hover {
+    color: #81f781;
+  }
+
+  .contact-address {
+    float: right;
+    margin-left: 4%;
+    width: 35.3333%;
+  }
+
+  .btn {
+    width: 160px;
+    margin: 20px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /*Phone*/
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* header */
+
+  .header {
+    justify-content: space-between;
+    background: #487710;
+  }
+
+  /* top */
+
+  .top {
+    width: auto;
+    padding-top: 1%;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .logo {
+    vertical-align: middle;
+    display: inline-block;
+    width: auto;
+  }
+
+  .logoIMG {
+    height: 70px;
+  }
+
+  .weatherWidget {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .weatherWidgetTablet {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .weatherWidgetPhone {
+    position: relative;
+    visibility: visible;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  /* menu */
+
+  .sideBtnPhone {
+    width: 10%;
+    height: 10%;
+    background-color: white;
+    border: none;
+    float: left;
+    visibility: visible;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 50px;
+    position: absolute;
+  }
+
+  .rightBtn {
+  }
+
+  .leftBtn {
+    visibility: hidden;
+  }
+
+  .menuText,
+  li,
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .menuText {
+    border-bottom: 2px solid #487710;
+  }
+
+  .menuText:hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+  }
+
+  nav {
+    background-color: #487710;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+  }
+
+  li {
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    list-style: none;
+  }
+
+  .navMenu,
+  li,
+  a:hover {
+    color: #f5f6ce;
+    text-decoration: none;
+  }
+
+  /* main */
+
+  .slideshow {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .slideshowimgs {
+    width: 100%;
+    height: 300px;
+  }
+
+  .news {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  /*********Marcas da pagina marcas*/
+  .marcasI {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .marcaI {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  /*******************/
+
+  .welcome {
+    width: 98%;
+    text-align: justify;
+  }
+
+  .gallery {
+    width: 110%;
+    background-color: red;
+  }
+
+  .photo {
+    border-radius: 10px;
+    border: 2px white solid;
+    background-color: black;
+    display: inline-block;
+    width: 33%;
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 1.5em;
     font-weight: bold;
   }
-
-  .btn-submit:hover {
-      background-color: #81BEF7;
+  h2 {
+    font-size: large;
   }
 
-/*************************
-********Footer CSS********
-**************************/
+  /* footer */
 
-footer {
-    color: #fff;
+  footer {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .footerBottom {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 2%;
+    position: absolute;
+    width: 100%;
     background-color: #333;
-    height: 310px;
-    font-family: 'Sarabun', sans-serif;
+    color: #fff;
   }
-  
-  .footer-top {
-    position: relative;
-    padding: 5px 0;
+
+  .wheretofindusFooter {
+    float: left;
   }
-  
-  footer .footer-bottom {
-    padding: 20px 0 10px;
+
+  .contactusFooter {
+    margin-left: 20%;
+    float: left;
   }
+
+  /* form */
+
+  .mapa {
+    height: none;
+  }
+
+  .form-control {
+    background-color: #fff;
+    border-color: #a4a4a4;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: none;
+    font-size: 20px;
+  }
+
+  textarea.form-control {
+    min-height: 180px;
+    resize: none;
+    font-size: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .contact-info {
+    color: #000;
+  }
+
+  .contact-a:hover {
+    color: #81f781;
+  }
+
+  .contact-address {
+    float: right;
+    margin-left: 4%;
+    width: 35.3333%;
+  }
+
+  .btn {
+    width: 160px;
+    margin: 20px;
+    font-size: 18px;
+  }
+}
