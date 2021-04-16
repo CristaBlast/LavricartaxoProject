@@ -14,7 +14,7 @@
 
 .header {
   justify-content: space-between;
-  background: #00b300;
+  background: #32cd32;
 }
 
 /* top */
@@ -59,7 +59,7 @@
 }
 
 .menuText {
-  border-bottom: 2px solid #00b300;
+  border-bottom: 2px solid #32cd32;
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -85,7 +85,7 @@ a {
 }
 
 nav {
-  background-color: #00b300;
+  background-color: #32cd32;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -112,7 +112,7 @@ a:hover {
 .main {
   font-size: 14px;
   text-align: justify;
-  background-color: #00b300;
+  background-color: #c1f0c1;
 }
 
 .slideshow {
@@ -184,7 +184,7 @@ a:hover {
   }
 
   100% {
-    transform: translateX(calc(-100px * 10)); /*"Velocidade"*/
+    transform: translateX(calc(-100px * 13));
   }
 }
 
@@ -360,7 +360,7 @@ textarea.form-control {
   /* header */
 
   .header {
-    background: #00b300;
+    background: #80ff80;
   }
 
   /* top */
@@ -406,7 +406,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #00b300;
+    border-bottom: 2px solid #80ff80;
     text-decoration: none;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -422,7 +422,7 @@ textarea.form-control {
   }
 
   nav {
-    background-color: #00b300;
+    background-color: #80ff80;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -604,7 +604,7 @@ textarea.form-control {
 
   .header {
     justify-content: space-between;
-    background: #00b300;
+    background: #80ff80;
   }
 
   /* top */
@@ -679,7 +679,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #00b300;
+    border-bottom: 2px solid #80ff80;
   }
 
   .menuText:hover {
@@ -688,7 +688,7 @@ textarea.form-control {
   }
 
   nav {
-    background-color: #00b300;
+    background-color: #80ff80;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
