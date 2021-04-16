@@ -14,7 +14,7 @@
 
 .header {
   justify-content: space-between;
-  background: #487710;
+  background: #156e1b;
 }
 
 /* top */
@@ -59,7 +59,7 @@
 }
 
 .menuText {
-  border-bottom: 2px solid #487710;
+  border-bottom: 2px solid #156e1b;
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -85,11 +85,12 @@ a {
 }
 
 nav {
-  background-color: #487710;
+  background-color: #156e1b;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   text-align: center;
+  border-bottom: 1px solid white;
 }
 
 li {
@@ -99,7 +100,9 @@ li {
   list-style: none;
 }
 
-.navMenu,li,a:hover {
+.navMenu,
+li,
+a:hover {
   color: #f5f6ce;
   text-decoration: none;
 }
@@ -109,6 +112,7 @@ li {
 .main {
   font-size: 14px;
   text-align: justify;
+  background-color: #156e1b;
 }
 
 .slideshow {
@@ -122,7 +126,7 @@ li {
 
 .news {
   float: right;
-  background-color: #487710;
+  /* background-color: #156e1b; */
   width: 23%;
 }
 
@@ -143,7 +147,8 @@ li {
   position: relative;
 }
 
-.marcass::before,.marcass::after {
+.marcass::before,
+.marcass::after {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 255, 255, 0);
@@ -211,8 +216,6 @@ li {
 }
 
 /*********gallery**********/
-
-
 
 .gallery {
   width: 110%;
@@ -358,7 +361,7 @@ textarea.form-control {
   /* header */
 
   .header {
-    background: #487710;
+    background: #156e1b;
   }
 
   /* top */
@@ -404,7 +407,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #487710;
+    border-bottom: 2px solid #156e1b;
     text-decoration: none;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -420,7 +423,7 @@ textarea.form-control {
   }
 
   nav {
-    background-color: #487710;
+    background-color: #156e1b;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -602,7 +605,7 @@ textarea.form-control {
 
   .header {
     justify-content: space-between;
-    background: #487710;
+    background: #156e1b;
   }
 
   /* top */
@@ -677,7 +680,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #487710;
+    border-bottom: 2px solid #156e1b;
   }
 
   .menuText:hover {
@@ -686,7 +689,7 @@ textarea.form-control {
   }
 
   nav {
-    background-color: #487710;
+    background-color: #156e1b;
     position: -webkit-sticky;
     position: sticky;
     top: 0;

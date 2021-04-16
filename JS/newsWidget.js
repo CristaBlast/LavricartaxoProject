@@ -101,10 +101,7 @@ Run();
 		newScript = document.createElement("script");
 		newScript.type = "text/javascript";
 		newScript.src = http_server + ndwg_LocalIP + ndwg_RootDir + "news_widget_pull.php?"+queryString+"&cname="+containerName+"&loc="+loc+"&url="+escape(ndwg_widget_url)+"&callback=CallBackFunc";
-//console.log('debug' + newScript.src);
 		headID.appendChild(newScript);
-//		alert(newScript.src);
-	
 	}
 	function InsertRelease(queryString,containerName) 
 	{
