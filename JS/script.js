@@ -30,78 +30,28 @@ function openModal() {
   showSlides(slideIndex);
   
   // Next/previous controls
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
+  function plusSlides(a) {
+    showSlides(slideIndex += a);
   }
   
   // Thumbnail image controls
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
+  function currentSlide(a) {
+    showSlides(slideIndex = a);
   }
   
-  function showSlides(n) {
+  function showSlides(a) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
     var captionText = document.getElementById("caption");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
+    if (a > slides.length) {slideIndex = 1}
+    if (a < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) 
+    {
       slides[i].style.display = "none";
     }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].alt;
+    // captionText.innerHTML = dots[slideIndex-1].alt;
   }
-/*/s*/
-
-  var slideIndex = 1;
-  showSlides(slideIndex);
-  
-  // Next/previous controls
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  // Thumbnail image controls
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-
-function openImageView()
-{
-    document.getElementById("myModal").style.display = "block";
-}
-
-function closeImageView()
-{
-    document.getElementById("myModal").style.display = "none";
-}
-
-function currentImage(n)
-{
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    var captionText = document.getElementById("caption");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].alt;
-}
-
-
-
 
 // function sidebuttonR()
 // {
