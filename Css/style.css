@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap"); */
 /*BTW as cores que estão agora são só um exemplo não sao as finais*/
 /*rgba(255, 255, 255, 0) transparent*/
 /*Letra roboto não está a funcionar ;-; por isso até resposta postetior ira ser arial*/
@@ -92,6 +92,7 @@ nav {
   top: 0;
   text-align: center;
   border-bottom: 1px solid white;
+  z-index: 10;
 }
 
 li {
@@ -99,11 +100,6 @@ li {
   padding-left: 4%;
   padding-right: 4%;
   list-style: none;
-}
-
-.navMenu
-{
-  z-index: 5;
 }
 
 .navMenu,
@@ -133,7 +129,7 @@ a:hover {
 .news {
   float: right;
   width: 23%;
-}
+} 
 
 .welcome {
   margin-left: 1%;
@@ -366,6 +362,7 @@ footer {
   float: left;
   font-size: 14px;
   padding-left: 10%;
+  padding-bottom: 10%;
 }
 
 .contactusFooter {
@@ -393,7 +390,7 @@ footer {
   color: gray;
   bottom: 0;
   margin-left: 20%;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 
 .desendesign{
@@ -672,20 +669,21 @@ textarea.form-control {
   .wheretofindusFooter {
     float: left;
     font-size: 14px;
-    padding-left: 10%;
+    padding-left: 0%;
   }
   
   .contactusFooter {
     float: left;
-    margin-left: 20%;
+    margin-left: 10%;
     font-size: 14px;
+    padding-bottom: 4%;
   }
   
   .openFooter {
     float: right;
     padding-left: 1%;
     font-size: 14px;
-    padding-right: 10%;
+    padding-right: 0%;
   }
   
   .openFooterI {
@@ -699,7 +697,7 @@ textarea.form-control {
     font-size: 11px;
     color: gray;
     bottom: 0;
-    margin-left: 20%;
+    margin-left: 0;
     padding-bottom: 1%;
   }
   
@@ -709,7 +707,7 @@ textarea.form-control {
     font-size: 11px;
     color: gray;
     bottom: 0;
-    margin-left: 50%;
+    margin-left: 60%;
     padding-bottom: 1%;
   }
 
@@ -943,7 +941,7 @@ textarea.form-control {
   .footerBottom {
     padding-left: 1%;
     padding-top: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     padding-right: 1%;
     position: absolute;
     width: 100%;
@@ -953,26 +951,26 @@ textarea.form-control {
   
   .wheretofindusFooter {
     float: left;
-    font-size: 14px;
-    padding-left: 10%;
+    font-size: 13px;
+    padding-left: 0%;
   }
   
   .contactusFooter {
     float: left;
-    margin-left: 20%;
-    font-size: 14px;
+    margin-left: 1.5%;
+    font-size: 13px;
   }
   
   .openFooter {
     float: right;
     padding-left: 1%;
-    font-size: 14px;
-    padding-right: 10%;
+    font-size: 13px;
+    padding-right: 0%;
   }
   
   .openFooterI {
     float: right;
-    font-size: 14px;
+    font-size: 13px;
   }
   
   .copyright{
@@ -981,8 +979,8 @@ textarea.form-control {
     font-size: 11px;
     color: gray;
     bottom: 0;
-    margin-left: 20%;
     padding-bottom: 1%;
+    padding-top: 1%;
   }
   
   .desendesign{
