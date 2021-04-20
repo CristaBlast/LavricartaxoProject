@@ -662,26 +662,55 @@ textarea.form-control {
     padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 2%;
+    padding-right: 1%;
     position: absolute;
     width: 100%;
     background-color: #333;
     color: #fff;
   }
-
+  
   .wheretofindusFooter {
     float: left;
+    font-size: 14px;
+    padding-left: 10%;
   }
-
+  
   .contactusFooter {
     float: left;
-    margin-right: 4%;
+    margin-left: 20%;
+    font-size: 14px;
   }
-
+  
   .openFooter {
+    float: right;
+    padding-left: 1%;
+    font-size: 14px;
+    padding-right: 10%;
+  }
+  
+  .openFooterI {
+    float: right;
+    font-size: 14px;
+  }
+  
+  .copyright{
+    position: absolute;
     float: left;
-    width: 100%;
-    padding-top: 3%;
-    padding-bottom: 2%;
+    font-size: 11px;
+    color: gray;
+    bottom: 0;
+    margin-left: 20%;
+    padding-bottom: 1%;
+  }
+  
+  .desendesign{
+    position: absolute;
+    float: left;
+    font-size: 11px;
+    color: gray;
+    bottom: 0;
+    margin-left: 50%;
+    padding-bottom: 1%;
   }
 
   /* form */
@@ -910,27 +939,60 @@ textarea.form-control {
 
   /* footer */
 
-  footer {
-    font-family: "Roboto", sans-serif;
-  }
 
   .footerBottom {
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 1%;
+    padding-top: 1%;
     padding-bottom: 2%;
+    padding-right: 1%;
     position: absolute;
     width: 100%;
     background-color: #333;
     color: #fff;
   }
-
+  
   .wheretofindusFooter {
     float: left;
+    font-size: 14px;
+    padding-left: 10%;
   }
-
+  
   .contactusFooter {
-    margin-left: 20%;
     float: left;
+    margin-left: 20%;
+    font-size: 14px;
+  }
+  
+  .openFooter {
+    float: right;
+    padding-left: 1%;
+    font-size: 14px;
+    padding-right: 10%;
+  }
+  
+  .openFooterI {
+    float: right;
+    font-size: 14px;
+  }
+  
+  .copyright{
+    position: absolute;
+    float: left;
+    font-size: 11px;
+    color: gray;
+    bottom: 0;
+    margin-left: 20%;
+    padding-bottom: 1%;
+  }
+  
+  .desendesign{
+    position: absolute;
+    float: left;
+    font-size: 11px;
+    color: gray;
+    bottom: 0;
+    margin-left: 50%;
+    padding-bottom: 1%;
   }
 
   /* form */
