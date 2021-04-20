@@ -237,7 +237,7 @@ a:hover {
 
 .photo:hover .photoWH{
   transform: scale(1.5);
-  transition: transform 1s ease;
+  transition: transform 0.5s ease;
 }
 
 .photoWH
