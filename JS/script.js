@@ -16,14 +16,13 @@ function slideshow()
     setTimeout(slideshow, 2500);    
 }
 
-/*s*/
 function openModal() {
-    document.getElementById("myModal").style.display = "block";
+    document.getElementById("imageView").style.display = "block";
   }
   
   // Close the Modal
   function closeModal() {
-    document.getElementById("myModal").style.display = "none";
+    document.getElementById("imageView").style.display = "none";
   }
   
   var slideIndex = 1;
@@ -39,19 +38,17 @@ function openModal() {
     showSlides(slideIndex = a);
   }
   
-  function showSlides(a) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var captionText = document.getElementById("caption");
-    if (a > slides.length) {slideIndex = 1}
-    if (a < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) 
-    {
-      slides[i].style.display = "none";
-    }
-    slides[slideIndex-1].style.display = "block";
-    // captionText.innerHTML = dots[slideIndex-1].alt;
+function showSlides(a) {
+  var b;
+  var slides = document.getElementsByClassName("mySlides");
+  if (a > slides.length) {slideIndex = 1}
+  if (a < 1) {slideIndex = slides.length}
+  for (b = 0; b < slides.length; b++) 
+  {
+    slides[b].style.display = "none";
   }
+  slides[slideIndex-1].style.display = "block";
+}
 
 // function sidebuttonR()
 // {
