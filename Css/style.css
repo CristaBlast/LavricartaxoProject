@@ -137,7 +137,7 @@ a:hover {
 
 .welcome {
   margin-left: 1%;
-  width: 77%;
+  width: 98%;
   text-align: justify;
   background-color: #c1f0c1;
 }
@@ -354,7 +354,8 @@ footer {
 .footerBottom {
   padding-left: 20px;
   padding-top: 20px;
-  padding-bottom: 2%;
+  padding-bottom: 20px;
+  padding-right: 20px;
   position: absolute;
   width: 100%;
   background-color: #333;
@@ -366,13 +367,22 @@ footer {
 }
 
 .contactusFooter {
-  margin-left: 20%;
+  padding-left: 1%;
   float: left;
 }
 
 .openFooter {
+  float: left;
+  padding-left: 1%;
+}
+
+.copyright{
+  padding-top: 4%;
   float: right;
-  margin-right: 20px;
+}
+
+.desendesign{
+  float: right;
 }
 
 /* form */
