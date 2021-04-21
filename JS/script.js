@@ -50,6 +50,15 @@ function showSlides(a) {
   slides[slideIndex-1].style.display = "block";
 }
 
+function brandPause()
+{
+  document.getElementsByClassName("marcass marcas ").style.animation = "scroll 0s infinite linear";
+}
+
+function brandUnpause()
+{
+  document.getElementsByClassName("marcass marcas ").style.animation = "scroll 40s infinite linear";
+}
 // function sidebuttonR()
 // {
 //     document.getElementsByClassName("nav").style.visibility = "visible";
