@@ -70,14 +70,12 @@ function sidebuttonR()
 {
   document.getElementById("sideBtnRight").style.visibility = "hidden";
   document.getElementById("sideBtnLeft").style.visibility = "visible";
-  document.getElementById("nav").style.width = "100%";
-  document.getElementById("nav").style.visibility = "visible"
+  document.getElementById("nav").style.visibility = "visible";
 }
 
 function sidebuttonL()
 {
   document.getElementById("sideBtnLeft").style.visibility = "hidden";
   document.getElementById("sideBtnRight").style.visibility = "visible";
-  document.getElementById("nav").style.width = "0%";
-  document.getElementById("nav").style.visibility = "hidden"
+  document.getElementById("nav").style.visibility = "hidden";
 }
