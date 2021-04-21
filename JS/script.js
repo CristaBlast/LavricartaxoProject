@@ -90,6 +90,31 @@ function sidebuttonL()
 
 function resize() 
 {
-  alert(window.innerWidth);
-  
+  // alert(window.innerWidth);
+  if(window.innerWidth == 500)
+  {
+    document.getElementById("nav").style.visibility = "hidden";
+    for (let a = 1; a <= 7; a++) 
+    {
+      document.getElementById("op" + a).style.visibility = "hidden";
+    }
+  }
+
+  if(window.innerWidth == 681)
+  {
+    document.getElementById("nav").style.visibility = "visible";
+    for (let a = 1; a <= 7; a++) 
+    {
+      document.getElementById("op" + a).style.visibility = "visible";
+    }
+  }
+
+  if(window.innerWidth > 681)
+  {
+    document.getElementById("nav").style.visibility = "visible";
+    for (let a = 1; a <= 7; a++) 
+    {
+      document.getElementById("op" + a).style.visibility = "visible";
+    }
+  }
 }
