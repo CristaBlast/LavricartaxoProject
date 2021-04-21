@@ -54,20 +54,16 @@ function brandPause()
 {
   // var x = document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 0s infinite linear";
   // var y = document.getElementsByClassName("marcas").style.WebkitAnimation = "scroll 0s infinite linear";
-  var x = document.getElementsByClassName("nav");
-  var y = document.getElementsByClassName("header");
-  x.style.backgroundColor = "red";
-  y.style.backgroundColor = "red";
+  document.getElementsByClassName("nav").style.backgroundColor = "red";
+  document.getElementsByClassName(".header").style.backgroundColor = "red";
 }
 
 function brandUnpause()
 {
   // var x = document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 40s infinite linear";
   // var y = document.getElementsByClassName("marcas").style.WebkitAnimation = "scroll 40s infinite linear";
-  var x = document.getElementsByClassName("nav");
-  var y = document.getElementsByClassName("header");
-  x.style.backgroundColor = "blue";
-  y.style.backgroundColor = "blue";
+  document.getElementsByClassName("nav").style.backgroundColor = "blue";
+  document.getElementsByClassName(".header").style.backgroundColor = "red";
 }
 
 // function sidebuttonR()
