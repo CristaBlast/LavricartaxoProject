@@ -52,13 +52,24 @@ function showSlides(a) {
 
 function brandPause()
 {
-  document.getElementsByClassName("marcass marcas ").style.animation = "scroll 0s infinite linear";
+  // var x = document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 0s infinite linear";
+  // var y = document.getElementsByClassName("marcas").style.WebkitAnimation = "scroll 0s infinite linear";
+  var x = document.getElementsByClassName("nav");
+  var y = document.getElementsByClassName("header");
+  x.style.backgroundColor = "red";
+  y.style.backgroundColor = "red";
 }
 
 function brandUnpause()
 {
-  document.getElementsByClassName("marcass marcas ").style.animation = "scroll 40s infinite linear";
+  // var x = document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 40s infinite linear";
+  // var y = document.getElementsByClassName("marcas").style.WebkitAnimation = "scroll 40s infinite linear";
+  var x = document.getElementsByClassName("nav");
+  var y = document.getElementsByClassName("header");
+  x.style.backgroundColor = "blue";
+  y.style.backgroundColor = "blue";
 }
+
 // function sidebuttonR()
 // {
 //     document.getElementsByClassName("nav").style.visibility = "visible";
