@@ -68,6 +68,7 @@
   font-weight: 500;
   padding-top: 1%;
   padding-bottom: 1%;
+  visibility: visible;
 }
 
 .menuText:hover {
@@ -695,7 +696,7 @@ textarea.form-control {
     font-size: 11px;
     color: gray;
     bottom: 0;
-    margin-left: 0;
+    margin-left: 3%;
     padding-bottom: 1%;
   }
   
@@ -705,7 +706,7 @@ textarea.form-control {
     font-size: 11px;
     color: gray;
     bottom: 0;
-    margin-left: 60%;
+    margin-left: 62%;
     padding-bottom: 1%;
   }
 
@@ -813,7 +814,7 @@ textarea.form-control {
   .sideBtnPhone {
     width: 10%;
     height: 10%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     border: none;
     float: left;
     visibility: visible;
@@ -822,6 +823,7 @@ textarea.form-control {
     top: 0;
     font-size: 50px;
     position: absolute;
+    z-index: 900;
   }
 
   /* .rightBtn {
@@ -837,7 +839,7 @@ textarea.form-control {
     text-decoration: none;
     color: black;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -858,8 +860,8 @@ textarea.form-control {
     position: sticky;
     top: 0;
     text-align: center;
-    visibility: hidden;
     position: absolute;
+    visibility: hidden;
   }
 
   li {
@@ -933,8 +935,12 @@ textarea.form-control {
     font-size: large;
   }
 
-  /* footer */
+  .marcass{
+    margin-top: -10%;
+    padding-bottom: 25%;
+  }
 
+  /* footer */
 
   .footerBottom {
     padding-left: 1%;
@@ -956,7 +962,7 @@ textarea.form-control {
   
   .contactusFooter {
     float: left;
-    margin-left: 2%;
+    margin-left: 1%;
     font-size: 13px;
   }
   
@@ -980,6 +986,7 @@ textarea.form-control {
     bottom: 0;
     padding-bottom: 5%;
     padding-top: 1%;
+    margin-left: 0;
   }
   
   .desendesign{

@@ -50,32 +50,34 @@ function showSlides(a) {
   slides[slideIndex-1].style.display = "block";
 }
 
-function brandPause()
-{
-  // var x = document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 0s infinite linear";
-  // var y = document.getElementsByClassName("marcas").style.WebkitAnimation = "scroll 0s infinite linear";
-  document.getElementsByClassName("nav").style.backgroundColor = "red";
-  document.getElementsByClassName(".header").style.backgroundColor = "red";
-}
-
-function brandUnpause()
-{
-  // var x = document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 40s infinite linear";
-  // var y = document.getElementsByClassName("marcas").style.WebkitAnimation = "scroll 40s infinite linear";
-  document.getElementsByClassName("nav").style.backgroundColor = "blue";
-  document.getElementsByClassName(".header").style.backgroundColor = "red";
-}
-
-// function sidebuttonR()
+// function brandPause()
 // {
-//     document.getElementsByClassName("nav").style.visibility = "visible";
-//     document.getElementsByClassName("leftBtn").style.visibility = "visible";
-//     document.getElementsByClassName("rightBtn").style.visibility = "hidden";
+//   // document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 0s infinite linear";
+//   // document.getElementsByClassName("marcas").style.WebkitAnimation = "scroll 0s infinite linear";
+//   document.getElementsByClassName("nav").style.backgroundColor = "red";
+//   document.getElementsByClassName(".header").style.backgroundColor = "red";
 // }
 
-// function sidebuttonL()
+// function brandUnpause()
 // {
-//     document.getElementsByClassName("nav").style.visibility = "hidden";
-//     document.getElementsByClassName("leftBtn").style.visibility = "hidden";
-//     document.getElementsByClassName("rightBtn").style.visibility = "visible";
+//   // document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 40s infinite linear";
+//   // document.getElementsByClassName("marcas").style.WebkitAnimation = "scroll 40s infinite linear";
+//   document.getElementsByClassName("nav").style.backgroundColor = "blue";
+//   document.getElementsByClassName(".header").style.backgroundColor = "red";
 // }
+
+function sidebuttonR()
+{
+  document.getElementById("sideBtnRight").style.visibility = "hidden";
+  document.getElementById("sideBtnLeft").style.visibility = "visible";
+  document.getElementById("nav").style.width = "100%";
+  document.getElementById("nav").style.visibility = "visible"
+}
+
+function sidebuttonL()
+{
+  document.getElementById("sideBtnLeft").style.visibility = "hidden";
+  document.getElementById("sideBtnRight").style.visibility = "visible";
+  document.getElementById("nav").style.width = "0%";
+  document.getElementById("nav").style.visibility = "hidden"
+}
