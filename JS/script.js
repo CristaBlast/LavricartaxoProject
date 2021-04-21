@@ -66,10 +66,10 @@ function showSlides(a) {
 //   document.getElementsByClassName(".header").style.backgroundColor = "red";
 // }
 
-function sidebuttonR()
+function sidebuttonD()
 {
-  document.getElementById("sideBtnRight").style.visibility = "hidden";
-  document.getElementById("sideBtnLeft").style.visibility = "visible";
+  document.getElementById("sideBtnDown").style.visibility = "hidden";
+  document.getElementById("sideBtnUp").style.visibility = "visible";
   document.getElementById("nav").style.visibility = "visible";
   for (let a = 1; a <= 7; a++) 
   {
@@ -77,10 +77,10 @@ function sidebuttonR()
   }
 }
 
-function sidebuttonL()
+function sidebuttonU()
 {
-  document.getElementById("sideBtnLeft").style.visibility = "hidden";
-  document.getElementById("sideBtnRight").style.visibility = "visible";
+  document.getElementById("sideBtnUp").style.visibility = "hidden";
+  document.getElementById("sideBtnDown").style.visibility = "visible";
   document.getElementById("nav").style.visibility = "hidden";
   for (let a = 1; a <= 7; a++) 
   {
@@ -98,6 +98,8 @@ function resize()
     {
       document.getElementById("op" + a).style.visibility = "hidden";
     }
+    document.getElementById("sideBtnUp").style.visibility = "hidden";
+    document.getElementById("sideBtnDown").style.visibility = "visible";
   }
 
   if(window.innerWidth == 681)
