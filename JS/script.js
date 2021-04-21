@@ -71,6 +71,10 @@ function sidebuttonR()
   document.getElementById("sideBtnRight").style.visibility = "hidden";
   document.getElementById("sideBtnLeft").style.visibility = "visible";
   document.getElementById("nav").style.visibility = "visible";
+  for (let a = 1; a <= 7; a++) 
+  {
+    document.getElementById("op" + a).style.visibility = "visible";
+  }
 }
 
 function sidebuttonL()
@@ -78,4 +82,14 @@ function sidebuttonL()
   document.getElementById("sideBtnLeft").style.visibility = "hidden";
   document.getElementById("sideBtnRight").style.visibility = "visible";
   document.getElementById("nav").style.visibility = "hidden";
+  for (let a = 1; a <= 7; a++) 
+  {
+    document.getElementById("op" + a).style.visibility = "hidden";
+  }
+}
+
+function resize() 
+{
+  alert(window.innerWidth);
+  
 }
