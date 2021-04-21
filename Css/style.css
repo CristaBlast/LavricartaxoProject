@@ -194,26 +194,14 @@ a:hover {
 
 /*Marcas da pagina marcas*/
 
-.marcasI {
-  text-align: center;
-  display: inline-block;
-  width: 100%;
+.marcasGallery {
+  width:100%;
+  background-color: black;
 }
 
-.marcaI {
-  display: inline-block;
-  width: auto;
-  vertical-align: middle;
-}
-
-.marcasTabletI {
-  position: absolute;
-  visibility: hidden;
-}
-
-.marcaTabletI {
-  position: absolute;
-  visibility: hidden;
+.marcaGallery {
+  width: 150px;
+  float: left;
 }
 
 /*gallery*/
@@ -644,9 +632,7 @@ textarea.form-control {
   }
 
   .photo {
-    border-radius: 10px;
-    border: 2px white solid;
-    background-color: black;
+    /* background-color: black; */
     display: inline-block;
     width: 32.7%;
     height: 200px;
@@ -938,9 +924,7 @@ textarea.form-control {
   }
 
   .photo {
-    border-radius: 10px;
-    border: 2px white solid;
-    background-color: black;
+    /* background-color: black; */
     display: inline-block;
     width: 100%;
     height: 300px;
