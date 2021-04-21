@@ -1,5 +1,4 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap"); */
-/*BTW as cores que estão agora são só um exemplo não sao as finais*/
 /*rgba(255, 255, 255, 0) transparent*/
 /*Letra roboto não está a funcionar ;-; por isso até resposta postetior ira ser arial*/
 
@@ -54,7 +53,7 @@
 
 /* menu */
 
-.sideBtnPhone {
+.topBtnPhone {
   visibility: hidden;
   position: absolute;
 }
@@ -542,7 +541,7 @@ textarea.form-control {
 
   /* menu */
 
-  .sideBtnPhone {
+  .topBtnPhone {
     visibility: hidden;
     position: absolute;
   }
@@ -820,7 +819,7 @@ textarea.form-control {
 
   /* menu */
 
-  .sideBtnPhone {
+  .topBtnPhone {
     width: 10%;
     height: 10%;
     background-color: rgba(255, 255, 255, 0);
@@ -861,7 +860,7 @@ textarea.form-control {
     visibility: hidden;
     position: -webkit-sticky;
     position: sticky;
-    top:0;
+    top: 0;
   }
 
   .menuText:hover {
