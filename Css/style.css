@@ -13,7 +13,7 @@
 
 .header {
   justify-content: space-between;
-  background: #32cd32;
+  background: #8f6600;
 }
 
 /* top */
@@ -59,7 +59,7 @@
 }
 
 .menuText {
-  border-bottom: 2px solid #32cd32;
+  border-bottom: 2px solid #8f6600;
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -86,7 +86,7 @@ a {
 }
 
 nav {
-  background-color: #32cd32;
+  background-color: #8f6600;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -115,7 +115,47 @@ a:hover {
 .main {
   font-size: 14px;
   text-align: justify;
-  background-color: #c1f0c1;
+}
+
+.search {
+  display: inline-block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999999999;
+  padding-top: 20px;
+}
+
+.searchMG {
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  font-size: 30px;
+  vertical-align: middle;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.searchMG:hover {
+  color: black;
+}
+
+.searchBar {
+  vertical-align: middle;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.searchBar:focus {
+  outline: none;
 }
 
 .slideshow {
@@ -136,7 +176,6 @@ a:hover {
   margin-left: 1%;
   width: 98%;
   text-align: justify;
-  background-color: #c1f0c1;
 }
 
 /*Caroussel*/
@@ -195,15 +234,20 @@ a:hover {
 /*Marcas da pagina marcas*/
 
 .marcasGallery {
-  width:100%;
-  /* background-color: black; */
+  width: 100%;
   position: relative;
   float: left;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
 }
 
 .marcaGallery {
   width: 150px;
+  height: auto;
   float: left;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 /*gallery*/
@@ -492,7 +536,7 @@ textarea.form-control {
   /* header */
 
   .header {
-    background: #32cd32;
+    background: #8f6600;
   }
 
   /* top */
@@ -539,7 +583,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #32cd32;
+    border-bottom: 2px solid #8f6600;
     text-decoration: none;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -556,7 +600,7 @@ textarea.form-control {
   }
 
   nav {
-    background-color: #32cd32;
+    background-color: #8f6600;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -596,95 +640,95 @@ textarea.form-control {
   }
 
   /*ImageView*/
-/* The Modal (background) */
+  /* The Modal (background) */
 
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 999999999999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.836);
-}
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999999999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.836);
+  }
 
-/* Modal Content */
+  /* Modal Content */
 
-.modal-content {
-  position: relative;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
-}
+  .modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
 
-/* The Close Button */
+  /* The Close Button */
 
-.close {
-  color: white;
-  position: absolute;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-  position: -webkit-sticky;
-  position: sticky;
-  float: right;
-  top: 0;
-  z-index: 999999999;
-}
+  .close {
+    color: white;
+    position: absolute;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    position: -webkit-sticky;
+    position: sticky;
+    float: right;
+    top: 0;
+    z-index: 999999999;
+  }
 
-.close:hover,
-.close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
-}
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-/* Next & previous buttons */
+  /* Next & previous buttons */
 
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-  z-index: 999999999999;
-}
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    z-index: 999999999999;
+  }
 
-/* Position the "next button" to the right */
+  /* Position the "next button" to the right */
 
-.next {
-  right: 0;
-  border-radius: 200px;
-  margin-right: -4%;
-}
+  .next {
+    right: 0;
+    border-radius: 200px;
+    margin-right: -4%;
+  }
 
-/* Position the "prev button" to the left */
+  /* Position the "prev button" to the left */
 
-.prev {
-  left: 0;
-  border-radius: 200px;
-  margin-left: -4%;
-}
+  .prev {
+    left: 0;
+    border-radius: 200px;
+    margin-left: -4%;
+  }
 
-/* On hover, add a black background color with a little bit see-through */
+  /* On hover, add a black background color with a little bit see-through */
 
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-/*End ImageView*/
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /*End ImageView*/
 
   /*Marcas da pagina marcas*/
 
@@ -858,7 +902,7 @@ textarea.form-control {
 
   .header {
     justify-content: space-between;
-    background: #32cd32;
+    background: #8f6600;
   }
 
   /* top */
@@ -937,7 +981,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #32cd32;
+    border-bottom: 2px solid #8f6600;
     visibility: hidden;
     position: -webkit-sticky;
     position: sticky;
@@ -951,7 +995,7 @@ textarea.form-control {
 
   nav {
     padding-top: 10%;
-    background-color: #32cd32;
+    background-color: #8f6600;
     position: -webkit-sticky;
     position: sticky;
     top: 0;

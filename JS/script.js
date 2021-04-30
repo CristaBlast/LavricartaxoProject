@@ -50,6 +50,19 @@ function showSlides(a) {
   slides[slideIndex-1].style.display = "block";
 }
 
+function searchBar(){
+  var cg = 1;
+  if(cg==1)
+  {
+    document.getElementById("searchBar").style.visibility="visible";
+    cg=0;
+  }
+  else
+  {
+    document.getElementById("searchBar").style.visibility="hidden";
+    cg=1;
+  }  
+}
 // function brandPause()
 // {
 //   // document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 0s infinite linear";
