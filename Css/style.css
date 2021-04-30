@@ -121,23 +121,49 @@ a:hover {
 
 .search {
   position: absolute;
+  margin-top: -35%;
+  float: left;
+  width: 20%;
+  background-color: brown;
   /* position: -webkit-sticky;
   position: sticky;
   top: 0; */
-  /* z-index: 999999999; */
-  margin-top: 10%;
-  float: left;
 }
 
-.searchMG {
+.openSearch
+{
+  font-size: 30px;
+  vertical-align: middle;
+  position: absolute;
+  z-index: 99999999;
+}
+
+.openSearch:hover
+{
+  color: black;
+}
+
+.closeSearch
+{
+  font-size: 30px;
+  vertical-align: middle;
+  position: absolute;
+  visibility: hidden;
+  z-index: 99999999;
+}
+
+.closeSearch:hover
+{
+  color: black;
+}
+
+.searchMG 
+{
   padding-left: 5px;
   padding-top: 5px;
   padding-right: 5px;
   font-size: 30px;
   vertical-align: middle;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 .searchMG:hover {
@@ -147,13 +173,10 @@ a:hover {
 .searchBar {
   vertical-align: middle;
   padding-right: 5px;
-  padding-left: 5px;
+  padding-left: 4%;
   padding-bottom: 5px;
   padding-top: 5px;
   border: none;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 .searchBar:focus {
@@ -590,6 +613,7 @@ textarea.form-control {
     padding-top: 1%;
     padding-bottom: 1%;
     visibility: visible;
+    font-weight: bold;
   }
 
   .menuText:hover {
@@ -765,6 +789,7 @@ textarea.form-control {
   }
 
   .gallery {
+    padding-left: 0%;
     width: 100%;
   }
 
@@ -981,6 +1006,7 @@ textarea.form-control {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    font-weight: bold;
   }
 
   .menuText:hover {
@@ -1054,6 +1080,7 @@ textarea.form-control {
   }
 
   .gallery {
+    padding-left: 0%;
     width: 100%;
   }
 

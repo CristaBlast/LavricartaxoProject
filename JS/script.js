@@ -64,8 +64,6 @@ function searchBar(){
   }  
 }
 
-
-
 function sidebuttonD()
 {
   document.getElementById("sideBtnDown").style.visibility = "hidden";
@@ -121,41 +119,49 @@ function resize()
   }
 }
 
-function opFocus()
-{
-  // var op;
-  // if(document.getElementById("op1").focus()==true)
-  // {
-  //   op = 1;
-  // }
-  // if(document.getElementById("op2").focus()==true)
-  // {
-  //   op = 2;
-  // }
-  // if(document.getElementById("op3").focus()==true)
-  // {
-  //   op = 3;
-  // }
-  // if(document.getElementById("op4").focus()==true)
-  // {
-  //   op = 4;
-  // }
-  // if(document.getElementById("op5").focus()==true)
-  // {
-  //   op = 5;
-  // }
-  // if(document.getElementById("op6").focus()==true)
-  // {
-  //   op = 6;
-  // }
-  // if(document.getElementById("op1").focus()==true)
-  // {
-  //   op = 7;
-  // }
-  // switch(op)
-  // {
-  //   case 1:
-
-  //     break
-  // }
+function openSearchBar() 
+{ 
+  document.getElementById("closeSearch").style.visibility = "visible";
+  document.getElementById("openSearch").style.visibility = "hidden";
 }
+
+function closeSearchBar() 
+{ 
+  document.getElementById("closeSearch").style.visibility = "hidden";
+  document.getElementById("openSearch").style.visibility = "visible";
+}
+
+// function op1Focus()
+// {
+  
+// }
+
+// function op2Focus()
+// {
+  
+// }
+
+// function op3Focus()
+// {
+  
+// }
+
+// function op4Focus()
+// {
+  
+// }
+
+// function op5Focus()
+// {
+  
+// }
+
+// function op6Focus()
+// {
+  
+// }
+
+// function op7Focus()
+// {
+  
+// }
