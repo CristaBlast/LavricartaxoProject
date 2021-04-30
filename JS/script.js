@@ -63,21 +63,8 @@ function searchBar(){
     cg=1;
   }  
 }
-// function brandPause()
-// {
-//   // document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 0s infinite linear";
-//   // document.getElementsByClassName("marcas").style.WebkitAnimation = "scroll 0s infinite linear";
-//   document.getElementsByClassName("nav").style.backgroundColor = "red";
-//   document.getElementsByClassName(".header").style.backgroundColor = "red";
-// }
 
-// function brandUnpause()
-// {
-//   // document.getElementsByClassName("marcass").style.WebkitAnimation = "scroll 40s infinite linear";
-//   // document.getElementsByClassName("marcas").style.WebkitAnimation = "scroll 40s infinite linear";
-//   document.getElementsByClassName("nav").style.backgroundColor = "blue";
-//   document.getElementsByClassName(".header").style.backgroundColor = "red";
-// }
+
 
 function sidebuttonD()
 {
@@ -132,4 +119,43 @@ function resize()
       document.getElementById("op" + a).style.visibility = "visible";
     }
   }
+}
+
+function opFocus()
+{
+  // var op;
+  // if(document.getElementById("op1").focus()==true)
+  // {
+  //   op = 1;
+  // }
+  // if(document.getElementById("op2").focus()==true)
+  // {
+  //   op = 2;
+  // }
+  // if(document.getElementById("op3").focus()==true)
+  // {
+  //   op = 3;
+  // }
+  // if(document.getElementById("op4").focus()==true)
+  // {
+  //   op = 4;
+  // }
+  // if(document.getElementById("op5").focus()==true)
+  // {
+  //   op = 5;
+  // }
+  // if(document.getElementById("op6").focus()==true)
+  // {
+  //   op = 6;
+  // }
+  // if(document.getElementById("op1").focus()==true)
+  // {
+  //   op = 7;
+  // }
+  // switch(op)
+  // {
+  //   case 1:
+
+  //     break
+  // }
 }

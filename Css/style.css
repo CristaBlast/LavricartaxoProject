@@ -783,13 +783,13 @@ textarea.form-control {
 
   .footerBottom {
     padding-left: 1%;
-  padding-top: 1%;
-  padding-bottom: 3%;
-  padding-right: 1%;
-  width: 100%;
-  background-color: #333;
-  color: #fff;
-  float: left;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-right: 1%;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    float: left;
   }
 
   .wheretofindusFooter {
