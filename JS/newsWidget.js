@@ -3,7 +3,6 @@ var index = scripts.length - 1;
 var myScript = scripts[index];
 var queryString = myScript.src.replace(/^[^\?]+\??/,'');
 var params = parseQuery( queryString );
-
 var newScript = null;
 var headID = null;
 var url=document.URL;

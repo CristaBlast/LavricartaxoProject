@@ -480,6 +480,17 @@ footer {
   height: 80px;
 }
 
+.livrodereclamacoesFooter
+{
+  float: left;
+  padding-left: 1%;
+}
+
+.livrodereclamacoes
+{
+  height: 80px;
+}
+
 .copyright {
   float: left;
   font-size: 11px;
