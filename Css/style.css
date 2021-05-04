@@ -852,46 +852,83 @@ textarea.form-control {
     float: left;
   }
 
+  .icondivFooter
+  {
+    padding-left: 40%;
+    padding-right: 1%;
+    border-right: none;
+    height: 80px;
+    width: 100%;
+  }
+  
+  .iconFooter{
+    height: 80px;
+    width: auto;
+  }
+  
   .wheretofindusFooter {
     float: left;
     font-size: 14px;
-    padding-left: 0%;
+    padding-right: 1%;
+    border-right: solid white 2px;  
+    height: 80px;
+    margin-top: 2%;
+    /* margin-left: 10%; */
   }
-
+  
   .contactusFooter {
     float: left;
-    margin-left: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
     font-size: 14px;
-    padding-bottom: 4%;
+    border-right: solid white 2px;
+    height: 80px;
+    margin-top: 2%;
   }
-
+  
   .openFooter {
-    float: right;
+    float: left;
     padding-left: 1%;
     font-size: 14px;
-    padding-right: 0%;
+    padding-right: 1%;
+    height: 80px;
+    margin-top: 2%;
   }
-
+  
   .openFooterI {
-    float: right;
+    float: left;
     font-size: 14px;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-right: none;
+    height: 80px;
+    margin-top: 2%;
+   
   }
-
+  
+  .suporteFooter
+  {
+    float: left;
+    font-size: 14px;
+    /* margin-left: 35%; */
+    border-right: none;
+    height: 80px;
+    margin-top: 2%;
+  }
+  
   .copyright {
     float: left;
     font-size: 11px;
     color: gray;
-    position: absolute;
-    padding-top: 14%;
-    padding-left: 5%;
+    padding-top: 40%;
   }
-
+  
   .desendesign {
-    float: right;
+    position: absolute;
+    float: left;
     font-size: 11px;
     color: gray;
-    position: absolute;
-    padding-top: 14%;
+    padding-top: 40%;
     padding-left: 65%;
   }
 
