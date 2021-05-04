@@ -130,38 +130,3 @@ function closeSearchBar()
   document.getElementById("closeSearch").style.visibility = "hidden";
   document.getElementById("openSearch").style.visibility = "visible";
 }
-
-// function op1Focus()
-// {
-  
-// }
-
-// function op2Focus()
-// {
-  
-// }
-
-// function op3Focus()
-// {
-  
-// }
-
-// function op4Focus()
-// {
-  
-// }
-
-// function op5Focus()
-// {
-  
-// }
-
-// function op6Focus()
-// {
-  
-// }
-
-// function op7Focus()
-// {
-  
-// }
