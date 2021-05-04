@@ -326,7 +326,7 @@ a:hover {
   margin: auto;
   padding: 0;
   width: 90%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 /* The Close Button */
@@ -423,27 +423,61 @@ footer {
   float: left;
 }
 
+.icondivFooter
+{
+  float: left;
+  vertical-align: middle;
+  padding-right: 1%;
+  border-right: solid white 2px;
+  height: 80px;
+}
+
+.iconFooter{
+  height: 80px;
+  width: auto;
+}
+
 .wheretofindusFooter {
   float: left;
   font-size: 14px;
+  padding-right: 1%;
+  padding-left: 1%;
+  border-right: solid white 2px;
 }
 
 .contactusFooter {
   float: left;
-  margin-left: 20%;
+  padding-left: 1%;
+  padding-right: 1%;
   font-size: 14px;
+  border-right: solid white 2px;
+  height: 80px;
 }
 
 .openFooter {
-  float: right;
+  float: left;
   padding-left: 1%;
   font-size: 14px;
-  padding-right: 10%;
+  padding-right: 1%;
 }
 
 .openFooterI {
-  float: right;
+  float: left;
   font-size: 14px;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-right: solid white 2px;
+  height: 80px;
+}
+
+.suporteFooter
+{
+  float: left;
+  font-size: 14px;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-right: solid white 2px;
+  height: 80px;
 }
 
 .copyright {
@@ -452,16 +486,14 @@ footer {
   color: gray;
   position: absolute;
   padding-top: 7%;
-  padding-left: 30%;
 }
 
 .desendesign {
-  float: right;
+  float: left;
   font-size: 11px;
   color: gray;
-  position: absolute;
+  /* position: absolute; */
   padding-top: 7%;
-  padding-left: 80%;
 }
 
 /* form */
@@ -680,10 +712,10 @@ textarea.form-control {
 
   .modal-content {
     position: relative;
-    margin: auto;
+    margin-top: 10%;
     padding: 0;
     width: 90%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
   }
 
   /* The Close Button */
@@ -733,7 +765,7 @@ textarea.form-control {
   .next {
     right: 0;
     border-radius: 200px;
-    margin-right: -4%;
+    margin-right: -5%;
   }
 
   /* Position the "prev button" to the left */
@@ -741,7 +773,7 @@ textarea.form-control {
   .prev {
     left: 0;
     border-radius: 200px;
-    margin-left: -4%;
+    margin-left: -5%;
   }
 
   /* On hover, add a black background color with a little bit see-through */
@@ -1058,6 +1090,23 @@ textarea.form-control {
   .news {
     position: absolute;
     visibility: hidden;
+  }
+
+  .modal-content
+  {
+    margin-top: 20%;
+  }
+
+  /* Position the "next button" to the right */
+
+  .next {
+    margin-right: -6%;
+  }
+
+  /* Position the "prev button" to the left */
+
+  .prev {
+    margin-left: -6%;
   }
 
   /*********Marcas da pagina marcas*/
