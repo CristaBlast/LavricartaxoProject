@@ -364,6 +364,7 @@ a:hover {
 /*End gallery*/
 
 /*ImageView*/
+
 /* The Modal (background) */
 
 .modal {
@@ -452,18 +453,8 @@ a:hover {
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 /*End ImageView*/
-
-/**/
-
-h1 {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: large;
-}
 
 /*footer*/
 
@@ -648,9 +639,16 @@ textarea.form-control {
 
 /*End contact Section */
 
-@media only screen and (max-width: 992px) {
-  /*Tablet*/
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
 
+h2 {
+  font-size: large;
+}
+
+@media only screen and (max-width: 992px) { /*Tablet*/
   /* header */
 
   .header {
@@ -758,7 +756,60 @@ textarea.form-control {
     position: absolute;
   }
 
+    /*produtos categorias*/
+
+  .tittleProductCategory {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .productsCategories {
+    text-align: center;
+    width: 100%;
+  }
+
+  .productsCategoriesplaceHolders {
+    width: 20%;
+    height: 269.8px;
+    float: left;
+    background-color: #4a3302;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+
+  .categoriesIcons {
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    margin-left: -1.5%;
+    margin-top: 6%;
+  }
+
+  .tituloCategoria{
+    color: white;
+    font-weight: bold;
+    margin-top: 70%;
+  }
+
+  .productsCategoriesplaceHolders:hover .categoriesIcons {
+    font-size: 80px;
+    margin-left: -3%;
+    transition: 0.5s;
+  }
+
+  .productsCategoriesplaceHolders:hover .tituloCategoria {
+    font-size: 30px;
+    transition: 0.5s;
+  }
+
+  /*End produtos categorias*/
+
   /*ImageView*/
+
   /* The Modal (background) */
 
   .modal {
@@ -896,14 +947,6 @@ textarea.form-control {
     height: 200px;
   }
 
-  h1 {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  h2 {
-    font-size: large;
-  }
-
   /*footer*/
 
   .footerBottom {
@@ -1013,56 +1056,9 @@ textarea.form-control {
   }
 
   /*EndFooter*/
-
-  /*form*/
-
-  .mapa {
-    height: none;
-  }
-
-  .form-control {
-    background-color: #fff;
-    border-color: #a4a4a4;
-    height: 50px;
-    border-radius: 20px;
-    box-shadow: none;
-    font-size: 20px;
-  }
-
-  textarea.form-control {
-    min-height: 180px;
-    resize: none;
-    font-size: 20px;
-  }
-
-  .form-group {
-    margin-bottom: 30px;
-    font-size: 20px;
-  }
-
-  .contact-info {
-    color: #000;
-  }
-
-  .contact-a:hover {
-    color: #81f781;
-  }
-
-  .contact-address {
-    float: right;
-    margin-left: 4%;
-    width: 35.3333%;
-  }
-
-  .btn {
-    width: 160px;
-    margin: 20px;
-    font-size: 18px;
-  }
 }
 
-@media only screen and (max-width: 600px) {
-  /*Phone*/
+@media only screen and (max-width: 600px) { /*Phone*/
   * {
     box-sizing: border-box;
     margin: 0;
@@ -1227,19 +1223,6 @@ textarea.form-control {
     margin-left: -6%;
   }
 
-  /*********Marcas da pagina marcas*/
-  .marcasI {
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-  }
-
-  .marcaI {
-    display: inline-block;
-    width: auto;
-    vertical-align: middle;
-  }
-  /*******************/
 
   .welcome {
     width: 98%;
@@ -1258,20 +1241,12 @@ textarea.form-control {
     height: 300px;
   }
 
-  h1 {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  h2 {
-    font-size: large;
-  }
-
   .marcass {
     margin-top: -10%;
     padding-bottom: 25%;
   }
 
-  /* footer */
+  /*footer*/
 
   a {
     font-size: 11px;
@@ -1381,49 +1356,5 @@ textarea.form-control {
     text-align: center;
   }
 
-  /* form */
-
-  .mapa {
-    height: none;
-  }
-
-  .form-control {
-    background-color: #fff;
-    border-color: #a4a4a4;
-    height: 50px;
-    border-radius: 20px;
-    box-shadow: none;
-    font-size: 20px;
-  }
-
-  textarea.form-control {
-    min-height: 180px;
-    resize: none;
-    font-size: 20px;
-  }
-
-  .form-group {
-    margin-bottom: 30px;
-    font-size: 20px;
-  }
-
-  .contact-info {
-    color: #000;
-  }
-
-  .contact-a:hover {
-    color: #81f781;
-  }
-
-  .contact-address {
-    float: right;
-    margin-left: 4%;
-    width: 35.3333%;
-  }
-
-  .btn {
-    width: 160px;
-    margin: 20px;
-    font-size: 18px;
-  }
+  /*End footer*/
 }
