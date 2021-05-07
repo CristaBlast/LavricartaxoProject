@@ -6,14 +6,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 
 /* header */
 
 .header {
   justify-content: space-between;
-  background: #8f6600;
+  background: #4a3302;
 }
 
 /* top */
@@ -59,7 +59,7 @@
 }
 
 .menuText {
-  border-bottom: 2px solid #8f6600;
+  border-bottom: 2px solid #4a3302;
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -87,7 +87,7 @@ a {
 }
 
 nav {
-  background-color: #8f6600;
+  background-color: #4a3302;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -130,21 +130,18 @@ a:hover {
   top: 0; */
 }
 
-.openSearch
-{
+.openSearch {
   font-size: 30px;
   vertical-align: middle;
   position: absolute;
   z-index: 99999999;
 }
 
-.openSearch:hover
-{
+.openSearch:hover {
   color: black;
 }
 
-.closeSearch
-{
+.closeSearch {
   font-size: 30px;
   vertical-align: middle;
   position: absolute;
@@ -152,13 +149,11 @@ a:hover {
   z-index: 99999999;
 }
 
-.closeSearch:hover
-{
+.closeSearch:hover {
   color: black;
 }
 
-.searchMG 
-{
+.searchMG {
   padding-left: 5px;
   padding-top: 5px;
   padding-right: 5px;
@@ -203,47 +198,62 @@ a:hover {
   text-align: justify;
 }
 
-.tittleProductCategory
-{
+.tittleProductCategory {
   width: 100%;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
 }
 
-.productsCategories
-{
+.productsCategories {
   text-align: center;
   width: 100%;
-  
+
 }
 
-.productsCategoriesplaceHolders
-{
+.productsCategoriesplaceHolders {
+  width: 20%;
+  height: 300px;
   float: left;
-  width: 25%;
+  background-color: #4a3302;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
 }
 
-.placeholder
-{
+/* .placeholder {
   width: 100%;
   height: 337px;
 }
 
-.placeholder:hover
-{
+.placeholder:hover {
   filter: blur(1.5px);
   transition: 2s;
-}
+} */
 
-.categoriesIcons
-{
+.categoriesIcons {
   font-size: 40px;
   z-index: 999999999999999999999;
   position: absolute;
-  margin-left: -13.5%;
-  margin-top: 12.5%;
-  visibility: hidden;
+  color: white;
+  margin-top: 10%;
+  margin-left: -1.5%;
+}
+
+.categoriesIcons:hover {
+  font-size: 80px;
+  margin-left: -2.5%;
+  margin-top: 7.5%;
+  transition: 0.5s;
+}
+
+.tituloCategoria{
+  color: white;
+  font-weight: bold;
+  margin-top: 70%;
 }
 
 /*Caroussel*/
@@ -466,8 +476,7 @@ footer {
   float: left;
 }
 
-.icondivFooter
-{
+.icondivFooter {
   float: left;
   vertical-align: middle;
   padding-right: 1%;
@@ -475,7 +484,7 @@ footer {
   height: 80px;
 }
 
-.iconFooter{
+.iconFooter {
   height: 80px;
   width: auto;
 }
@@ -513,8 +522,7 @@ footer {
   height: 80px;
 }
 
-.suporteFooter
-{
+.suporteFooter {
   float: left;
   font-size: 14px;
   padding-left: 1%;
@@ -523,14 +531,12 @@ footer {
   height: 80px;
 }
 
-.livrodereclamacoesFooter
-{
+.livrodereclamacoesFooter {
   float: left;
   padding-left: 1%;
 }
 
-.livrodereclamacoes
-{
+.livrodereclamacoes {
   height: 80px;
 }
 
@@ -642,7 +648,7 @@ textarea.form-control {
   /* header */
 
   .header {
-    background: #8f6600;
+    background: #4a3302;
   }
 
   /* top */
@@ -689,7 +695,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #8f6600;
+    border-bottom: 2px solid #4a3302;
     text-decoration: none;
     color: black;
     font-family: sans-serif;
@@ -707,7 +713,7 @@ textarea.form-control {
   }
 
   nav {
-    background-color: #8f6600;
+    background-color: #4a3302;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -905,31 +911,30 @@ textarea.form-control {
     float: left;
   }
 
-  .icondivFooter
-  {
+  .icondivFooter {
     padding-right: 1%;
     border-right: none;
     height: 80px;
     width: 100%;
     text-align: center;
   }
-  
-  .iconFooter{
+
+  .iconFooter {
     height: 80px;
     width: auto;
   }
-  
+
   .wheretofindusFooter {
     float: left;
     font-size: 14px;
     padding-right: 1%;
-    border-right: solid white 2px;  
+    border-right: solid white 2px;
     height: 80px;
     margin-top: 2%;
     width: 25%;
     text-align: center;
   }
-  
+
   .contactusFooter {
     float: left;
     padding-left: 1%;
@@ -941,7 +946,7 @@ textarea.form-control {
     width: 25%;
     text-align: center;
   }
-  
+
   .openFooter {
     float: left;
     padding-left: 1%;
@@ -952,7 +957,7 @@ textarea.form-control {
     width: 25%;
     text-align: center;
   }
-  
+
   .openFooterI {
     float: left;
     font-size: 14px;
@@ -964,9 +969,8 @@ textarea.form-control {
     width: 25%;
     text-align: center;
   }
-  
-  .suporteFooter
-  {
+
+  .suporteFooter {
     float: left;
     font-size: 14px;
     border-right: solid white 2px;
@@ -974,11 +978,9 @@ textarea.form-control {
     margin-top: 3%;
     width: 50%;
     text-align: center;
-    
   }
-  
-    .livrodereclamacoesFooter
-  {
+
+  .livrodereclamacoesFooter {
     margin-top: 3%;
     float: left;
     padding-left: 1%;
@@ -994,7 +996,7 @@ textarea.form-control {
     padding-top: 42%;
     padding-bottom: 1%;
   }
-  
+
   .desendesign {
     position: absolute;
     float: left;
@@ -1065,7 +1067,7 @@ textarea.form-control {
 
   .header {
     justify-content: space-between;
-    background: #8f6600;
+    background: #4a3302;
   }
 
   /* top */
@@ -1144,7 +1146,7 @@ textarea.form-control {
   }
 
   .menuText {
-    border-bottom: 2px solid #8f6600;
+    border-bottom: 2px solid #4a3302;
     visibility: hidden;
     position: -webkit-sticky;
     position: sticky;
@@ -1159,7 +1161,7 @@ textarea.form-control {
 
   nav {
     padding-top: 10%;
-    background-color: #8f6600;
+    background-color: #4a3302;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -1203,8 +1205,7 @@ textarea.form-control {
     visibility: hidden;
   }
 
-  .modal-content
-  {
+  .modal-content {
     margin-top: 20%;
   }
 
@@ -1281,8 +1282,7 @@ textarea.form-control {
     float: left;
   }
 
-  .icondivFooter
-  {
+  .icondivFooter {
     padding-left: 0px;
     padding-right: 1%;
     border-right: none;
@@ -1290,23 +1290,23 @@ textarea.form-control {
     width: 100%;
     text-align: center;
   }
-  
-  .iconFooter{
+
+  .iconFooter {
     height: 80px;
     width: auto;
   }
-  
+
   .wheretofindusFooter {
     float: left;
     font-size: 14px;
     padding-right: 1%;
-    border-right: solid white 2px;  
+    border-right: solid white 2px;
     height: 80px;
     margin-top: 2%;
     width: 50%;
     text-align: center;
   }
-  
+
   .contactusFooter {
     float: left;
     padding-left: 1%;
@@ -1317,7 +1317,7 @@ textarea.form-control {
     width: 50%;
     text-align: center;
   }
-  
+
   .openFooter {
     float: left;
     padding-left: 1%;
@@ -1327,7 +1327,7 @@ textarea.form-control {
     width: 25%;
     text-align: center;
   }
-  
+
   .openFooterI {
     float: left;
     font-size: 14px;
@@ -1340,9 +1340,8 @@ textarea.form-control {
     border-right: solid white 2px;
     text-align: center;
   }
-  
-  .suporteFooter
-  {
+
+  .suporteFooter {
     float: left;
     font-size: 14px;
     /* margin-left: 35%; */
@@ -1352,9 +1351,8 @@ textarea.form-control {
     width: 50%;
     text-align: center;
   }
-  
-  .livrodereclamacoesFooter
-  {
+
+  .livrodereclamacoesFooter {
     margin-top: 3%;
     text-align: center;
     width: 100%;
@@ -1368,7 +1366,7 @@ textarea.form-control {
     width: 100%;
     text-align: center;
   }
-  
+
   .desendesign {
     float: left;
     padding-top: 78%;

@@ -130,3 +130,8 @@ function closeSearchBar()
   document.getElementById("closeSearch").style.visibility = "hidden";
   document.getElementById("openSearch").style.visibility = "visible";
 }
+
+function categoriaZoom() 
+{
+  
+}
