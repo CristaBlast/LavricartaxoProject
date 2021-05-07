@@ -213,7 +213,7 @@ a:hover {
 
 .productsCategoriesplaceHolders {
   width: 20%;
-  height: 300px;
+  height: 269.8px;
   float: left;
   background-color: #4a3302;
   margin-left: 2.5%;
@@ -222,22 +222,12 @@ a:hover {
   margin-top: 1%;
 }
 
-/* .placeholder {
-  width: 100%;
-  height: 337px;
-}
-
-.placeholder:hover {
-  filter: blur(1.5px);
-  transition: 2s;
-} */
-
 .categoriesIcons {
   font-size: 40px;
   position: absolute;
   color: white;
-  margin-top: 10%;
   margin-left: -1.5%;
+  margin-top: 6%;
 }
 
 
@@ -249,8 +239,7 @@ a:hover {
 
 .productsCategoriesplaceHolders:hover .categoriesIcons {
   font-size: 80px;
-  margin-left: -2.5%;
-  margin-top: 7.5%;
+  margin-left: -3%;
   transition: 0.5s;
 }
 
