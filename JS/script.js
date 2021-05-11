@@ -121,12 +121,16 @@ function resize()
 
 function openSearchBar() 
 { 
-  document.getElementById("closeSearch").style.visibility = "visible";
-  document.getElementById("openSearch").style.visibility = "hidden";
+  document.getElementById("closeSearch").style.display = "block";
+  document.getElementById("openSearch").style.display = "none";
+  document.getElementById("searchBar").style.display = "block";
+  document.getElementById("searchMG").style.display = "block";
 }
 
 function closeSearchBar() 
 { 
-  document.getElementById("closeSearch").style.visibility = "hidden";
-  document.getElementById("openSearch").style.visibility = "visible";
+  document.getElementById("closeSearch").style.display = "none";
+  document.getElementById("openSearch").style.display = "block";
+  document.getElementById("searchBar").style.display = "none";
+  document.getElementById("searchMG").style.display = "none";
 }

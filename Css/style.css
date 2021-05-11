@@ -2,7 +2,7 @@
 /*rgba(255, 255, 255, 0) transparent*/
 /*Letra roboto não está a funcionar ;-; por isso até resposta postetior ira ser arial*/
 /*Novo verde para testar :3 : #006600*/
-
+/*Remake nav/menuText etc.... */
 
 * {
   box-sizing: border-box;
@@ -186,10 +186,11 @@ a:hover {
   margin-top: -35%;
   float: left;
   width: 20%;
-  background-color: brown;
   /* position: -webkit-sticky;
   position: sticky;
-  top: 0; */
+  top: 0; */ /*?*/
+  position: fixed;
+  vertical-align: middle;
 }
 
 .openSearch {
@@ -207,7 +208,7 @@ a:hover {
   font-size: 30px;
   vertical-align: middle;
   position: absolute;
-  visibility: hidden;
+  display : none;
   z-index: 99999999;
 }
 
@@ -221,6 +222,7 @@ a:hover {
   padding-right: 5px;
   font-size: 30px;
   vertical-align: middle;
+  display : none;
 }
 
 .searchMG:hover {
@@ -234,6 +236,8 @@ a:hover {
   padding-bottom: 5px;
   padding-top: 5px;
   border: none;
+  margin-left: 8%;
+  display : none;
 }
 
 .searchBar:focus {
