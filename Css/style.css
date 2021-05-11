@@ -1151,8 +1151,6 @@ h2 {
     top: 0;
     text-align: center;
     visibility: hidden;
-    position: -webkit-sticky;
-    top: 0;
     position: absolute;
   }
 
