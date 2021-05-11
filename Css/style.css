@@ -512,7 +512,7 @@ footer {
   float: left;
   vertical-align: middle;
   padding-right: 1%;
-  border-right: solid white 2px;
+  border-right: solid white 1px;
   height: 80px;
 }
 
@@ -526,7 +526,7 @@ footer {
   font-size: 14px;
   padding-right: 1%;
   padding-left: 1%;
-  border-right: solid white 2px;
+  border-right: solid white 1px;
 }
 
 .contactusFooter {
@@ -534,7 +534,7 @@ footer {
   padding-left: 1%;
   padding-right: 1%;
   font-size: 14px;
-  border-right: solid white 2px;
+  border-right: solid white 1px;
   height: 80px;
 }
 
@@ -550,7 +550,7 @@ footer {
   font-size: 14px;
   padding-left: 1%;
   padding-right: 1%;
-  border-right: solid white 2px;
+  border-right: solid white 1px;
   height: 80px;
 }
 
@@ -559,7 +559,7 @@ footer {
   font-size: 14px;
   padding-left: 1%;
   padding-right: 1%;
-  border-right: solid white 2px;
+  border-right: solid white 1px;
   height: 80px;
 }
 
@@ -957,7 +957,7 @@ h2 {
     float: left;
     font-size: 14px;
     padding-right: 1%;
-    border-right: solid white 2px;
+    border-right: solid white 1px;
     height: 80px;
     margin-top: 2%;
     width: 25%;
@@ -969,7 +969,7 @@ h2 {
     padding-left: 1%;
     padding-right: 1%;
     font-size: 14px;
-    border-right: solid white 2px;
+    border-right: solid white 1px;
     height: 80px;
     margin-top: 2%;
     width: 25%;
@@ -1002,7 +1002,7 @@ h2 {
   .suporteFooter {
     float: left;
     font-size: 14px;
-    border-right: solid white 2px;
+    border-right: solid white 1px;
     height: 80px;
     margin-top: 3%;
     width: 50%;
@@ -1288,7 +1288,7 @@ h2 {
     float: left;
     font-size: 14px;
     padding-right: 1%;
-    border-right: solid white 2px;
+    border-right: solid white 1px;
     height: 80px;
     margin-top: 2%;
     width: 50%;
@@ -1325,7 +1325,7 @@ h2 {
     height: 80px;
     margin-top: 2%;
     width: 25%;
-    border-right: solid white 2px;
+    border-right: solid white 1px;
     text-align: center;
   }
 
