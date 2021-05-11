@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -561,6 +562,7 @@ footer {
   padding-right: 1%;
   border-right: solid white 1px;
   height: 80px;
+  
 }
 
 .livrodereclamacoesFooter {
@@ -788,8 +790,7 @@ h2 {
   }
 
   .news {
-    visibility: hidden;
-    position: absolute;
+    display: none;
   }
 
   /*produtos categorias*/
@@ -1184,8 +1185,7 @@ h2 {
   }
 
   .news {
-    position: absolute;
-    visibility: hidden;
+    display: none;
   }
 
   .modal-content {
