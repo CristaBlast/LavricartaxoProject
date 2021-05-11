@@ -1120,9 +1120,11 @@ h2 {
   .menuText {
     border-bottom: 2px solid #604020;
     visibility: hidden;
-    position: -webkit-sticky;
+    /* position: fixed; meh? :3*/
+    /*position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 0; */
+    /*    ^\_;-;_/^   ^_^  */
     font-weight: bold;
   }
 
