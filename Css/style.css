@@ -534,28 +534,16 @@ footer {
   font-size: 14px;
 }
 
-.openFooterD
-{
-  float: left;
-  width: 25%;
-}
-
 .openFooter {
   font-size: 14px;
   float: left;
-}
-
-.openFooterI {
-  float: left;
-  font-size: 14px;
-  padding-left: 2%;
+  width: 25%;
 }
 
 .suporteFooter {
   width: 25%;
   float: left;
   font-size: 14px;
-  
 }
 
 .livrodereclamacoes {
@@ -932,100 +920,58 @@ h2 {
     float: left;
   }
 
-  .icondivFooter {
-    padding-right: 1%;
-    border-right: none;
-    height: 80px;
-    width: 100%;
-    text-align: center;
-  }
+  .tittleFooter
+{
+  font-weight: bold;
+  width: 60%;
+  font-size: 15px;
+}
 
-  .iconFooter {
-    height: 80px;
-    width: auto;
-  }
+.wheretofindusFooter {
+  width: 25%;
+  font-size: 14px;
+  float: left;
+}
 
-  .wheretofindusFooter {
-    float: left;
-    font-size: 14px;
-    padding-right: 1%;
-    border-right: solid white 1px;
-    height: 80px;
-    margin-top: 2%;
-    width: 25%;
-    text-align: center;
-  }
+.contactusFooter {
+  width: 25%;
+  float: left;
+  font-size: 14px;
+}
 
-  .contactusFooter {
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    font-size: 14px;
-    border-right: solid white 1px;
-    height: 80px;
-    margin-top: 2%;
-    width: 25%;
-    text-align: center;
-  }
+.openFooter {
+  font-size: 14px;
+  float: left;
+  width: 25%;
+}
 
-  .openFooter {
-    float: left;
-    padding-left: 1%;
-    font-size: 14px;
-    padding-right: 1%;
-    height: 80px;
-    margin-top: 2%;
-    width: 25%;
-    text-align: center;
-  }
+.suporteFooter {
+  width: 25%;
+  float: left;
+  font-size: 14px;
+}
 
-  .openFooterI {
-    float: left;
-    font-size: 14px;
-    padding-left: 1%;
-    padding-right: 1%;
-    border-right: none;
-    height: 80px;
-    margin-top: 2%;
-    width: 25%;
-    text-align: center;
-  }
+.livrodereclamacoes {
+  height: 80px;
+  padding-top: 1%;
+}
 
-  .suporteFooter {
-    float: left;
-    font-size: 14px;
-    border-right: solid white 1px;
-    height: 80px;
-    margin-top: 3%;
-    width: 50%;
-    text-align: center;
-  }
+.CDfooter
+{
+  width: 100%;
+}
 
-  .livrodereclamacoesFooter {
-    margin-top: 3%;
-    float: left;
-    padding-left: 1%;
-    vertical-align: middle;
-    text-align: center;
-    width: 50%;
-  }
+.copyright {
+  float: left;
+  font-size: 11px;
+  color: gray;
+}
 
-  .copyright {
-    float: left;
-    font-size: 11px;
-    color: gray;
-    padding-top: 42%;
-    padding-bottom: 1%;
-  }
-
-  .desendesign {
-    position: absolute;
-    float: left;
-    font-size: 11px;
-    color: gray;
-    padding-top: 42%;
-    padding-left: 65%;
-  }
+.desendesign {
+  float: right;
+  font-size: 11px;
+  color: gray;
+}
 
   /*EndFooter*/
 }
@@ -1241,97 +1187,57 @@ h2 {
     float: left;
   }
 
-  .icondivFooter {
-    padding-left: 0px;
-    padding-right: 1%;
-    border-right: none;
-    height: 80px;
-    width: 100%;
-    text-align: center;
-  }
+  .tittleFooter
+{
+  font-weight: bold;
+  font-size: 15px;
+}
 
-  .iconFooter {
-    height: 80px;
-    width: auto;
-  }
+.wheretofindusFooter {
+  width: 50%;
+  font-size: 14px;
+  float: left;
+}
 
-  .wheretofindusFooter {
-    float: left;
-    font-size: 14px;
-    padding-right: 1%;
-    border-right: solid white 1px;
-    height: 80px;
-    margin-top: 2%;
-    width: 50%;
-    text-align: center;
-  }
+.contactusFooter {
+  width: 50%;
+  float: left;
+  font-size: 14px;
+}
 
-  .contactusFooter {
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    border-right: none;
-    height: 80px;
-    margin-top: 2%;
-    width: 50%;
-    text-align: center;
-  }
+.openFooter {
+  font-size: 14px;
+  /* float: left; */
+  width: 50%;
+}
 
-  .openFooter {
-    float: left;
-    padding-left: 1%;
-    font-size: 14px;
-    padding-right: 1%;
-    height: 80px;
-    width: 25%;
-    text-align: center;
-  }
+.suporteFooter {
+  width: 50%;
+  /* float: left; */
+  font-size: 14px;
+}
 
-  .openFooterI {
-    float: left;
-    font-size: 14px;
-    padding-left: 1%;
-    padding-right: 1%;
-    border-right: none;
-    height: 80px;
-    margin-top: 2%;
-    width: 25%;
-    border-right: solid white 1px;
-    text-align: center;
-  }
+.livrodereclamacoes {
+  height: 80px;
+  padding-top: 1%;
+}
 
-  .suporteFooter {
-    float: left;
-    font-size: 14px;
-    border-right: none;
-    height: 80px;
-    margin-top: 2%;
-    width: 50%;
-    text-align: center;
-  }
+.CDfooter
+{
+  width: 100%;
+}
 
-  .livrodereclamacoesFooter {
-    margin-top: 3%;
-    text-align: center;
-    width: 100%;
-  }
+.copyright {
+  float: left;
+  font-size: 11px;
+  color: gray;
+}
 
-  .copyright {
-    float: left;
-    position: absolute;
-    padding-top: 75%;
-    padding-bottom: 1%;
-    width: 100%;
-    text-align: center;
-  }
-
-  .desendesign {
-    float: left;
-    padding-top: 78%;
-    padding-left: 0%;
-    width: 100%;
-    text-align: center;
-  }
+.desendesign {
+  float: right;
+  font-size: 11px;
+  color: gray;
+}
 
   /*End footer*/
 }
