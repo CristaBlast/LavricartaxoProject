@@ -267,9 +267,9 @@ a:hover {
   margin-top: 1%;
 }
 
-.productsCategoriesplaceHolders:hover {
+/* .productsCategoriesplaceHolders:hover {
   background-color: #604020;
-}
+} */
 
 .categoriesIcons {
   font-size: 40px;
@@ -292,7 +292,7 @@ a:hover {
 }
 
 .productsCategoriesplaceHolders:hover .tituloCategoria {
-  font-size: 30px;
+  font-size: 22px;
   transition: 0.5s;
 }
 
@@ -395,12 +395,12 @@ a:hover {
 
 .photoWH {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .photoWHV {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 /*End gallery*/
@@ -515,83 +515,69 @@ footer {
   float: left;
 }
 
-.icondivFooter {
-  float: left;
-  vertical-align: middle;
-  padding-right: 1%;
-  border-right: solid white 1px;
-  height: 80px;
-}
-
-.iconFooter {
-  height: 80px;
-  width: auto;
+.tittleFooter
+{
+  font-weight: bold;
+  width: 60%;
+  font-size: 15px;
 }
 
 .wheretofindusFooter {
-  float: left;
+  width: 25%;
   font-size: 14px;
-  padding-right: 1%;
-  padding-left: 1%;
-  border-right: solid white 1px;
+  float: left;
 }
 
 .contactusFooter {
+  width: 25%;
   float: left;
-  padding-left: 1%;
-  padding-right: 1%;
   font-size: 14px;
-  border-right: solid white 1px;
-  height: 80px;
+}
+
+.openFooterD
+{
+  float: left;
+  width: 25%;
 }
 
 .openFooter {
-  float: left;
-  padding-left: 1%;
   font-size: 14px;
-  padding-right: 1%;
+  float: left;
 }
 
 .openFooterI {
   float: left;
   font-size: 14px;
-  padding-left: 1%;
-  padding-right: 1%;
-  border-right: solid white 1px;
-  height: 80px;
+  padding-left: 2%;
 }
 
 .suporteFooter {
+  width: 25%;
   float: left;
   font-size: 14px;
-  padding-left: 1%;
-  padding-right: 1%;
-  border-right: solid white 1px;
-  height: 80px;
-}
-
-.livrodereclamacoesFooter {
-  float: left;
-  padding-left: 1%;
+  
 }
 
 .livrodereclamacoes {
   height: 80px;
+  padding-top: 1%;
+}
+
+.CDfooter
+{
+  width: 100%;
 }
 
 .copyright {
   float: left;
   font-size: 11px;
   color: gray;
-  position: absolute;
-  padding-top: 7%;
 }
 
 .desendesign {
-  float: left;
+  float: right;
   font-size: 11px;
   color: gray;
-  padding-top: 7%;
 }
 
 /* form */
