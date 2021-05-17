@@ -180,16 +180,19 @@ a:hover {
 .search {
   position: absolute;
   margin-top: -35%;
-  float: left;
+  /* float: left; */
   width: 20%;
-  /* position: -webkit-sticky;
+  position: -webkit-sticky;
   position: sticky;
-  top: 0; */ /*?*/
-  position: fixed;
-  vertical-align: middle;
+  top: 0;
+  background-color: white;
+  /* position: fixed; */
+  /* vertical-align: middle; */
+  z-index: 999999;
+  height: 200px;
 }
 
-.openSearch {
+/* .openSearch {
   font-size: 30px;
   vertical-align: middle;
   position: absolute;
@@ -198,13 +201,13 @@ a:hover {
 
 .openSearch:hover {
   color: black;
-}
+} */
 
 .closeSearch {
   font-size: 30px;
   vertical-align: middle;
   position: absolute;
-  display: none;
+  /* display: none; */
   z-index: 99999999;
 }
 
