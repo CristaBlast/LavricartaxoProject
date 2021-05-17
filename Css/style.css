@@ -177,20 +177,17 @@ a:hover {
 
 /*searchbar*/
 
-.search {
-  position: absolute;
-  margin-top: -35%;
-  /* float: left; */
+/* .search {
+  display: block;
+  margin-top: 5%;
   width: 20%;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: white;
-  /* position: fixed; */
-  /* vertical-align: middle; */
   z-index: 999999;
   height: 200px;
-}
+} */
 
 /* .openSearch {
   font-size: 30px;

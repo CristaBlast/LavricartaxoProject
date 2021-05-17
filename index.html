@@ -36,6 +36,7 @@
       </div>          
     </div>    
   </div>
+  
   <button class="topBtnPhone downBtn" id="sideBtnDown" onclick="sidebuttonD()"><i class="fas fa-caret-down"></i></button> <!--Sidebutton Phone Mode-->
   <button class="topBtnPhone upBtn" id="sideBtnUp" onclick="sidebuttonU()"><i class="fas fa-caret-up"></i></button> <!--Sidebutton Phone Mode-->
   <nav id="nav">
@@ -50,6 +51,14 @@
       <a href="associados.html"><li class="menuText" id="op7">ASSOCIADOS</li></a>
     </ul>
   </nav>
+  <!--Search Bar-->
+  <div class="search">
+    <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
+    <!-- <a onclick="openSearchBar()" id="openSearch"><i class="fas fa-angle-right openSearch"></i></a> -->
+    <input type="text" class="searchBar" id="searchBar" placeholder="Procurar...">
+    <a onclick="searchBar()" id="searchMG"><i class="fas fa-search searchMG"></i></a>
+  </div>
+  <!--End Search Bar-->
   <!-- <div class="dropDownProducsMenu">
     <a href="produtos.html"><li class="selectPM">ADUBOS</li></a>
     <a href="produtos.html"><li class="selectPM">AGROQUIMICOS</li></a>
@@ -73,14 +82,7 @@
     </div>
     <!--End-->
     
-    <!--Search Bar-->
-    <div class="search">
-      <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
-      <!-- <a onclick="openSearchBar()" id="openSearch"><i class="fas fa-angle-right openSearch"></i></a> -->
-      <input type="text" class="searchBar" id="searchBar" placeholder="Procurar...">
-      <a onclick="searchBar()" id="searchMG"><i class="fas fa-search searchMG"></i></a>
-    </div>
-    <!--End Search Bar-->
+    
 
     <div class="welcome"> <!--Text-->
       <p><br><h2><b>Seja bem vindo ao nosso site</b></h2><br>É com enorme prazer que registamos a sua presença no nosso site, esperamos que encontre tudo o que precisa para realizar os seus projectos com sucesso!.<br><br>A LAVRICARTAXO - Cooperativa Agro-Pecuária do Cartaxo, C.R.L.. coloca ao seu dispôr uma vasta equipa para que possa ter todo o apoio que considere necessário.<br><br>O nosso objectivo é servir os nossos clientes com competência e dedicação para que o nosso cliente volte sempre!<br><br>Ao adquirir produtos na nossa empresa deve saber que estará sempre a comprar qualidade ao melhor preço! Volte sempre, será sempre um gosto tê-lo de volta!</p>
