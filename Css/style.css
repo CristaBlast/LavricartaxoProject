@@ -197,7 +197,6 @@ a:hover {
   /* display: none; */
 }
 
-
 .closeSearch {
   font-size: 30px;
   vertical-align: middle;
@@ -209,7 +208,6 @@ a:hover {
 .closeSearch:hover {
   color: black;
 }
-
 
 .searchMG:hover {
   color: black;
@@ -292,7 +290,7 @@ a:hover {
 
 .marcass {
   width: 100%;
-  height: 100px;
+  height: auto;
   overflow: hidden;
   position: relative;
 }
@@ -300,7 +298,7 @@ a:hover {
 .marcass::before,
 .marcass::after {
   width: 100px;
-  height: 100px;
+  height: auto;
   background-color: rgba(255, 255, 255, 0);
   content: "";
   position: absolute;
@@ -345,7 +343,7 @@ a:hover {
 
 .marcasGallery {
   width: 100%;
-  
+
   float: left;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -503,8 +501,7 @@ footer {
   float: left;
 }
 
-.tittleFooter
-{
+.tittleFooter {
   font-weight: bold;
   width: 60%;
   font-size: 15px;
@@ -539,8 +536,7 @@ footer {
   padding-top: 1%;
 }
 
-.CDfooter
-{
+.CDfooter {
   width: 100%;
 }
 
@@ -908,59 +904,57 @@ h2 {
     float: left;
   }
 
-  .tittleFooter
-{
-  font-weight: bold;
-  font-size: 15px;
-}
+  .tittleFooter {
+    font-weight: bold;
+    font-size: 15px;
+  }
 
-.wheretofindusFooter {
-  width: 33%;
-  font-size: 14px;
-  float: left;
-}
+  .wheretofindusFooter {
+    width: 33%;
+    font-size: 14px;
+    float: left;
+  }
 
-.contactusFooter {
-  width: 33%;
-  float: left;
-  font-size: 14px;
-}
+  .contactusFooter {
+    width: 33%;
+    float: left;
+    font-size: 14px;
+  }
 
-.openFooter {
-  font-size: 14px;
-  float: left;
-  width: 33%;
-}
+  .openFooter {
+    font-size: 14px;
+    float: left;
+    width: 33%;
+  }
 
-.suporteFooter {
-  width: 33%;
-  float: left;
-  font-size: 14px;
-}
+  .suporteFooter {
+    width: 33%;
+    float: left;
+    font-size: 14px;
+  }
 
-.livrodereclamacoes {
-  height: 80px;
-  padding-top: 1%;
-}
+  .livrodereclamacoes {
+    height: 80px;
+    padding-top: 1%;
+  }
 
-.CDfooter
-{
-  width: 98%;
-  position: absolute;
-  margin-top: 40%;
-}
+  .CDfooter {
+    width: 98%;
+    position: absolute;
+    margin-top: 40%;
+  }
 
-.copyright {
-  float: left;
-  font-size: 11px;
-  color: gray;
-}
+  .copyright {
+    float: left;
+    font-size: 11px;
+    color: gray;
+  }
 
-.desendesign {
-  float: right;
-  font-size: 11px;
-  color: gray;
-}
+  .desendesign {
+    float: right;
+    font-size: 11px;
+    color: gray;
+  }
 
   /*EndFooter*/
 }
@@ -990,7 +984,6 @@ h2 {
     vertical-align: middle;
     text-align: center;
     z-index: 500;
-    border-bottom: solid 1px white;
   }
 
   .logo {
@@ -1027,44 +1020,45 @@ h2 {
     border: none;
     float: left;
     visibility: visible;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
     z-index: 999;
-    margin-left: 45%;
+    margin-left: 90%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    margin-top: -50%;
-    color: gray;
+    margin-top: -26%;
+    color: white;
   }
 
-  .upBtn {
+  .closeMenuCross {
     visibility: hidden;
   }
 
   .menuText {
     font-size: 20px;
     font-weight: bold;
-    border-bottom: solid 1px white;
-    
   }
 
   .menuText {
     border-bottom: 2px solid #604020;
     visibility: hidden;
-    font-weight: bold;
+    font-weight: normal;
+    /* border-top: 1px solid #604020; */
+    color: white;
+    background-color: rgb(22, 117, 22);
   }
 
   .menuText:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid white;
     color: #fff;
+    font-weight: bold;
   }
 
   nav {
     background-color: #604020;
     text-align: center;
     visibility: hidden;
-    
   }
 
   li {
@@ -1172,8 +1166,7 @@ h2 {
     float: left;
   }
 
-    .tittleFooter
-  {
+  .tittleFooter {
     font-size: 15px;
   }
 
@@ -1210,11 +1203,10 @@ h2 {
     padding-top: 1%;
   }
 
-  .CDfooter
-  {
+  .CDfooter {
     width: 99%;
     position: absolute;
-    margin-top:55%; 
+    margin-top: 55%;
   }
 
   .copyright {
