@@ -88,10 +88,11 @@ a {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   border-bottom: 2px solid white;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  border-top: 1px solid white;
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
+  /* border-top: 1px solid white; */
   color: white;
+  border-top: 1px solid green;
 }
 
 .menuText:focus {
@@ -723,12 +724,9 @@ h2 {
     display: inline-block;
   }
 
-  .menuText:hover {
-    border-bottom: 2px solid #fff;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    color: #fff;
-  }
+  /* .menuText:hover {
+
+  } */
 
   nav {
     background-color: #604020;
@@ -1051,13 +1049,9 @@ h2 {
   .menuText {
     font-size: 20px;
     font-weight: bold;
-  }
-
-  .menuText {
     border-bottom: 1px solid white;
     display: none;
     font-weight: normal;
-    /* border-top: 1px solid #604020; */
     color: white;
     background-color: #604020;
     padding-top: 2%;
@@ -1065,9 +1059,11 @@ h2 {
   }
 
   .menuText:hover {
-    border-bottom: none;
     font-weight: bold;
     border-bottom: 1px solid white;
+    border-left: 1px solid rgba(255, 255, 255, 0);
+    border-right: 1px solid rgba(255, 255, 255, 0);
+    border-top: 1px solid rgba(255, 255, 255, 0);
   }
 
   nav {
