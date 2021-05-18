@@ -91,7 +91,11 @@ a {
 
 nav {
   background-color: #604020;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   text-align: center;
+  border-bottom: 1px solid white;
   z-index: 10;
   visibility: visible;
 }
@@ -1048,7 +1052,7 @@ h2 {
   }
 
   .menuText:hover {
-    border-bottom: 1px solid white;
+    border-bottom: none;
     font-weight: bold;
   }
 
