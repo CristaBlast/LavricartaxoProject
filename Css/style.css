@@ -2,7 +2,7 @@
 /*rgba(255, 255, 255, 0) transparent*/
 /*Letra roboto não está a funcionar ;-; por isso até resposta postetior ira ser arial*/
 /*Novo verde para testar :3 : #006600*/
-/*Remake nav/menuText etc.... */
+/*Remake nav/menuText etc....  doing it :3 % */
 
 * {
   box-sizing: border-box;
@@ -710,6 +710,7 @@ h2 {
     padding-bottom: 1%;
     visibility: visible;
     font-weight: bold;
+    display: block;
   }
 
   .menuText:hover {
@@ -723,7 +724,7 @@ h2 {
     position: sticky;
     top: 0;
     text-align: center;
-    visibility: visible;
+    display: block;
   }
 
   li {
@@ -1042,7 +1043,7 @@ h2 {
 
   .menuText {
     border-bottom: 1px solid white;
-    visibility: hidden;
+    display: none;
     font-weight: normal;
     /* border-top: 1px solid #604020; */
     color: white;
@@ -1054,12 +1055,17 @@ h2 {
   .menuText:hover {
     border-bottom: none;
     font-weight: bold;
+    border-bottom: 1px solid white;
   }
 
   nav {
     background-color: #604020;
     text-align: center;
-    visibility: hidden;
+    display: none;
+    position: fixed;
+    margin-top: 25%;
+    width: 100%;
+    
   }
 
   li {

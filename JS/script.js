@@ -64,43 +64,45 @@ function searchBar() {
 function topButtonO() {
   document.getElementById("menuBars").style.visibility = "hidden";
   document.getElementById("menuClose").style.visibility = "visible";
-  document.getElementById("nav").style.visibility = "visible";
+  document.getElementById("nav").style.display = "block";
   for (let a = 1; a <= 7; a++) {
-    document.getElementById("op" + a).style.visibility = "visible";
+    document.getElementById("op" + a).style.display = "block";
   }
 }
 
 function topButtonC() {
   document.getElementById("menuClose").style.visibility = "hidden";
   document.getElementById("menuBars").style.visibility = "visible";
-  document.getElementById("nav").style.visibility = "hidden";
+  document.getElementById("nav").style.display = "none";
   for (let a = 1; a <= 7; a++) {
-    document.getElementById("op" + a).style.visibility = "hidden";
+    document.getElementById("op" + a).style.display = "block";
   }
 }
 
 function resize() {
   // alert(window.innerWidth);
   if (window.innerWidth == 500) {
-    document.getElementById("nav").style.visibility = "hidden";
+    document.getElementById("nav").style.display = "none";
     for (let a = 1; a <= 7; a++) {
-      document.getElementById("op" + a).style.visibility = "hidden";
+      document.getElementById("op" + a).style.display = "none";
     }
     document.getElementById("menuClose").style.visibility = "hidden";
     document.getElementById("menuBars").style.visibility = "visible";
   }
 
   if (window.innerWidth == 681) {
+    document.getElementById("nav").style.display = "block";
     document.getElementById("nav").style.visibility = "visible";
     for (let a = 1; a <= 7; a++) {
-      document.getElementById("op" + a).style.visibility = "visible";
+      document.getElementById("op" + a).style.display = "inline-block";
     }
   }
 
   if (window.innerWidth > 681) {
+    document.getElementById("nav").style.display = "block";
     document.getElementById("nav").style.visibility = "visible";
     for (let a = 1; a <= 7; a++) {
-      document.getElementById("op" + a).style.visibility = "visible";
+      document.getElementById("op" + a).style.display = "inline-block";
     }
   }
 }
