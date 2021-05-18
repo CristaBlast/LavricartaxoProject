@@ -51,14 +51,7 @@
       <a href="associados.html"><li class="menuText" id="op7">ASSOCIADOS</li></a>
     </ul>
   </nav>
-  <!--Search Bar-->
-  <div class="search">
-    <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
-    <!-- <a onclick="openSearchBar()" id="openSearch"><i class="fas fa-angle-right openSearch"></i></a> -->
-    <input type="text" class="searchBar" id="searchBar" placeholder="Procurar...">
-    <a onclick="searchBar()" id="searchMG"><i class="fas fa-search searchMG"></i></a>
-  </div>
-  <!--End Search Bar-->
+  
   <!-- <div class="dropDownProducsMenu">
     <a href="produtos.html"><li class="selectPM">ADUBOS</li></a>
     <a href="produtos.html"><li class="selectPM">AGROQUIMICOS</li></a>
@@ -69,6 +62,17 @@
     <a href="produtos.html"><li class="selectPM">SERVIÇOS</li></a>
     <a href="produtos.html"><li class="selectPM">VETERENÁRIA</li></a>
   </div> -->
+
+  <!--Search Bar-->
+  <div class="search">
+    <a onclick="searchBar()" id="searchMG"><i class="fas fa-search searchMG"></i></a>
+    <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
+    <!-- <a onclick="openSearchBar()" id="openSearch"><i class="fas fa-angle-right openSearch"></i></a> -->
+    <input type="text" class="searchBar" id="searchBar" placeholder="Procurar...">
+    
+  </div>
+  <!--End Search Bar-->
+
   <div class="main"> <!--"Body"/Main/Content-->
     <div class="news"> <!--Div news widget-->
       <script type="text/javascript" src="JS/newsWidget.js?widgettitle=Noticías&amp;categories=126,127,128,129,&amp;showRelease=0&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=1&amp;headlinecolor=black&amp;briefcolor=696969&amp;textcolor=black&amp;typeface=sans-serif&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=solid&amp;showimages=0&amp;numstories=5&amp;bgcolor=rgba(255, 255, 255, 0)&amp;urldest=247pr"></script> <!--News widget-->
@@ -81,9 +85,6 @@
       <img src="Images/slideshow/tractor.jpg" class="slideshowimgs">
     </div>
     <!--End-->
-    
-    
-
     <div class="welcome"> <!--Text-->
       <p><br><h2><b>Seja bem vindo ao nosso site</b></h2><br>É com enorme prazer que registamos a sua presença no nosso site, esperamos que encontre tudo o que precisa para realizar os seus projectos com sucesso!.<br><br>A LAVRICARTAXO - Cooperativa Agro-Pecuária do Cartaxo, C.R.L.. coloca ao seu dispôr uma vasta equipa para que possa ter todo o apoio que considere necessário.<br><br>O nosso objectivo é servir os nossos clientes com competência e dedicação para que o nosso cliente volte sempre!<br><br>Ao adquirir produtos na nossa empresa deve saber que estará sempre a comprar qualidade ao melhor preço! Volte sempre, será sempre um gosto tê-lo de volta!</p>
     </div> 
@@ -142,13 +143,12 @@
           <i class="fas fa-stethoscope categoriesIcons"></i>
           <p class="tituloCategoria">VETERENÁRIA</p>
         </div>
-      </a>      
+      </a>   
     </div>
     <!-- <div>
       <img src="Images/lavricartaxoPlace.PNG">
     </div> -->
     <!--carousel-->
-    <br>
     <div class="marcass">
       <div class="marcas">
         <a href="" >
@@ -283,7 +283,6 @@
           </div>
         </a><!--End carousel-->
       </div>
-      <br>
     </div><!--End-->
   </div><!--/Main-->
 </body>
