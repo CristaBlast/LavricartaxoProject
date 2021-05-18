@@ -65,6 +65,7 @@ function topButtonO() {
   document.getElementById("menuBars").style.visibility = "hidden";
   document.getElementById("menuClose").style.visibility = "visible";
   document.getElementById("nav").style.display = "block";
+  // document.getElementById("nav").style.height = "auto"; do animation :3 XD
   for (let a = 1; a <= 7; a++) {
     document.getElementById("op" + a).style.display = "block";
   }
@@ -74,6 +75,7 @@ function topButtonC() {
   document.getElementById("menuClose").style.visibility = "hidden";
   document.getElementById("menuBars").style.visibility = "visible";
   document.getElementById("nav").style.display = "none";
+  // document.getElementById("nav").style.height = "0%"; do animation :3 XD
   for (let a = 1; a <= 7; a++) {
     document.getElementById("op" + a).style.display = "block";
   }

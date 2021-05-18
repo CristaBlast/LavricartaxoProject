@@ -67,7 +67,12 @@ a {
 /*menu*/
 
 .menuText {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
   border-bottom: 2px solid #604020;
+  border-left: 1px solid #604020;
+  border-right: 1px solid #604020;
+  border-top: 1px solid #604020;
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -80,8 +85,13 @@ a {
 }
 
 .menuText:hover {
-  border-bottom: 2px solid #fff;
-  color: #fff;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom: 2px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  color: white;
 }
 
 .menuText:focus {
@@ -710,11 +720,13 @@ h2 {
     padding-bottom: 1%;
     visibility: visible;
     font-weight: bold;
-    display: block;
+    display: inline-block;
   }
 
   .menuText:hover {
     border-bottom: 2px solid #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     color: #fff;
   }
 
@@ -724,11 +736,10 @@ h2 {
     position: sticky;
     top: 0;
     text-align: center;
-    display: block;
+    
   }
 
   li {
-    display: inline-block;
     padding-top: 1%;
     padding-left: 5px;
     padding-right: 5px;
@@ -1066,7 +1077,8 @@ h2 {
     position: fixed;
     margin-top: 25%;
     width: 100%;
-    
+    /* transition: 5s;
+    height: 0%; */ /*Do animation*/
   }
 
   li {
