@@ -1,8 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap"); */
 /*rgba(255, 255, 255, 0) transparent*/
 /*Letra roboto não está a funcionar ;-; por isso até resposta postetior ira ser arial*/
-/*Novo verde para testar :3 : #006600*/
-/*Remake nav/menuText etc....  doing it :3 % */
+/*Testar o amarelo dos menuText*/
 
 * {
   box-sizing: border-box;
@@ -10,6 +9,7 @@
   padding: 0;
   font-family: sans-serif;
   scroll-behavior: smooth;
+
   /* background-image: url("background.jpg"); */
 }
 
@@ -88,7 +88,9 @@ a {
   visibility: visible;
   font-weight: bold;
   background-color: #c7c226;
-  margin-bottom: 0.5%;
+
+  /* margin-bottom: 0.5%; */
+
   margin-top: 0.5%;
 }
 
@@ -184,7 +186,16 @@ a:hover {
 
 /*main*/
 
+.backgroundIMG
+{
+  background-image: url(../Images/background.jpg);
+  background-size: cover;
+}
+
 .main {
+  
+  background-color: rgba(255, 255, 255, 0.479);
+  
   font-size: 14px;
   text-align: justify;
   font-family: sans-serif;
@@ -206,9 +217,17 @@ a:hover {
 }
 
 .welcome {
+  /* background-color: rgba(255, 255, 255, 0.596); */
   margin-left: 1%;
-  width: 98%;
+  margin-top: 1%;
+  width: 75%;
   text-align: justify;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  border-radius: 40%;
+  /* border-bottom-left-radius: 10%; */
 }
 
 /*searchbar*/
@@ -684,6 +703,7 @@ h1 {
 
 h2 {
   font-size: large;
+  text-align: center;
 }
 
 @media only screen and (max-width: 992px) {
