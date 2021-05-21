@@ -19,7 +19,7 @@ a {
 
 .header {
   justify-content: space-between;
-  background: #4bc726;
+  background-color: #4bc726;
 }
 
 /*top*/
@@ -86,6 +86,7 @@ a {
   font-weight: bold;
   background-color: #c7c226;
   margin-top: 0.5%;
+
 }
 
 .menuText:hover {
@@ -209,8 +210,6 @@ a:hover {
 }
 
 .welcome {
-  margin-left: 1%;
-  margin-top: 1%;
   width: 75%;
   text-align: justify;
   padding-left: 1%;
@@ -237,16 +236,20 @@ a:hover {
   /* padding-left: 5px;
   padding-top: 5px;
   padding-right: 5px; */
+
   font-size: 30px;
   vertical-align: middle;
+
   /* display: none; */
 }
 
 .closeSearch {
   font-size: 30px;
   vertical-align: middle;
+
   /* position: absolute; */
   /* display: none; */
+
   z-index: 99999999;
 }
 
@@ -373,11 +376,13 @@ a:hover {
 }
 
 @keyframes scroll {
-  0% {
+  0% 
+  {
     transform: translateX(0%);
   }
 
-  100% {
+  100% 
+  {
     transform: translateX(calc(-100px * 13));
   }
 }
@@ -392,7 +397,6 @@ a:hover {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
-  
 }
 
 .marcaGallery {
@@ -418,7 +422,6 @@ a:hover {
   float: left;
   height: 300px;
   overflow: hidden;
-  
 }
 
 .photo:hover .photoWH {
@@ -461,6 +464,7 @@ a:hover {
   margin: auto;
   padding: 0;
   width: 90%;
+
   /* max-width: 1200px; */
 }
 
@@ -652,9 +656,11 @@ textarea.form-control {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .contact-items {
   width: 400px;
 }
+
 .contact-item {
   width: 80%;
   padding: 20px;
@@ -698,10 +704,6 @@ h2 {
 @media only screen and (max-width: 992px) {
   /*Tablet*/
   /* header */
-
-  .header {
-    background: #604020;
-  }
 
   /* top */
 
