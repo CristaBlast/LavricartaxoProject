@@ -65,16 +65,6 @@ a {
 /*menu*/
 
 .menuText {
-
-  /* border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom: 2px solid #8a5a30;
-  border-left: 1px solid #8a5a30;
-  border-right: 1px solid #8a5a30;
-  border-top: 1px solid #8a5a30; */
-  /* width: 14,28571428571429%; */
-
-
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -86,37 +76,15 @@ a {
   font-weight: bold;
   background-color: #c7c226;
   margin-top: 0.5%;
-
 }
 
 .menuText:hover {
-
-  /* border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%; */
-  /* border-bottom: 2px solid white;
-  border-left: 1px solid yellow;
-  border-right: 1px solid yellow; */
-
   color: white;
   background-color: #a16937;
-
-  /* border-top: 1px solid green;
-  border-bottom: 1px solid green;
-  border-left: 1px solid green;
-  border-right: 1px solid green;
-  background-color: green; */
-
 }
 
 /* .navMenu{
   width: 100%;
-} */
-
-/* .menuText:focus {
-  border-bottom: 2px solid #fff;
-  color: #fff;
 } */
 
 nav {
@@ -125,9 +93,6 @@ nav {
   position: sticky;
   top: 0;
   text-align: center;
-
-  /* border-bottom: 1px solid white; */
-
   z-index: 10;
   visibility: visible;
 }
@@ -175,6 +140,7 @@ a:hover {
 .selectPM:hover {
   color: white;
 }
+
 /*End menu*/
 
 /*End top*/
@@ -236,7 +202,6 @@ a:hover {
 }
 
 .inputs{
-  /* float: left; */
   padding-left: 0.5%;
   padding-top: 0.5%;
   padding-right: 0.5%;
@@ -250,7 +215,6 @@ a:hover {
 .inputName{
   width: 20%;
   margin-left: 5%;
-  /* margin-right: 5%; */
 }
 
 .inputEmail{
@@ -299,7 +263,7 @@ a:hover {
   padding-bottom: 0.5%;
 }
 
-/*searchbar*/
+/*Searchbar*/
 
 .search {
   margin-top: 3%;
@@ -334,7 +298,6 @@ a:hover {
   font-size: 30px;
   margin-top: 1%;
   margin-left: 1%;
-  /* display: none; */
 }
 
 .searchMGSearch:hover{
@@ -373,7 +336,7 @@ a:hover {
 
 /*End searchbar*/
 
-/*produtos categorias*/
+/*Produtos categorias*/
 
 .tittleProductCategory {
   width: 100%;
@@ -480,7 +443,7 @@ a:hover {
 
 /*End caroussel*/
 
-/*marcas da pagina marcas*/
+/*Marcas da pagina marcas*/
 
 /* .titleBrands
 {
@@ -505,7 +468,7 @@ a:hover {
 
 /*End marcas da pagina marcas*/
 
-/*gallery*/
+/*Gallery*/
 
 .gallery {
   /* padding-left: 1%; */
@@ -539,7 +502,7 @@ a:hover {
 
 /*ImageView*/
 
-/* The Modal (background) */
+/*The Modal (background)*/
 
 .modal {
   display: none;
@@ -553,18 +516,16 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.836);
 }
 
-/* Modal Content */
+/*Modal Content*/
 
 .modal-content {
   position: relative;
   margin: auto;
   padding: 0;
   width: 90%;
-
-  /* max-width: 1200px; */
 }
 
-/* The Close Button */
+/*The Close Button*/
 
 .close {
   color: white;
@@ -586,7 +547,7 @@ a:hover {
   cursor: pointer;
 }
 
-/* Next & previous buttons */
+/*Next & previous buttons*/
 
 .prev,
 .next {
@@ -606,7 +567,7 @@ a:hover {
   z-index: 999999999999;
 }
 
-/* Position the "next button" to the right */
+/*Position the "next button" to the right*/
 
 .next {
   right: 0;
@@ -614,7 +575,7 @@ a:hover {
   margin-right: -4%;
 }
 
-/* Position the "prev button" to the left */
+/*Position the "prev button" to the left*/
 
 .prev {
   left: 0;
@@ -622,7 +583,7 @@ a:hover {
   margin-left: -4%;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/*On hover, add a black background color with a little bit see-through*/
 
 .prev:hover,
 .next:hover {
@@ -631,7 +592,7 @@ a:hover {
 
 /*End ImageView*/
 
-/*footer*/
+/*Footer*/
 
 footer {
   font-family: sans-serif;
@@ -699,7 +660,7 @@ footer {
   color: gray;
 }
 
-/* form */
+/*Form*/
 
 .mapa {
   height: none;
@@ -800,9 +761,9 @@ h2 {
 @media only screen and (max-width: 992px) {
   /*Tablet*/
 
-  /* header */
+  /*Header*/
 
-  /* top */
+  /*Top*/
 
   .top {
     width: 100%;
@@ -838,7 +799,7 @@ h2 {
     position: absolute;
   }
 
-  /* menu */
+  /*Menu*/
 
   .topBtnPhone {
     visibility: hidden;
