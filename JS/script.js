@@ -113,9 +113,8 @@ function openSearchBar()
 {
   document.getElementById("closeSearch").style.display = "block";
   document.getElementById("searchBar").style.display = "block";
-  document.getElementById("searchMGS").style.display = "block";
+  document.getElementById("searchMGSearch").style.display = "block";
   document.getElementById("searchMG").style.display = "none";
-  
   document.getElementById("search").style.width = "20%";
 }
 
@@ -123,8 +122,7 @@ function closeSearchBar()
 {
   document.getElementById("closeSearch").style.display = "none";
   document.getElementById("searchBar").style.display = "none";
-  document.getElementById("searchMGS").style.display = "none";
-
+  document.getElementById("searchMGSearch").style.display = "none";
   document.getElementById("searchMG").style.display = "block";
   document.getElementById("search").style.width = "0%";
 }
