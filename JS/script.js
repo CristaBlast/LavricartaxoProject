@@ -115,7 +115,17 @@ function openSearchBar()
   document.getElementById("searchBar").style.display = "block";
   document.getElementById("searchMGSearch").style.display = "block";
   document.getElementById("searchMG").style.display = "none";
-  document.getElementById("search").style.width = "20%";
+  if (window.innerWidth <= 500) {
+    document.getElementById("search").style.width = "55%";
+  }
+
+  if (window.innerWidth == 681) {
+    document.getElementById("search").style.width = "40%";
+  }
+
+  if (window.innerWidth > 681) {
+    document.getElementById("search").style.width = "20%";
+  }
 }
 
 function closeSearchBar()

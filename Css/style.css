@@ -222,7 +222,7 @@ a:hover {
 /*searchbar*/
 
 .search {
-  margin-top: 5%;
+  margin-top: 3%;
   position: fixed;
   background-color: grey;
   z-index: 999999;
@@ -772,10 +772,6 @@ h2 {
     display: inline-block;
   }
 
-  /* .menuText:hover {
-
-  } */
-
   nav {
     position: -webkit-sticky;
     position: sticky;
@@ -797,6 +793,23 @@ h2 {
     color: white;
     text-decoration: none;
   }
+
+  /*searchbar*/
+
+  /* .search {
+    
+  } */
+
+  .searchMG {
+    margin-top: 2%;
+  }
+
+  .searchMGSearch
+  {
+    margin-top: 2%;
+  }
+
+  /*End searchbar*/
 
   /* main */
 
@@ -1123,6 +1136,23 @@ h2 {
     width: 100%;
     list-style: none;
   }
+
+  /*searchbar*/
+
+  /* .search {
+    
+  } */
+
+  .searchMG {
+    margin-top: 3%;
+  }
+
+  .searchMGSearch
+  {
+    margin-top: 3%;
+  }
+
+  /*End searchbar*/
 
   /* main */
 
