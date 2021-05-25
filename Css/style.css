@@ -209,6 +209,11 @@ a:hover {
   width: 23%;
 }
 
+.newsTablet
+{
+  display: none;
+}
+
 .welcome {
   width: 75%;
   text-align: justify;
@@ -714,6 +719,7 @@ h2 {
 
 @media only screen and (max-width: 992px) {
   /*Tablet*/
+
   /* header */
 
   /* top */
@@ -824,6 +830,11 @@ h2 {
 
   .news {
     display: none;
+  }
+
+  .newsTablet
+  {
+    display: block;
   }
 
   /*produtos categorias*/
@@ -1167,6 +1178,11 @@ h2 {
   }
 
   .news {
+    display: none;
+  }
+
+  .newsTablet
+  {
     display: none;
   }
 
