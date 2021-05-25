@@ -224,6 +224,54 @@ a:hover {
   border-radius: 40%;
 }
 
+.tittleContacts{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.introContatcs{
+  text-align: center;
+  font-size: 14px;
+}
+
+.inputs{
+  float: left;
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  padding-right: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.inputs:focus{
+  outline: none;
+}
+
+.inputName{
+  width: 20%;
+}
+
+.inputEmail{
+  width: 40%;
+}
+
+.inputCellphone{
+  width: 10%;
+}
+
+.inputMatter{
+  width: 33%;
+}
+
+.inputEnterprise{
+  width: 33%;
+}
+
+.inputMessage{
+  width: 90%;
+  height: 300px;
+}
+
 /*searchbar*/
 
 .search {
@@ -406,6 +454,11 @@ a:hover {
 /*End caroussel*/
 
 /*marcas da pagina marcas*/
+
+/* .titleBrands
+{
+  
+} */
 
 .marcasGallery {
   width: 100%;
@@ -973,6 +1026,8 @@ h2 {
     width: 50%;
     height: 200px;
   }
+
+  
 
   /*footer*/
 
