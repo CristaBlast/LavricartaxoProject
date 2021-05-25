@@ -209,7 +209,7 @@ a:hover {
   width: 23%;
 }
 
-.newsTablet
+.newsTabletPhone
 {
   display: none;
 }
@@ -808,11 +808,13 @@ h2 {
 
   .searchMG {
     margin-top: 2%;
+    margin-left: 2%;
   }
 
   .searchMGSearch
   {
     margin-top: 2%;
+    margin-left: 2%;
   }
 
   /*End searchbar*/
@@ -1181,9 +1183,9 @@ h2 {
     display: none;
   }
 
-  .newsTablet
+  .newsTabletPhone
   {
-    display: none;
+    display: block;
   }
 
   .modal-content {
