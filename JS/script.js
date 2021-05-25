@@ -109,18 +109,20 @@ function resize() {
   }
 }
 
-// function openSearchBar()
-// {
-//   document.getElementById("closeSearch").style.display = "block";
-//   document.getElementById("openSearch").style.display = "none";
-//   document.getElementById("searchBar").style.display = "block";
-//   document.getElementById("searchMG").style.display = "block";
-// }
+function openSearchBar()
+{
+  document.getElementById("closeSearch").style.visibility = "visible";
+  document.getElementById("searchBar").style.visibility = "visible";
+  document.getElementById("searchMG").style.visibility = "hidden";
+  document.getElementById("searchMGS").style.visibility = "visible";
+  document.getElementById("search").style.width = "20%";
+}
 
-// function closeSearchBar()
-// {
-//   document.getElementById("closeSearch").style.display = "none";
-//   document.getElementById("openSearch").style.display = "block";
-//   document.getElementById("searchBar").style.display = "none";
-//   document.getElementById("searchMG").style.display = "none";
-// }
+function closeSearchBar()
+{
+  document.getElementById("closeSearch").style.visibility = "hidden";
+  document.getElementById("searchBar").style.visibility = "hidden";
+  document.getElementById("searchMG").style.visibility = "visible";
+  document.getElementById("searchMGS").style.visibility = "hidden";
+  document.getElementById("search").style.width = "0%";
+}
