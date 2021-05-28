@@ -304,12 +304,18 @@ a:hover {
 {
   margin-left: 5%;
   float: left;
+  border: none;
+  background-color: #4bc726;
+  color: white;
 }
 
 .btnClean
 {
   margin-right: 5%;
   float: right;
+  border: none;
+  background-color: gray;
+  color: white;
 }
 /*Searchbar*/
 
