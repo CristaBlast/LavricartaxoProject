@@ -90,6 +90,10 @@ function resize() {
     }
     document.getElementById("menuClose").style.visibility = "hidden";
     document.getElementById("menuBars").style.visibility = "visible";
+    if(document.getElementById("searchMG").style.display == "none")
+    {
+    document.getElementById("search").style.width = "55%";
+    }
   }
 
   if (window.innerWidth == 681) {
@@ -97,6 +101,10 @@ function resize() {
     document.getElementById("nav").style.visibility = "visible";
     for (let a = 1; a <= 7; a++) {
       document.getElementById("op" + a).style.display = "inline-block";
+    }
+    if(document.getElementById("searchMG").style.display == "none")
+    {
+    document.getElementById("search").style.width = "40%";
     }
   }
 
@@ -106,6 +114,11 @@ function resize() {
     for (let a = 1; a <= 7; a++) {
       document.getElementById("op" + a).style.display = "inline-block";
     }
+    if(document.getElementById("searchMG").style.display == "none")
+    {
+      document.getElementById("search").style.width = "22%";
+    }
+    
   }
 }
 
