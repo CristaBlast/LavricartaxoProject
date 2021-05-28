@@ -124,7 +124,7 @@ function openSearchBar()
   }
 
   if (window.innerWidth > 681) {
-    document.getElementById("search").style.width = "20%";
+    document.getElementById("search").style.width = "22%";
   }
 }
 

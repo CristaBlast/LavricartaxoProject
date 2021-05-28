@@ -1,6 +1,6 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap"); */
 /*rgba(255, 255, 255, 0) transparent*/
-/*Testar o amarelo dos menuText*/
+/*In border radius % and px are diferent :3*/
 
 * {
   box-sizing: border-box;
@@ -257,9 +257,9 @@ a:hover {
   background-color: rgba(255, 255, 255, 0);
   z-index: 999999;
   height: 9%;
-  border-top: 1px rgba(0, 0, 0, 0.753) solid;
+  /* border-top: 1px rgba(0, 0, 0, 0.753) solid;
   border-right: 1px rgba(0, 0, 0, 0.753) solid;
-  border-bottom: 1px rgba(0, 0, 0, 0.753) solid;
+  border-bottom: 1px rgba(0, 0, 0, 0.753) solid; */
   transition: 0.5s;
   width: 0%;
 }
@@ -281,8 +281,9 @@ a:hover {
   position: fixed;
   color: black;
   font-size: 30px;
-  margin-top: 1%;
+  /* margin-top: 1%; */
   margin-left: 1%;
+  margin-top: 1%;
 }
 
 .searchMGSearch:hover {
@@ -292,8 +293,13 @@ a:hover {
 .searchBarnMG
 {
   background-color: white;
-  width: auto;
-  height: auto;
+  width: 85%;
+  height: 90%;
+  float: left;
+  margin-top: 1%;
+  margin-left: 4%;
+  vertical-align: middle;
+  border-radius: 20px;
 }
 
 .closeSearch {
@@ -302,7 +308,6 @@ a:hover {
   float: right;
   z-index: 99999999;
   font-size: 50px;
-  margin-right: 2%;
 }
 
 .closeSearch:hover {
@@ -316,10 +321,11 @@ a:hover {
   padding-bottom: 5px;
   padding-top: 5px;
   border: none;
-  margin-left: 3%;
-  border: 1px black solid;
-  margin-top: 5%;
+  margin-left: 7%;
+  margin-top: 4.3%;
   display: none;
+  font-size: 18px;
+  width: 70%;
 }
 
 .searchBar:focus {
