@@ -300,6 +300,7 @@ a:hover {
   margin-left: 4%;
   vertical-align: middle;
   border-radius: 20px;
+  border: 1px rgb(0, 0, 0, 0.753) solid;
 }
 
 .closeSearch {
