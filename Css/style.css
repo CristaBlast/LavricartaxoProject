@@ -198,6 +198,12 @@ a:hover {
   font-size: 14px;
 }
 
+.formContacts
+{
+  width: 50%;
+  background-color: red;
+}
+
 .inputs {
   padding-left: 0.5%;
   padding-top: 0.5%;
@@ -209,40 +215,68 @@ a:hover {
   outline: none;
 }
 
+.divInputName
+{
+  width: 100%;
+  color: blue;
+  position: relative;
+}
+
 .inputName {
   width: 20%;
-  margin-left: 5%;
+  float: left;
+}
+
+.divInputEmail
+{
+  width: 100%;
 }
 
 .inputEmail {
   width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
+  float: left;
+}
+
+.divInputCellphone
+{
+  width: 100%;
 }
 
 .inputCellphone {
   width: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
+  float: left;
+}
+
+.divInputMatter
+{
+  width: 100%;
 }
 
 .inputMatter {
   width: 40%;
-  margin-left: 5%;
-  margin-bottom: 2%;
-  margin-top: 2%;
+  float: left;
+}
+
+.divInputEnterprise
+{
+  width: 100%;
+  background-color: brown;
 }
 
 .inputEnterprise {
   width: 40%;
-  margin-right: 5%;
+  float: left;
+}
+
+.divInputMessage
+{
+  width: 100%;
 }
 
 .inputMessage {
   width: 90%;
   height: 100px;
-  margin-left: 5%;
-  margin-right: 5%;
+  float: left;
 }
 
 .textContatosI {

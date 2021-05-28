@@ -74,17 +74,38 @@
     <br>
     <p class="introContatcs">Utilize o seguinte formulário para colocar as suas dúvidas, opiniões e sugestões</p>
     <br>  
-    <form method="post">
-      <input type="text" placeholder="Nome" class="inputs inputName" required>
-      <input type="email" placeholder="Email" class="inputs inputEmail" required>
-      <input type="tel" placeholder="Telefone" maxlength="9" class="inputs inputCellphone" required>
-      <input type="text" placeholder="Assunto" class="inputs inputMatter" required>
-      <input type="text" placeholder="Empresa" class="inputs inputEnterprise">
-      <textarea placeholder="Mensagem" class="inputs inputMessage" required></textarea>
-      <p class="textContatosI">Obrigatório preencher</p>    
+    <div class="formContacts">
+      <form method="post">
+        <div class="divInputName">
+          <label>*Nome</label>
+          <input type="text" class="inputs inputName" required>
+        </div>
+        <div class="divInputEmail">
+          <label>*Email</label>
+          <input type="email" placeholder="Email" class="inputs inputEmail" required>
+        </div>
+        <div class="divInputCellphone">
+          <label>Telefone</label>
+          <input type="tel" placeholder="Telefone" maxlength="9" class="inputs inputCellphone" required>
+        </div>
+        <div class="divInputMatter">
+          <label>*Assunto</label>
+          <input type="text" placeholder="Assunto" class="inputs inputMatter" required>
+        </div>
+        <div class="divInputEnterprise">
+          <label>Empresa</label>
+          <input type="text" placeholder="Empresa" class="inputs inputEnterprise">
+        </div>
+        <div class="divInputMessage">
+          <label>*Mensagem</label>
+          <textarea placeholder="Mensagem" class="inputs inputMessage" required></textarea>
+        </div>
+      <p class="textContatosI">*Obrigatório preencher</p>    
       <button type="submit" class="btn btn-success">Enviar</button>
       <button type="reset" class="btn btn-danger">Limpar</button>
     </form>
+    </div>
+    
     
   </div><!--/Main-->
 </div>
