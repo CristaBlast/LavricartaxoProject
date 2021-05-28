@@ -187,6 +187,8 @@ a:hover {
   border-radius: 40%;
 }
 
+/*Form*/
+
 .tittleContacts {
   text-align: center;
   font-size: 25px;
@@ -317,6 +319,9 @@ a:hover {
   background-color: gray;
   color: white;
 }
+
+/*Form*/
+
 /*Searchbar*/
 
 .search {
@@ -724,104 +729,6 @@ footer {
   color: gray;
 }
 
-/*Form*/
-
-.mapa {
-  height: none;
-}
-
-.form-control {
-  background-color: #fff;
-  border-color: #a4a4a4;
-  height: 50px;
-  border-radius: 20px;
-  box-shadow: none;
-  font-size: 20px;
-}
-
-textarea.form-control {
-  min-height: 180px;
-  resize: none;
-  font-size: 20px;
-}
-
-.form-group {
-  margin-bottom: 30px;
-  font-size: 20px;
-}
-
-.contact-info {
-  color: #000;
-}
-
-.contact-a:hover {
-  color: #81f781;
-}
-
-.contact-address {
-  float: right;
-  margin-left: 4%;
-  width: 35.3333%;
-}
-
-.btn {
-  width: 160px;
-  margin: 20px;
-  font-size: 18px;
-}
-
-/* contactos */
-
-.contact {
-  flex-direction: column;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.contact-items {
-  width: 400px;
-}
-
-.contact-item {
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  margin: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0px 0px 18px 0 #0000002c;
-  transition: 0.3s ease box-shadow;
-}
-
-.contact-item:hover {
-  box-shadow: 0px 0px 5px 0 #0000002c;
-}
-
-.contact-info h1 {
-  font-size: 2.5rem;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-.contact-info h2 {
-  font-size: 1.3rem;
-  line-height: 2rem;
-  font-weight: 500;
-}
-
-/*End contact Section */
-
-h1 {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: large;
-}
-
 @media only screen and (max-width: 992px) {
   /*Tablet*/
 
@@ -937,7 +844,7 @@ h2 {
     display: none;
   }
 
-  .newsTablet {
+  .newsTabletPhone {
     display: block;
   }
 
@@ -1060,9 +967,9 @@ h2 {
   /*End ImageView*/
 
   .welcome {
-    width: 98%;
-    text-align: justify;
-    margin-left: 1%;
+    width: 100%;
+    /* text-align: justify;
+    margin-left: 1%; */
   }
 
   .gallery {
@@ -1075,6 +982,123 @@ h2 {
     width: 50%;
     height: 200px;
   }
+
+  /*Form*/
+
+.tittleContacts {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.introContatcs {
+  text-align: center;
+  font-size: 14px;
+}
+
+.formContacts
+{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.labels
+{
+  float: left;
+  width: 22%;
+}
+
+.inputs {
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  padding-right: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.divInputName
+{
+  width: 100%;
+}
+
+.inputName {
+  width: 55%;
+  float: left;
+}
+
+.divInputEmail
+{
+  width: 100%;
+}
+
+.inputEmail {
+  width: 55%;
+  float: left;
+}
+
+.divInputCellphone
+{
+  width: 100%;
+}
+
+.inputCellphone {
+  width: 20%;
+  float: left;
+}
+
+.divInputMatter
+{
+  width: 100%;
+}
+
+.inputMatter {
+  width: 55%;
+  float: left;
+}
+
+.divInputEnterprise
+{
+  width: 100%;
+}
+
+.inputEnterprise {
+  width: 55%;
+  float: left;
+}
+
+.divInputMessage
+{
+  width: 100%;
+}
+
+.inputMessage {
+  width: 100%;
+  height: 100px;
+}
+
+.textContatosI {
+  margin-left: 5%;
+}
+
+/* .button{
+  float: left;
+  width: auto;
+  padding: 2% 3% 2% 3%;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: white;
+} */
+
+/* .btnSend
+{
+
+}
+
+.btnClean
+{
+  
+} */
+
+/*Form*/
 
   /*footer*/
 
@@ -1347,10 +1371,122 @@ h2 {
     height: 300px;
   }
 
-  /* .marcass {
-    margin-top: -10%;
-    padding-bottom: 25%;
-  } */
+  /*Form*/
+
+.tittleContacts {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.introContatcs {
+  text-align: center;
+  font-size: 14px;
+}
+
+.formContacts
+{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.labels
+{
+  float: left;
+  width: 22%;
+}
+
+.inputs {
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  padding-right: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.divInputName
+{
+  width: 100%;
+}
+
+.inputName {
+  width: 55%;
+  float: left;
+}
+
+.divInputEmail
+{
+  width: 100%;
+}
+
+.inputEmail {
+  width: 55%;
+  float: left;
+}
+
+.divInputCellphone
+{
+  width: 100%;
+}
+
+.inputCellphone {
+  width: 20%;
+  float: left;
+}
+
+.divInputMatter
+{
+  width: 100%;
+}
+
+.inputMatter {
+  width: 55%;
+  float: left;
+}
+
+.divInputEnterprise
+{
+  width: 100%;
+}
+
+.inputEnterprise {
+  width: 55%;
+  float: left;
+}
+
+.divInputMessage
+{
+  width: 100%;
+}
+
+.inputMessage {
+  width: 100%;
+  height: 100px;
+}
+
+.textContatosI {
+  margin-left: 5%;
+}
+
+/* .button{
+  float: left;
+  width: auto;
+  padding: 2% 3% 2% 3%;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: white;
+} */
+
+/* .btnSend
+{
+
+}
+
+.btnClean
+{
+  
+} */
+
+/*Form*/
 
   /*footer*/
 
@@ -1390,7 +1526,6 @@ h2 {
     float: left;
     width: 49%;
     position: absolute;
-    /* padding-top: 3%; */
     margin-top: 23%;
   }
 
