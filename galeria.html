@@ -1,110 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/jpg" href="Images/icon.png" />
-    <meta name="keywords" content="Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
-    <meta name="description" content="LAVRICARTAXO Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css" type="text/css">
-    <script src="JS/script.js"></script>
-    <title>Lavricartaxo</title>
+      <meta name="keywords" content="Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
+      <meta name="description" content="LAVRICARTAXO Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/jpg" href="Images/icon.png" />
+      <link rel="stylesheet" href="fontawesome/css/all.css">
+      <link rel="stylesheet" href="fontawesome/css/all.min.css">     
+      <link rel="stylesheet" href="CSS/style.css" type="text/css">
+      <script src="JS/script.js"></script>
+      <title>Lavricartaxo</title>
 </head>
-<body>
-    <div class="main1">
-        <div class="top">
-            <div class="logo">
-            <a href="index.html"><img src="Images/logo.png" alt="logo" width="auto"></a> 
-            </div>
-            <div class="weatherWidget">
-                <div id="weatherWidget" >
-                    <script type="text/javascript" async src="JS/weatherWidget.js"></script>
-                </div> 
-            </div>               
+<body  onresize="resize()">
+  <div class="header"> <!--Header-->
+    <div class="top"> <!--Header Subsection Top-->
+      <div class="logo"> <!--Div logo-->
+        <a href="index.html"><img src="Images/logo.png" alt="logo" class="logoIMG"></a> <!--Logo Lavricartaxo-->
+      </div>
+      <div class="weatherWidget"> <!--Div weather widget PC-->
+        <div id="weatherWidget" >
+          <script type="text/javascript" async src="JS/weatherWidget.js"></script> <!--Weather width PC-->
+        </div> 
+      </div>  
+      <div class="weatherWidgetTablet"> <!--Div weather widget Tablet-->
+        <div id="weatherWidgetTablet">
+          <script type="text/javascript" async src="JS/weatherWidgetTablet.js"></script> <!--Weather width Tablet-->
         </div>
-        <div id="menu" class="menu">
-            <nav>
-                <ul class="nav_menu">
-                    <div class="menuButtons">
-                        <li class="menuText"><a href="index.html" >INICIO</a></li>
-                        <li class="menuText"><a href="quemsomos.html">QUEM SOMOS</a></li>
-                        <li class="menuText"><a href="galeria.html">GALERIA</a></li>
-                        <li class="menuText"><a href="produtos.html" >PRODUTOS</a></li>
-                        <li class="menuText"><a href="contatos.html" >CONTATOS</a></li>
-                        <li class="menuText"><a href="marcas.html" >MARCAS</a></li>
-                        <li class="menuText"><a href="associados.html" >ASSOCIADOS</a></li>
-                    </div>     
-                </ul>
-            </nav>
+      </div>   
+      <div class="weatherWidgetPhone"> <!--Div weather widget Phone-->
+        <div id="weatherWidgetPhone">
+          <script type="text/javascript" async src="JS/weatherWidgetPhone.js"></script> <!--Weather width Phone-->
         </div>
+      </div>          
+    </div>    
+  </div>
+  <button class="topBtnPhone openMenuBars" id="menuBars" onclick="topButtonO()"><i class="fas fa-bars"></i></button> <!--Top Button Phone Mode-->
+  <button class="topBtnPhone closeMenuCross" id="menuClose" onclick="topButtonC()"><i class="fas fa-times"></i></button> <!--Top Button Phone Mode-->
+  <nav id="nav">
+    <ul class="navMenu"> <!--Menu-->
+      <a href="index.html"><li class="menuText" id="op1">INICIO</li></a>
+      <a href="quemsomos.html"><li class="menuText" id="op2">QUEM SOMOS</li></a>
+      <a href="#"><li class="menuText" id="op3">GALERIA</li></a>
+      <a href="produtos.html"><li class="menuText" id="op4">PRODUTOS</li></a>
+      <a href="contatos.html"><li class="menuText" id="op5">CONTATOS</li></a>
+      <a href="marcas.html"><li class="menuText" id="op6">MARCAS</li></a>
+      <a href="associados.html"><li class="menuText" id="op7">ASSOCIADOS</li></a>
+    </ul>
+  </nav>
+  <!-- Search Bar-->
+  <div class="search" id="search">
+    <a onclick="openSearchBar()" id="searchMG"><i class="fas fa-search searchMG"></i></a>
+    <div class="searchBarnMG">
+      <input type="text" class="searchBar" id="searchBar" placeholder="Procurar...">
+      <a onclick="" id="searchMGSearch"><i class="fas fa-search searchMGSearch"></i></a>
     </div>
-    <div class="main2">
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
-        <p>sssss</p>
+    <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
+  </div>
+  <!--End Search Bar -->
+  <div class="backgroundIMG">
+  <div class="main">
+    <!--ImageView-->
+    <div class="gallery">
+      <div class="photo">
+        <img src="Images/gallery/chickens.jpg" class="photoWH" onclick="openModal();currentSlide(1)">
+      </div>
+      <div class="photo">
+        <img src="Images/gallery/pots.jpg" class="photoWH" onclick="openModal();currentSlide(2)">
+      </div>
+      <div class="photo">
+        <img src="Images/gallery/grapes.jpg" class="photoWH" onclick="openModal();currentSlide(3)">
+      </div>
+      <div class="photo">
+        <img src="Images/gallery/fresh green.jpg" class="photoWH" onclick="openModal();currentSlide(4)">
+      </div>
+      <div class="photo">
+        <img src="Images/gallery/onion.jpg" class="photoWH" onclick="openModal();currentSlide(5)">
+      </div>
+      <div class="photo">
+        <img src="Images/gallery/green.jpg" class="photoWH" onclick="openModal();currentSlide(6)">
+      </div>
+      <div class="photo">
+        <img src="Images/gallery/vegetables.jpg" class="photoWH" onclick="openModal();currentSlide(7)">
+      </div>
+      <div class="photo">
+        <img src="Images/gallery/wheat.jpg" class="photoWH" onclick="openModal();currentSlide(8)">
+      </div>
+      <div class="photo">
+        <img src="Images/gallery/sheeps.jpg" class="photoWH" onclick="openModal();currentSlide(9)">
+      </div>
+      <!-- <div class="photo">
+        <img src="Images/lavricartaxoPlace.PNG" class="photoWH" onclick="openModal();currentSlide(10)">
+      </div> -->
     </div>
-    <footer id="footer">
-        <div class="footer-bottom">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <p>LAVRICARTAXO-Cooperativa Agro-Pecuaria do Cartaxo, C.R.L. </br>Rua Batalhoz nr.81</br>2070-069 Cartaxo</p>
-              </div>
-              <div class="col-sm-6">
-                <p></br>243 700 240</br></p>
-              </div>
-              <div class="col-sm-6">
-                <p>243 700 249</br></br></p>
-              </div>
-              <div class="col-sm-6">
-                <p>De Segunda a Sexta-feira das 9H ás 13H e das 14.30H ás 18.30H</br>Aos Sábados das 9H ás 12.30H</p>
-              </div>
-              <div class="col-sm-6">
-                </br>Copyright &copy; 2021 Lavricartaxo-Cooperativa Agro-Pecuária do Cartaxo, C.R.L.
-              </div>
-              <div class="col-sm-6" class="footer">
-                <p></br>Desenvolvimento e Design: <a href="https://www.analogia.net/?opx=entrar">ANALOGIA.NET</a></p>
-              </div>
-            </div>
-          </div>
+  <div id="imageView" class="modal">
+    <div class="close" onclick="closeModal()">
+      &times;
+    </div>
+      <div class="modal-content">
+        <div class="mySlides">
+          <img src="Images/gallery/chickens.jpg" class="photoWHV">
+        </div>  
+        <div class="mySlides">
+          <img src="Images/gallery/pots.jpg" class="photoWHV">
+        </div>  
+        <div class="mySlides">
+          <img src="Images/gallery/grapes.jpg" class="photoWHV">
+        </div>      
+        <div class="mySlides">
+          <img src="Images/gallery/fresh green.jpg" class="photoWHV">
         </div>
-      </footer>
+        <div class="mySlides">
+          <img src="Images/gallery/onion.jpg" class="photoWHV">
+        </div>  
+        <div class="mySlides">
+          <img src="Images/gallery/green.jpg" class="photoWHV">
+        </div> 
+        <div class="mySlides">
+          <img src="Images/gallery/vegetables.jpg" class="photoWHV">
+        </div>      
+        <div class="mySlides">
+          <img src="Images/gallery/wheat.jpg" class="photoWHV">
+        </div>
+        <div class="mySlides">
+          <img src="Images/gallery/sheeps.jpg" class="photoWHV">
+        </div>     
+        <!-- <div class="mySlides">
+          <img src="Images/lavricartaxoPlace.PNG" class="photoWHV">
+        </div>  -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- /Image View -->
+      </div>
+    </div>
+  </div>
+</div>
 </body>
+<footer class="footerBottom"> <!--Footer-->
+  <div class="wheretofindusFooter">
+    <p><p class="tittleFooter">ONDE NOS ENCONTRAR</p><br>Rua Batalhoz Nr.81<br>2070-069 Cartaxo<br>Portugal</p>
+  </div>
+  <div class="contactusFooter">
+    <p><p class="tittleFooter">CONTATOS GERAIS</p><br>243 700 240<br>243 700 249</p>
+  </div>
+  <div class="openFooterD">
+    <div class="openFooter">
+      <p><p class="tittleFooter">ATENDIMENTO</p><br>Segunda a Sexta-feira:<br>9h-13h / 14:30h-18:30h<br><br>Sábados:<br>9h-12:30H</p>
+    </div>
+</div>
+  <div class="suporteFooter">
+    <p><p class="tittleFooter">SUPORTE</p><br>Questões Frequentes<br><a href="contatos.html">Contatos</a></p><a href="https://www.livroreclamacoes.pt/inicio"><img src="Images/rb.png" class="livrodereclamacoes"></a>
+  </div>
+  <div class="CDfooter">
+    <div class="copyright">
+      <p>Copyright &copy; 2021 Lavricartaxo-Cooperativa Agro-Pecuária do Cartaxo, C.R.L.</p>
+    </div>
+    <div class="desendesign">
+      <p>Desenvolvimento e Design:<a href="https://www.analogia.net/?opx=entrar">ANALOGIA.NET</a></p>
+    </div> 
+  </div>
+</footer>
 </html>

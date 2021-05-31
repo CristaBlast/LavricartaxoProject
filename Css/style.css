@@ -1,174 +1,1521 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap"); */
+/*rgba(255, 255, 255, 0) transparent*/
+/*In border radius % and px are diferent :3*/
 
-*{
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*header*/
+
+.header {
+  justify-content: space-between;
+  background-color: #4bc726;
+}
+
+/*top*/
+
+.top {
+  width: auto;
+  padding-top: 1%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.logo {
+  vertical-align: middle;
+  display: inline-block;
+  width: auto;
+}
+
+.logoIMG {
+  height: 70px;
+}
+
+.weatherWidget {
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+}
+
+.weatherWidgetTablet {
+  visibility: hidden;
+  position: absolute;
+}
+
+.weatherWidgetPhone {
+  visibility: hidden;
+  position: absolute;
+}
+
+.topBtnPhone {
+  visibility: hidden;
+  position: absolute;
+}
+
+/*menu*/
+
+.menuText {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  visibility: visible;
+  font-weight: bold;
+  background-color: #4bc726;
+  margin-top: 0.5%;
+}
+
+.menuText:hover {
+  color: white;
+  background-color: #c7c226;
+}
+
+/* .navMenu{
+  width: 100%;
+} */
+
+nav {
+  background-color: #4bc726;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  z-index: 10;
+  visibility: visible;
+}
+
+li {
+  display: inline-block;
+  padding-left: 4%;
+  padding-right: 4%;
+  list-style: none;
+}
+
+.navMenu,
+li,
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.downArrow {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.dropDownProducsMenu {
+  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 14%;
+  text-align: center;
+  background-color: #604020;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 42%;
+}
+
+.selectPM {
+  color: black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-weight: bold;
+  width: 100%;
+}
+
+.selectPM:hover {
+  color: white;
+}
+
+/*End menu*/
+
+/*End top*/
+
+/*main*/
+
+/* .backgroundIMG {
+  background-image: url(../Images/background.jpg);
+  background-size: cover;
+} */
+
+.main {
+  font-size: 14px;
+  text-align: justify;
+  font-family: sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.slideshow {
+  width: 100%;
+}
+
+.slideshowimgs {
+  width: 77%;
+  height: 500px;
+}
+
+.news {
+  float: right;
+  width: 23%;
+}
+
+.newsTabletPhone {
+  display: none;
+}
+
+.welcome {
+  width: 75%;
+  text-align: justify;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  border-radius: 40%;
+}
+
+/*Form*/
+
+.tittleContacts {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.introContatcs {
+  text-align: center;
+  font-size: 14px;
+}
+
+.formContacts
+{
+  width: 40%;
+  margin-left: 30%;
+}
+
+.labels
+{
+  float: left;
+  width: 15%;
+}
+
+.inputs {
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  padding-right: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.inputs:focus {
+  outline: none;
+}
+
+.divInputName
+{
+  width: 100%;
+}
+
+.inputName {
+  width: 55%;
+  float: left;
+}
+
+.divInputEmail
+{
+  width: 100%;
+}
+
+.inputEmail {
+  width: 55%;
+  float: left;
+}
+
+.divInputCellphone
+{
+  width: 100%;
+}
+
+.inputCellphone {
+  width: 20%;
+  float: left;
+}
+
+.divInputMatter
+{
+  width: 100%;
+}
+
+.inputMatter {
+  width: 55%;
+  float: left;
+}
+
+.divInputEnterprise
+{
+  width: 100%;
+}
+
+.inputEnterprise {
+  width: 55%;
+  float: left;
+}
+
+.divInputMessage
+{
+  width: 100%;
+}
+
+.inputMessage {
+  width: 100%;
+  height: 100px;
+  float: left;
+}
+
+.textContatosI {
+  margin-left: 5%;
+}
+
+.button{
+  float: left;
+  width: auto;
+  padding: 2% 3% 2% 3%;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.button:focus
+{
+  outline: none;
+}
+
+.btnSend
+{
+  margin-left: 5%;
+  float: left;
+  border: none;
+  background-color: #4bc726;
+  color: white;
+}
+
+.btnClean
+{
+  margin-right: 5%;
+  float: right;
+  border: none;
+  background-color: gray;
+  color: white;
+}
+
+/*Form*/
+
+/*Searchbar*/
+
+.search {
+  margin-top: 3%;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 999999;
+  height: 9%;
+  /* border-top: 1px rgba(0, 0, 0, 0.753) solid;
+  border-right: 1px rgba(0, 0, 0, 0.753) solid;
+  border-bottom: 1px rgba(0, 0, 0, 0.753) solid; */
+  transition: 0.5s;
+  width: 0%;
+}
+
+.searchMG {
+  font-size: 30px;
+  float: left;
+  position: fixed;
+  margin-top: 1%;
+  margin-left: 1%;
+  z-index: 99999999;
+}
+
+.searchMG:hover {
+  color: black;
+}
+
+.searchMGSearch {
+  position: fixed;
+  color: black;
+  font-size: 30px;
+  /* margin-top: 1%; */
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.searchMGSearch:hover {
+  color: black;
+}
+
+.searchBarnMG
+{
+  background-color: white;
+  width: 85%;
+  height: 90%;
+  float: left;
+  margin-top: 1%;
+  margin-left: 4%;
+  vertical-align: middle;
+  border-radius: 20px;
+  border: 1px rgb(0, 0, 0, 0.753) solid;
+}
+
+.closeSearch {
+  font-size: 30px;
+  margin-top: 1%;
+  float: right;
+  z-index: 99999999;
+  font-size: 50px;
+}
+
+.closeSearch:hover {
+  color: black;
+}
+
+.searchBar {
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: none;
+  margin-left: 7%;
+  margin-top: 4.3%;
+  display: none;
+  font-size: 18px;
+  width: 70%;
+}
+
+.searchBar:focus {
+  outline: none;
+}
+
+/*End searchbar*/
+
+/*Produtos categorias*/
+
+.tittleProductCategory {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.productsCategories {
+  text-align: center;
+  width: 100%;
+}
+
+.productsCategoriesplaceHolders {
+  width: 20%;
+  height: 269.8px;
+  float: left;
+  background-color: #4a3302;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.categoriesIcons {
+  font-size: 40px;
+  position: absolute;
+  color: white;
+  margin-left: -1.5%;
+  margin-top: 6%;
+}
+
+.tituloCategoria {
+  color: white;
+  font-weight: bold;
+  margin-top: 70%;
+}
+
+.productsCategoriesplaceHolders:hover .categoriesIcons {
+  font-size: 80px;
+  margin-left: -3%;
+  transition: 0.5s;
+}
+
+.productsCategoriesplaceHolders:hover .tituloCategoria {
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+/*End produtos categorias*/
+
+/*Caroussel*/
+
+.marcass {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.marcass::before,
+.marcass::after {
+  width: 100px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0);
+  content: "";
+  position: absolute;
+}
+
+.marcass::before {
+  top: 0;
+  left: 0;
+}
+
+.marcass::after {
+  top: 0;
+  right: 0;
+  transform: rotateZ(180dge);
+}
+
+.marcass .marcas {
+  display: flex;
+  width: calc(100px * 26); /*Bar size*/
+  animation: scroll 40s infinite linear; /*Velocidade*/
+}
+
+.marcass .marca img {
+  width: auto;
+  height: 100px;
+  display: flex;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(calc(-100px * 13));
+  }
+}
+
+/*End caroussel*/
+
+/*Marcas da pagina marcas*/
+
+/* .titleBrands
+{
+  
+} */
+
+.marcasGallery {
+  width: 100%;
+  float: left;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+}
+
+.marcaGallery {
+  width: 150px;
+  height: auto;
+  float: left;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/*End marcas da pagina marcas*/
+
+/*Gallery*/
+
+.gallery {
+  /* padding-left: 1%; */
+  width: 100%;
+  height: auto;
+}
+
+.photo {
+  width: 33.33%;
+  float: left;
+  height: 300px;
+  overflow: hidden;
+}
+
+.photo:hover .photoWH {
+  transform: scale(1.5);
+  transition: transform 0.5s ease;
+}
+
+.photoWH {
+  width: 100%;
+  height: 100%;
+}
+
+.photoWHV {
+  width: 100%;
+  height: 100%;
+}
+
+/*End gallery*/
+
+/*ImageView*/
+
+/*The Modal (background)*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999999999999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+/*Modal Content*/
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+}
+
+/*The Close Button*/
+
+.close {
+  color: white;
+  position: absolute;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  position: -webkit-sticky;
+  position: sticky;
+  float: right;
+  top: 0;
+  z-index: 999999999;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Next & previous buttons*/
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 999999999999;
+}
+
+/*Position the "next button" to the right*/
+
+.next {
+  right: 0;
+  border-radius: 200px;
+  margin-right: -4%;
+}
+
+/*Position the "prev button" to the left*/
+
+.prev {
+  left: 0;
+  border-radius: 200px;
+  margin-left: -4%;
+}
+
+/*On hover, add a black background color with a little bit see-through*/
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*End ImageView*/
+
+/*Footer*/
+
+footer {
+  font-family: sans-serif;
+}
+
+.footerBottom {
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  float: left;
+}
+
+.tittleFooter {
+  font-weight: bold;
+  width: 60%;
+  font-size: 15px;
+}
+
+.wheretofindusFooter {
+  width: 25%;
+  font-size: 14px;
+  float: left;
+}
+
+.contactusFooter {
+  width: 25%;
+  float: left;
+  font-size: 14px;
+}
+
+.openFooter {
+  font-size: 14px;
+  float: left;
+  width: 25%;
+}
+
+.suporteFooter {
+  width: 25%;
+  float: left;
+  font-size: 14px;
+}
+
+.livrodereclamacoes {
+  height: 80px;
+  padding-top: 1%;
+}
+
+.CDfooter {
+  width: 100%;
+}
+
+.copyright {
+  float: left;
+  font-size: 11px;
+  color: gray;
+}
+
+.desendesign {
+  float: right;
+  font-size: 11px;
+  color: gray;
+}
+
+@media only screen and (max-width: 992px) {
+  /*Tablet*/
+
+  /*Header*/
+
+  /*Top*/
+
+  .top {
+    width: 100%;
+    padding-top: 1%;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .logo {
+    vertical-align: middle;
+    display: inline-block;
+    width: auto;
+  }
+
+  .logoIMG {
+    height: 70px;
+  }
+
+  .weatherWidget {
+    visibility: hidden;
+    position: absolute;
+    left: -99999px;
+  }
+
+  .weatherWidgetTablet {
+    display: inline-block;
+    visibility: visible;
+    position: inherit;
+  }
+
+  .weatherWidgetPhone {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  /*Menu*/
+
+  .topBtnPhone {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .menuText {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    visibility: visible;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+  }
+
+  li {
+    padding-top: 1%;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+  }
+
+  .navMenu,
+  li,
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  /*searchbar*/
+
+  /* .search {
+    
+  } */
+
+  .searchMG {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+  .searchMGSearch {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+  /*End searchbar*/
+
+  /* main */
+
+  .slideshow {
+    width: 100%;
+  }
+
+  .slideshowimgs {
+    width: 100%;
+    height: 400px;
+  }
+
+  .news {
+    display: none;
+  }
+
+  .newsTabletPhone {
+    display: block;
+  }
+
+  /*produtos categorias*/
+
+  .productsCategoriesplaceHolders {
+    height: 133px;
+  }
+
+  .categoriesIcons {
+    font-size: 40px;
+    margin-left: -3%;
+  }
+
+  .tituloCategoria {
+    margin-top: 70%;
+  }
+
+  .productsCategoriesplaceHolders:hover .categoriesIcons {
+    font-size: 45px;
+  }
+
+  .productsCategoriesplaceHolders:hover .tituloCategoria {
+    font-size: 16px;
+  }
+
+  /*End produtos categorias*/
+
+  /*ImageView*/
+
+  /* The Modal (background) */
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999999999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.836);
+  }
+
+  /* Modal Content */
+
+  .modal-content {
+    position: relative;
+    margin-top: 10%;
+    padding: 0;
+    width: 90%;
+    /* max-width: 1200px; */
+  }
+
+  /* The Close Button */
+
+  .close {
+    color: white;
+    position: absolute;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    position: -webkit-sticky;
+    position: sticky;
+    float: right;
+    top: 0;
+    z-index: 999999999;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Next & previous buttons */
+
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    z-index: 999999999999;
+  }
+
+  /* Position the "next button" to the right */
+
+  .next {
+    right: 0;
+    border-radius: 200px;
+    margin-right: -5%;
+  }
+
+  /* Position the "prev button" to the left */
+
+  .prev {
+    left: 0;
+    border-radius: 200px;
+    margin-left: -5%;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /*End ImageView*/
+
+  .welcome {
+    width: 100%;
+    /* text-align: justify;
+    margin-left: 1%; */
+  }
+
+  .gallery {
+    padding-left: 0%;
+    width: 100%;
+  }
+
+  .photo {
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+  }
+
+  /*Form*/
+
+.tittleContacts {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.introContatcs {
+  text-align: center;
+  font-size: 14px;
+}
+
+.formContacts
+{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.labels
+{
+  float: left;
+  width: 22%;
+}
+
+.inputs {
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  padding-right: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.divInputName
+{
+  width: 100%;
+}
+
+.inputName {
+  width: 55%;
+  float: left;
+}
+
+.divInputEmail
+{
+  width: 100%;
+}
+
+.inputEmail {
+  width: 55%;
+  float: left;
+}
+
+.divInputCellphone
+{
+  width: 100%;
+}
+
+.inputCellphone {
+  width: 20%;
+  float: left;
+}
+
+.divInputMatter
+{
+  width: 100%;
+}
+
+.inputMatter {
+  width: 55%;
+  float: left;
+}
+
+.divInputEnterprise
+{
+  width: 100%;
+}
+
+.inputEnterprise {
+  width: 55%;
+  float: left;
+}
+
+.divInputMessage
+{
+  width: 100%;
+}
+
+.inputMessage {
+  width: 100%;
+  height: 100px;
+}
+
+.textContatosI {
+  margin-left: 5%;
+}
+
+/*Form*/
+
+  /*footer*/
+
+  .footerBottom {
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-right: 1%;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    float: left;
+  }
+
+  .tittleFooter {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .wheretofindusFooter {
+    width: 33%;
+    font-size: 14px;
+    float: left;
+  }
+
+  .contactusFooter {
+    width: 33%;
+    float: left;
+    font-size: 14px;
+  }
+
+  .openFooter {
+    font-size: 14px;
+    float: left;
+    width: 33%;
+  }
+
+  .suporteFooter {
+    width: 33%;
+    float: left;
+    font-size: 14px;
+  }
+
+  .livrodereclamacoes {
+    height: 80px;
+    padding-top: 1%;
+  }
+
+  .CDfooter {
+    width: 98%;
+    position: absolute;
+    margin-top: 40%;
+  }
+
+  .copyright {
+    float: left;
+    font-size: 11px;
+    color: gray;
+  }
+
+  .desendesign {
+    float: right;
+    font-size: 11px;
+    color: gray;
+  }
+
+  /*EndFooter*/
+}
+
+@media only screen and (max-width: 600px) {
+  /*Phone*/
+
+  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+  }
 
-li, a, .menuText{
-   /* font-family:'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
-    */
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Sarabun', sans-serif;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 500;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+  /* header */
 
-.main1{
-    justify-content: space-between;
-    background: #333;
-}
+  .header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+  }
 
-.nav_menu,li{
-    display: inline-block;
-}
+  /* top */
 
-.nav_menu,li,a{
-    
-    transition: all 0.3s ease auto;
-    padding: 0px 25px;
-    list-style: none;
-}
-
-.nav_menu,li,a:hover{
-    color:#81BEF7;
-    text-decoration: none;
-}
-
-.top
-{
-    margin-top: -5px;
-    margin-left: -5px;
+  .top {
     width: auto;
     padding-top: 1%;
     vertical-align: middle;
     text-align: center;
-    margin-bottom: 14px;
-}
+    z-index: 9999999;
+  }
 
-.logo
-{
+  .logo {
     vertical-align: middle;
     display: inline-block;
-    margin: auto;
-    width: 30%;
-    margin-left: -20px;
-}
+    width: auto;
+  }
 
-.weatherWidget
-{
-    padding-left: 10px;
+  .logoIMG {
+    height: 70px;
+  }
+
+  .weatherWidget {
+    display: none;
+  }
+
+  .weatherWidgetTablet {
+    display: none;
+  }
+
+  .weatherWidgetPhone {
+    position: relative;
+    visibility: visible;
     vertical-align: middle;
     display: inline-block;
-    margin: auto;
-    margin-right: 0px;
-    margin-left: 25px;
-}
+  }
 
-.main2{
-    font-family:'Roboto', sans-serif;
-}
+  /* menu */
 
-/*************************
-********Contact CSS*******
-**************************/
+  .topBtnPhone {
+    width: 10%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    float: left;
+    visibility: visible;
+    font-size: 40px;
+    position: absolute;
+    z-index: 999;
+    margin-left: 90%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: -26%;
+    color: white;
+  }
 
-.contact {
-    padding-top: 0px;
-    padding-bottom: 0;
-    
+  .closeMenuCross {
+    visibility: hidden;
   }
-  
-.mapa {
-    height: none;
-  }
-  
-  .contact-us {
 
-    padding-bottom: 90px;
-  
+  .menuText {
     font-size: 20px;
+    font-weight: bold;
+    display: none;
+    font-weight: normal;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
-  
-  .contact-us .heading {
-    padding-top: 15px;
-    font-size: 20px;
-  }
-  
-  .form-control {
-    background-color: transparent;
-    border-color:  rgba(255, 255, 255, 0.1);;
-    height: 50px;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 20px;
-  }
-  
-  textarea.form-control {
-    min-height: 180px;
-    resize: none;
-    font-size: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 30px;
-    font-size: 20px;
-  }
-  
-  ul.address {
-    margin-top: 30px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-  }
-  
-  .contact-info {
-    margin-bottom: 8px;
-    font-size: 15px;
-    color: #000;
-  }
-  
-  .btn-submit {
-    display: block;
-    padding: 12px;
-    width: 50%;
-    color: #000;
-    border: 0;
-    font-size: 20px;
-    margin-top: 40px;
+
+  .menuText:hover {
     font-weight: bold;
   }
 
-  .btn-submit:hover {
-      background-color: #81BEF7;
+  nav {
+    text-align: center;
+    display: none;
+    position: fixed;
+    margin-top: 25%;
+    width: 100%;
   }
 
-/*************************
-********Footer CSS********
-**************************/
+  li {
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    list-style: none;
+  }
 
-footer {
-    color: #fff;
+  /*searchbar*/
+
+  /* .search {
+    
+  } */
+
+  .searchMG {
+    margin-top: 3%;
+  }
+
+  .searchMGSearch {
+    margin-top: 3%;
+  }
+
+  /*End searchbar*/
+
+  /* main */
+
+  .slideshow {
+    width: 100%;
+    height: auto;
+  }
+
+  .slideshowimgs {
+    width: 100%;
+    height: auto;
+  }
+
+  .news {
+    display: none;
+  }
+
+  .newsTabletPhone {
+    display: block;
+  }
+
+  .modal-content {
+    margin-top: 20%;
+  }
+
+  /*produtos categorias*/
+
+  .productsCategoriesplaceHolders {
+    height: 96.6px;
+  }
+
+  .categoriesIcons {
+    font-size: 40px;
+    margin-left: -4%;
+    margin-top: 3%;
+  }
+
+  .tituloCategoria {
+    margin-top: 70%;
+  }
+
+  .productsCategoriesplaceHolders:hover .categoriesIcons {
+    font-size: 45px;
+    margin-left: -4.5%;
+  }
+
+  .productsCategoriesplaceHolders:hover .tituloCategoria {
+    font-size: 12px;
+  }
+
+  /*End produtos categorias*/
+
+  /* Position the "next button" to the right */
+
+  .next {
+    margin-right: -6%;
+  }
+
+  /* Position the "prev button" to the left */
+
+  .prev {
+    margin-left: -6%;
+  }
+
+  .welcome {
+    width: 98%;
+    text-align: justify;
+  }
+
+  .gallery {
+    padding-left: 0%;
+    width: 100%;
+  }
+
+  .photo {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+  }
+
+  /*Form*/
+
+.tittleContacts {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.introContatcs {
+  text-align: center;
+  font-size: 14px;
+}
+
+.formContacts
+{
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.labels
+{
+  float: left;
+  width: 20%;
+}
+
+.inputs {
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+.divInputName
+{
+  width: 100%;
+}
+
+.inputName {
+  width: 70%;
+}
+
+.divInputEmail
+{
+  width: 100%;
+}
+
+.inputEmail {
+  width: 70%;
+}
+
+.divInputCellphone
+{
+  width: 100%;
+}
+
+.inputCellphone {
+  width: 30%;
+}
+
+.divInputMatter
+{
+  width: 100%;
+}
+
+.inputMatter {
+  width: 70%;
+}
+
+.divInputEnterprise
+{
+  width: 100%;
+}
+
+.inputEnterprise {
+  width: 70%;
+}
+
+.divInputMessage
+{
+  width: 100%;
+}
+
+.inputMessage {
+  width: 100%;
+}
+
+.textContatosI {
+  margin-left: 5%;
+}
+
+/*Form*/
+
+  /*footer*/
+
+  a {
+    font-size: 11px;
+  }
+
+  .footerBottom {
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 8%;
+    width: 100%;
     background-color: #333;
-    height: 310px;
-    font-family: 'Sarabun', sans-serif;
+    color: #fff;
+    float: left;
   }
-  
-  .footer-top {
-    position: relative;
-    padding: 5px 0;
+
+  .tittleFooter {
+    font-size: 15px;
   }
-  
-  footer .footer-bottom {
-    padding: 20px 0 10px;
+
+  .wheretofindusFooter {
+    width: 50%;
+    font-size: 14px;
+    float: left;
   }
+
+  .contactusFooter {
+    width: 50%;
+    float: left;
+    font-size: 14px;
+  }
+
+  .openFooter {
+    font-size: 14px;
+    float: left;
+    width: 49%;
+    position: absolute;
+    margin-top: 23%;
+  }
+
+  .suporteFooter {
+    width: 50%;
+    float: right;
+    font-size: 14px;
+    margin-top: 6%;
+  }
+
+  .livrodereclamacoes {
+    height: 80px;
+    padding-top: 1%;
+  }
+
+  .CDfooter {
+    width: 99%;
+    position: absolute;
+    margin-top: 55%;
+  }
+
+  .copyright {
+    float: left;
+    font-size: 11px;
+    color: gray;
+  }
+
+  .desendesign {
+    float: left;
+    font-size: 11px;
+    color: gray;
+  }
+
+  /*End footer*/
+}
