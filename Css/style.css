@@ -208,19 +208,6 @@ a:hover {
 
 /*End Menu Scroll Down*/
 
-.dropDownProducsMenu {
-  position: absolute;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  width: 14%;
-  text-align: center;
-  background-color: #604020;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin-left: 42%;
-}
-
 .selectPM {
   color: black;
   padding-top: 1%;
@@ -233,16 +220,9 @@ a:hover {
   color: white;
 }
 
-
-
 /*End top*/
 
 /*main*/
-
-/* .backgroundIMG {
-  background-image: url(../Images/background.jpg);
-  background-size: cover;
-} */
 
 .main {
   font-size: 14px;
@@ -426,9 +406,6 @@ a:hover {
   background-color: rgba(255, 255, 255, 0);
   z-index: 999999;
   height: 9%;
-  /* border-top: 1px rgba(0, 0, 0, 0.753) solid;
-  border-right: 1px rgba(0, 0, 0, 0.753) solid;
-  border-bottom: 1px rgba(0, 0, 0, 0.753) solid; */
   transition: 0.5s;
   width: 0%;
 }
@@ -450,7 +427,6 @@ a:hover {
   position: fixed;
   color: black;
   font-size: 30px;
-  /* margin-top: 1%; */
   margin-left: 1%;
   margin-top: 1%;
 }
@@ -609,12 +585,7 @@ a:hover {
 
 /*End caroussel*/
 
-/*Marcas da pagina marcas*/
-
-/* .titleBrands
-{
-  
-} */
+/*Marcas da pagina marcas*/ 
 
 .marcasGallery {
   width: 100%;
