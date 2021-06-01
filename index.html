@@ -38,7 +38,7 @@
   </div>
   <button class="topBtnPhone openMenuBars" id="menuBars" onclick="topButtonO()"><i class="fas fa-bars"></i></button> <!--Top Button Phone Mode-->
   <button class="topBtnPhone closeMenuCross" id="menuClose" onclick="topButtonC()"><i class="fas fa-times"></i></button> <!--Top Button Phone Mode-->
-  <nav id="nav">
+  <nav id="nav" class="nav">
     <ul class="navMenu"> <!--Menu-->
       <a href="#"><li class="menuText" id="op1">INICIO</li></a>
       <a href="quemsomos.html"><li class="menuText" id="op2">QUEM SOMOS</li></a>
@@ -50,18 +50,22 @@
       <a href="associados.html"><li class="menuText" id="op7">ASSOCIADOS</li></a>
     </ul>
   </nav>
-  
-  <!-- <div class="dropDownProducsMenu">
-    <a href="produtos.html"><li class="selectPM">ADUBOS</li></a>
-    <a href="produtos.html"><li class="selectPM">AGROQUIMICOS</li></a>
-    <a href="produtos.html"><li class="selectPM">ALIMENTAÇÃO ANIMAL</li></a>
-    <a href="contatos.html"><li class="selectPM">BRICOLAGE</li></a>
-    <a href="produtos.html"><li class="selectPM">MÁQUINA</li></a>
-    <a href="produtos.html"><li class="selectPM">PETCARE</li></a>
-    <a href="produtos.html"><li class="selectPM">SERVIÇOS</li></a>
-    <a href="produtos.html"><li class="selectPM">VETERENÁRIA</li></a>
-  </div> -->
-
+  <nav id="navScrollD" class="navScrollD">
+    <img src="Images/icon.png" class="iconMenu">
+    <ul class="navMenuScrollD"> <!--Menu -->
+          <a href="#"><li class="menuTextScrollD">INICIO</li></a>
+          <a href="quemsomos.html"><li class="menuTextScrollD">QUEM SOMOS</li></a>
+          <a href="galeria.html"><li class="menuTextScrollD">GALERIA</li></a>
+          <a href="produtos.html"><li class="menuTextScrollD">PRODUTOS</li></a>
+          <a href="contatos.html"><li class="menuTextScrollD">CONTATOS</li></a>
+          <a href="marcas.html"><li class="menuTextScrollD">MARCAS</li></a>
+          <a href="associados.html"><li class="menuTextScrollD">ASSOCIADOS</li></a>
+        </ul>
+        <div class="searchBarnMGB">
+          <input type="text" class="searchBarB" id="searchBarB" placeholder="Procurar...">
+          <a onclick="" id="searchMGSearchB"><i class="fas fa-search searchMGSearchB"></i></a>
+        </div>
+  </nav> 
   <!-- Search Bar-->
   <div class="search" id="search">
     <a onclick="openSearchBar()" id="searchMG"><i class="fas fa-search searchMG"></i></a>
@@ -72,9 +76,6 @@
     <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
   </div>
   <!--End Search Bar -->
-
-
-  <div class="backgroundIMG">
   <div class="main"> <!--"Body"/Main/Content-->
     <div class="news"> <!--Div news widget-->
       <script type="text/javascript" src="JS/newsWidget.js?widgettitle=Noticías&amp;categories=126,127,128,129,&amp;showRelease=0&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=1&amp;headlinecolor=000000&amp;briefcolor=000000&amp;textcolor=000000&amp;typeface=sans-serif&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=solid&amp;showimages=0&amp;numstories=5&amp;bgcolor=rgba(255, 255, 255, 0)&amp;urldest=local"></script> <!--News widget-->
@@ -292,7 +293,6 @@
       </div>
     </div><!--End-->
   </div><!--/Main-->
-</div>
 </body>
 <footer class="footerBottom"> <!--Footer-->
     <div class="wheretofindusFooter">

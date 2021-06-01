@@ -75,12 +75,11 @@ a {
   visibility: visible;
   font-weight: bold;
   background-color: #4bc726;
-  margin-top: 0.5%;
 }
 
 .menuText:hover {
   color: white;
-  background-color: #c7c226;
+  /* background-color: #c7c226; */
 }
 
 /* .navMenu{
@@ -89,12 +88,16 @@ a {
 
 nav {
   background-color: #4bc726;
-  position: -webkit-sticky;
+
+  /*To fixate the menu to the top while scrolling down*/
+  /* position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 0; */
+
   text-align: center;
   z-index: 10;
   visibility: visible;
+  border-bottom: 1px solid#37911b;
 }
 
 li {
@@ -111,10 +114,107 @@ a:hover {
   text-decoration: none;
 }
 
-.downArrow {
-  font-size: 20px;
-  vertical-align: middle;
+/*End Menu*/
+
+/*Menu Scroll Down*/
+
+.iconMenu
+{
+  width: 5%;
+  height: auto;
+  float: left;
+  padding: 0.5% 0.5% 0.5% 0.5%;
 }
+
+.menuTextScrollD {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 1% 1.5% 1% 1.5%;
+  font-weight: bold;
+  background-color: #4bc726;
+  width: auto;
+  float: left;
+  /* margin-top: 1%; */
+
+  /* position: fixed; */
+}
+
+.menuTextScrollD:hover {
+  color: white;
+  /* background-color: #c7c226; */
+}
+
+.navMenuScrollD{
+  width: 100%;
+}
+
+.navScrollD {
+  display: block;
+  background-color: #4bc726;
+  position: fixed;
+
+  /*To fixate the menu to the top while scrolling down*/
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  border-bottom: 1px solid#37911b;
+}
+
+/*SearchbarB*/
+
+.searchMGSearchB {
+  color: black;
+  font-size: 30px;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.searchMGSearchB:hover {
+  color: black;
+}
+
+.searchBarnMGB
+{
+  background-color: white;
+  width: 20%;
+  height: 90%;
+  float: right;
+  margin-top: 1%;
+  margin-right: 1%;
+  vertical-align: middle;
+  border-radius: 20px;
+  border: 1px rgb(0, 0, 0, 0.753) solid;
+}
+
+.searchBarB {
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: none;
+  margin-left: 7%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: block;
+  font-size: 18px;
+  width: 70%;
+}
+
+.searchBarB:focus {
+  outline: none;
+}
+
+/*SearchbarB*/
+
+/*End Menu Scroll Down*/
 
 .dropDownProducsMenu {
   position: absolute;
@@ -141,7 +241,7 @@ a:hover {
   color: white;
 }
 
-/*End menu*/
+
 
 /*End top*/
 
@@ -185,6 +285,10 @@ a:hover {
   padding-right: 1%;
   padding-bottom: 1%;
   border-radius: 40%;
+}
+
+.map{
+  text-align: center;
 }
 
 /*Form*/
@@ -320,7 +424,7 @@ a:hover {
   color: white;
 }
 
-/*Form*/
+/*End Form*/
 
 /*Searchbar*/
 
@@ -541,7 +645,6 @@ a:hover {
 /*Gallery*/
 
 .gallery {
-  /* padding-left: 1%; */
   width: 100%;
   height: auto;
 }

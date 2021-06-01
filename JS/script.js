@@ -118,7 +118,6 @@ function resize() {
     {
       document.getElementById("search").style.width = "22%";
     }
-    
   }
 }
 
@@ -148,4 +147,16 @@ function closeSearchBar()
   document.getElementById("searchMGSearch").style.display = "none";
   document.getElementById("searchMG").style.display = "block";
   document.getElementById("search").style.width = "0%";
+}
+
+window.onscroll = function() {menuAppear()};
+
+function menuAppear()
+{
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+  {
+    document.getElementById("navScrollD").style.display = "none";
+    // document.getElementById("navScrollD").style.top = "0";
+  }
+  // document.getElementById("navScrollB").style.display = "block";
 }
