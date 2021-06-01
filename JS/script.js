@@ -155,8 +155,7 @@ function menuAppear()
 {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
   {
-    document.getElementById("navScrollD").style.display = "none";
-    // document.getElementById("navScrollD").style.top = "0";
+    document.getElementById("navScrollScrollD").style.display = "none";
   }
-  // document.getElementById("navScrollB").style.display = "block";
+
 }

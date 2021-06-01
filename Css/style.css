@@ -167,20 +167,20 @@ a:hover {
   border-bottom: 1px solid#37911b;
 }
 
-/*SearchbarB*/
+/*Searchbar Scroll Down*/
 
-.searchMGSearchB {
+.searchMGSearchScrollD {
   color: black;
   font-size: 30px;
   margin-left: 1%;
   margin-top: 1%;
 }
 
-.searchMGSearchB:hover {
+.searchMGSearchScrollD:hover {
   color: black;
 }
 
-.searchBarnMGB
+.searchBarnMGScrollD
 {
   background-color: white;
   width: 20%;
@@ -193,7 +193,7 @@ a:hover {
   border: 1px rgb(0, 0, 0, 0.753) solid;
 }
 
-.searchBarB {
+.searchBarScrollD {
   float: left;
   padding-right: 5px;
   padding-left: 5px;
@@ -208,11 +208,11 @@ a:hover {
   width: 70%;
 }
 
-.searchBarB:focus {
+.searchBarScrollD:focus {
   outline: none;
 }
 
-/*SearchbarB*/
+/*End Searchbar Scroll Down*/
 
 /*End Menu Scroll Down*/
 
