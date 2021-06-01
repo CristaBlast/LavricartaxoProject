@@ -132,19 +132,16 @@ a:hover {
   font-family: sans-serif;
   font-size: 18px;
   font-weight: 500;
-  padding: 1% 1.5% 1% 1.5%;
+  padding: 0% 1.5% 1% 1.5%;
   font-weight: bold;
   background-color: #4bc726;
   width: auto;
   float: left;
-  /* margin-top: 1%; */
-
-  /* position: fixed; */
+  margin-top: 1.5%;
 }
 
 .menuTextScrollD:hover {
   color: white;
-  /* background-color: #c7c226; */
 }
 
 .navMenuScrollD{
@@ -155,15 +152,12 @@ a:hover {
   display: block;
   background-color: #4bc726;
   position: fixed;
-
-  /*To fixate the menu to the top while scrolling down*/
-  /* position: -webkit-sticky;
-  position: sticky;
-  top: 0; */
-
   width: 100%;
   z-index: 10;
-  top: 0;
+  top: 0px;
+
+  /**/
+
   border-bottom: 1px solid#37911b;
 }
 
@@ -173,7 +167,6 @@ a:hover {
   color: black;
   font-size: 30px;
   margin-left: 1%;
-  margin-top: 1%;
 }
 
 .searchMGSearchScrollD:hover {
@@ -201,7 +194,6 @@ a:hover {
   padding-top: 5px;
   border: none;
   margin-left: 7%;
-  margin-top: 1%;
   margin-bottom: 1%;
   display: block;
   font-size: 18px;
