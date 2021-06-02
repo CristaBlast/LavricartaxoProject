@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="keywords" content="Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
-      <meta name="description" content="LAVRICARTAXO Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" type="image/jpg" href="Images/icon.png" />
-      <link rel="stylesheet" href="fontawesome/css/all.css">
-      <link rel="stylesheet" href="fontawesome/css/all.min.css">     
-      <link rel="stylesheet" href="CSS/style.css" type="text/css">
-      <script src="JS/script.js"></script>
-      <title>Lavricartaxo</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords"
+    content="Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
+  <meta name="description"
+    content="LAVRICARTAXO Cooperativa agricola do Cartaxo, Vinhas, Vinhos, adubos, agroquimicos, fitofarmacos, sementes, batatas, rações">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpg" href="Images/icon.png" />
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="CSS/style.css" type="text/css">
+  <script src="JS/script.js"></script>
+  <title>Lavricartaxo</title>
+</head>
+
 <body onload="slideshow()" onresize="resize()">
-  <div class="header"> <!--Header-->
-    <div class="top"> <!--Header Subsection Top-->
-      <div class="logo"> <!--Div logo-->
-        <a href="index.html"><img src="Images/logo.png" alt="logo" class="logoIMG"></a> <!--Logo Lavricartaxo-->
+  <!--Header-->
+  <!-- <div class="header">
+    <div class="top">
+      <div class="logo">
+        <a href="index.html"><img src="Images/logo.png" alt="logo" class="logoIMG"></a>
       </div>
-      <div class="weatherWidget"> <!--Div weather widget PC-->
-        <div id="weatherWidget" >
-          <script type="text/javascript" async src="JS/weatherWidget.js"></script> <!--Weather width PC-->
-        </div> 
-      </div>  
-      <div class="weatherWidgetTablet"> <!--Div weather widget Tablet-->
+      <div class="weatherWidget">
+        <div id="weatherWidget">
+          <script type="text/javascript" async src="JS/weatherWidget.js"></script>
+        </div>
+      </div>
+      <div class="weatherWidgetTablet">
         <div id="weatherWidgetTablet">
-          <script type="text/javascript" async src="JS/weatherWidgetTablet.js"></script> <!--Weather width Tablet-->
+          <script type="text/javascript" async src="JS/weatherWidgetTablet.js"></script>
         </div>
-      </div>   
-      <div class="weatherWidgetPhone"> <!--Div weather widget Phone-->
+      </div>
+      <div class="weatherWidgetPhone">
         <div id="weatherWidgetPhone">
-          <script type="text/javascript" async src="JS/weatherWidgetPhone.js"></script> <!--Weather width Phone-->
+          <script type="text/javascript" async src="JS/weatherWidgetPhone.js"></script>
         </div>
-      </div>          
-    </div>    
-  </div>
-  <button class="topBtnPhone openMenuBars" id="menuBars" onclick="topButtonO()"><i class="fas fa-bars"></i></button> <!--Top Button Phone Mode-->
-  <button class="topBtnPhone closeMenuCross" id="menuClose" onclick="topButtonC()"><i class="fas fa-times"></i></button> <!--Top Button Phone Mode-->
-  <nav id="nav" class="nav">
-    <ul class="navMenu"> <!--Menu-->
+      </div>
+    </div>
+  </div> -->
+  <!-- <button class="topBtnPhone openMenuBars" id="menuBars" onclick="topButtonO()"><i class="fas fa-bars"></i></button> 
+  <button class="topBtnPhone closeMenuCross" id="menuClose" onclick="topButtonC()"><i class="fas fa-times"></i></button> 
+  <nav id="nav" class="nav"> -->
+  <!--Menu-->
+  <!-- <ul class="navMenu"> 
       <a href="#"><li class="menuText" id="op1">INICIO</li></a>
       <a href="quemsomos.html"><li class="menuText" id="op2">QUEM SOMOS</li></a>
       <a href="galeria.html"><li class="menuText" id="op3">GALERIA</li></a>
@@ -47,37 +53,71 @@
       <a href="contatos.html"><li class="menuText" id="op5">CONTATOS</li></a>
       <a href="marcas.html"><li class="menuText" id="op6">MARCAS</li></a>
       <a href="associados.html"><li class="menuText" id="op7">ASSOCIADOS</li></a>
-    </ul>
+    </ul> -->
   </nav>
   <nav id="navScrollD" class="navScrollD">
+    <div class="weatherWidget">
+      <div id="weatherWidget">
+        <script type="text/javascript" async src="JS/weatherWidget.js"></script>
+      </div>
+    </div>
+    <div class="weatherWidgetTablet">
+      <div id="weatherWidgetTablet">
+        <script type="text/javascript" async src="JS/weatherWidgetTablet.js"></script>
+      </div>
+    </div>
+    <div class="weatherWidgetPhone">
+      <div id="weatherWidgetPhone">
+        <script type="text/javascript" async src="JS/weatherWidgetPhone.js"></script>
+      </div>
+    </div>
     <img src="Images/icon.png" class="iconMenu">
-    <ul class="navMenuScrollD"> <!--Menu -->
-          <a href="#"><li class="menuTextScrollD">INICIO</li></a>
-          <a href="quemsomos.html"><li class="menuTextScrollD">QUEM SOMOS</li></a>
-          <a href="galeria.html"><li class="menuTextScrollD">GALERIA</li></a>
-          <a href="produtos.html"><li class="menuTextScrollD">PRODUTOS</li></a>
-          <a href="contatos.html"><li class="menuTextScrollD">CONTATOS</li></a>
-          <a href="marcas.html"><li class="menuTextScrollD">MARCAS</li></a>
-          <a href="associados.html"><li class="menuTextScrollD">ASSOCIADOS</li></a>
-        </ul>
-        <div class="searchBarnMGScrollD">
-          <input type="text" class="searchBarScrollD" id="searchBarScrollD" placeholder="Procurar...">
-          <a onclick="" id="searchMGSearchScrollD"><i class="fas fa-search searchMGSearchScrollD"></i></a>
-        </div>
-  </nav> 
+    <ul class="navMenuScrollD">
+      <!--Menu -->
+      <a href="#">
+        <li class="menuTextScrollD">INICIO</li>
+      </a>
+      <a href="quemsomos.html">
+        <li class="menuTextScrollD">QUEM SOMOS</li>
+      </a>
+      <a href="galeria.html">
+        <li class="menuTextScrollD">GALERIA</li>
+      </a>
+      <a href="produtos.html">
+        <li class="menuTextScrollD">PRODUTOS</li>
+      </a>
+      <a href="contatos.html">
+        <li class="menuTextScrollD">CONTATOS</li>
+      </a>
+      <a href="marcas.html">
+        <li class="menuTextScrollD">MARCAS</li>
+      </a>
+      <a href="associados.html">
+        <li class="menuTextScrollD">ASSOCIADOS</li>
+      </a>
+    </ul>
+    <div class="searchBarnMGScrollD">
+      <input type="text" class="searchBarScrollD" id="searchBarScrollD" placeholder="Pesquisar...">
+      <a onclick="" id="searchMGSearchScrollD"><i class="fas fa-search searchMGSearchScrollD"></i></a>
+    </div>
+  </nav>
   <!-- Search Bar-->
-  <div class="search" id="search">
+  <!-- <div class="search" id="search">
     <a onclick="openSearchBar()" id="searchMG"><i class="fas fa-search searchMG"></i></a>
     <div class="searchBarnMG">
       <input type="text" class="searchBar" id="searchBar" placeholder="Procurar...">
       <a onclick="" id="searchMGSearch"><i class="fas fa-search searchMGSearch"></i></a>
     </div>
     <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
-  </div>
+  </div> -->
   <!--End Search Bar -->
-  <div class="main"> <!--"Body"/Main/Content-->
-    <div class="news"> <!--Div news widget-->
-      <script type="text/javascript" src="JS/newsWidget.js?widgettitle=Noticías&amp;categories=126,127,128,129,&amp;showRelease=0&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=1&amp;headlinecolor=000000&amp;briefcolor=000000&amp;textcolor=000000&amp;typeface=sans-serif&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=solid&amp;showimages=0&amp;numstories=5&amp;bgcolor=rgba(255, 255, 255, 0)&amp;urldest=local"></script> <!--News widget-->
+  <div class="main">
+    <!--"Body"/Main/Content-->
+    <div class="news">
+      <!--Div news widget-->
+      <script type="text/javascript"
+        src="JS/newsWidget.js?widgettitle=Noticías&amp;categories=126,127,128,129,&amp;showRelease=0&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=1&amp;headlinecolor=000000&amp;briefcolor=000000&amp;textcolor=000000&amp;typeface=sans-serif&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=solid&amp;showimages=0&amp;numstories=5&amp;bgcolor=rgba(255, 255, 255, 0)&amp;urldest=local"></script>
+      <!--News widget-->
     </div>
     <!--Slideshow-->
     <div class="slideshow">
@@ -89,12 +129,20 @@
     <!--End-->
     <!--Tablet News-->
     <div class="newsTabletPhone">
-      <script type="text/javascript" src="JS/newsWidget.js?widgettitle=Noticías&amp;categories=126,127,128,129,&amp;showRelease=0&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=1&amp;headlinecolor=000000&amp;briefcolor=000000&amp;textcolor=000000&amp;typeface=sans-serif&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=solid&amp;showimages=0&amp;numstories=5&amp;bgcolor=rgba(255, 255, 255, 0)&amp;urldest=local"></script>
+      <script type="text/javascript"
+        src="JS/newsWidget.js?widgettitle=Noticías&amp;categories=126,127,128,129,&amp;showRelease=0&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=1&amp;headlinecolor=000000&amp;briefcolor=000000&amp;textcolor=000000&amp;typeface=sans-serif&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=solid&amp;showimages=0&amp;numstories=5&amp;bgcolor=rgba(255, 255, 255, 0)&amp;urldest=local"></script>
     </div>
     <!--Tablet News-->
-    <div class="welcome"> <!--Text-->
-      <p><br><h2><b>Seja bem vindo ao nosso site</b></h2><br>É com enorme prazer que registamos a sua presença no nosso site, esperamos que encontre tudo o que precisa para realizar os seus projectos com sucesso!.<br><br>A LAVRICARTAXO - Cooperativa Agro-Pecuária do Cartaxo, C.R.L.. coloca ao seu dispôr uma vasta equipa para que possa ter todo o apoio que considere necessário.<br><br>O nosso objectivo é servir os nossos clientes com competência e dedicação para que o nosso cliente volte sempre!<br><br>Ao adquirir produtos na nossa empresa deve saber que estará sempre a comprar qualidade ao melhor preço! Volte sempre, será sempre um gosto tê-lo de volta!</p>
-    </div> 
+    <div class="welcome">
+      <!--Text-->
+      <p><br>
+      <h2><b>Seja bem vindo ao nosso site</b></h2><br>É com enorme prazer que registamos a sua presença no nosso site,
+      esperamos que encontre tudo o que precisa para realizar os seus projectos com sucesso!.<br><br>A LAVRICARTAXO -
+      Cooperativa Agro-Pecuária do Cartaxo, C.R.L.. coloca ao seu dispôr uma vasta equipa para que possa ter todo o
+      apoio que considere necessário.<br><br>O nosso objectivo é servir os nossos clientes com competência e dedicação
+      para que o nosso cliente volte sempre!<br><br>Ao adquirir produtos na nossa empresa deve saber que estará sempre a
+      comprar qualidade ao melhor preço! Volte sempre, será sempre um gosto tê-lo de volta!</p>
+    </div>
     <br>
     <br>
     <div class="tittleProductCategory">
@@ -150,168 +198,206 @@
           <i class="fas fa-stethoscope categoriesIcons"></i>
           <p class="tituloCategoria">VETERENÁRIA</p>
         </div>
-      </a>   
+      </a>
     </div>
     <!--carousel-->
     <div class="marcass">
       <div class="marcas">
-        <a href="" >
+        <a href="">
           <div class="marca">
-            <img src="Images/marcas/agrolex.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/agrolex.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/sirosubs.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/sirosubs.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/belchim.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/belchim.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/nutrofertil.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/nutrofertil.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/biona.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/biona.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/cadubal.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/cadubal.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/deiba.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/deiba.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/lena.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/lena.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/einhell.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/einhell.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/epagro.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/epagro.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/fertiprado.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/fertiprado.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/fito.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/fito.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/iqv.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/iqv.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
-        </a><!--End carousel-->
+        </a>
+        <!--End carousel-->
         <!--Double Brands-->
-        <a href="" >
+        <a href="">
           <div class="marca">
-            <img src="Images/marcas/agrolex.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/agrolex.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/sirosubs.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/sirosubs.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/belchim.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/belchim.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/nutrofertil.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/nutrofertil.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/biona.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/biona.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/cadubal.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/cadubal.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/deiba.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/deiba.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/lena.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/lena.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/einhell.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/einhell.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/epagro.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/epagro.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/fertiprado.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/fertiprado.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/fito.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/fito.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
         </a>
         <a href="">
           <div class="marca">
-            <img src="Images/marcas/iqv.png"> <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
+            <img src="Images/marcas/iqv.png">
+            <!--onmouseover="brandPause()" onmouseout="brandUnpause()">-->
           </div>
-        </a><!--End carousel-->
+        </a>
+        <!--End carousel-->
       </div>
-    </div><!--End-->
-  </div><!--/Main-->
-</body>
-<footer class="footerBottom"> <!--Footer-->
-    <div class="wheretofindusFooter">
-      <p><p class="tittleFooter">ONDE NOS ENCONTRAR</p><br>Rua Batalhoz Nr.81<br>2070-069 Cartaxo<br>Portugal</p>
     </div>
-    <div class="contactusFooter">
-      <p><p class="tittleFooter">CONTATOS GERAIS</p><br>243 700 240<br>243 700 249</p>
-    </div>
-    <div class="openFooterD">
-      <div class="openFooter">
-        <p><p class="tittleFooter">ATENDIMENTO</p><br>Segunda a Sexta-feira:<br>9h-13h / 14:30h-18:30h<br><br>Sábados:<br>9h-12:30H</p>
-      </div>
+    <!--End-->
   </div>
-    <div class="suporteFooter">
-      <p><p class="tittleFooter">SUPORTE</p><br>Questões Frequentes<br><a href="contatos.html">Contatos</a></p><a href="https://www.livroreclamacoes.pt/inicio"><img src="Images/rb.png" class="livrodereclamacoes"></a>
+  <!--/Main-->
+</body>
+<footer class="footerBottom">
+  <!--Footer-->
+  <div class="wheretofindusFooter">
+    <p>
+    <p class="tittleFooter">ONDE NOS ENCONTRAR</p><br>Rua Batalhoz Nr.81<br>2070-069 Cartaxo<br>Portugal</p>
+  </div>
+  <div class="contactusFooter">
+    <p>
+    <p class="tittleFooter">CONTATOS GERAIS</p><br>243 700 240<br>243 700 249</p>
+  </div>
+  <div class="openFooterD">
+    <div class="openFooter">
+      <p>
+      <p class="tittleFooter">ATENDIMENTO</p><br>Segunda a Sexta-feira:<br>9h-13h /
+      14:30h-18:30h<br><br>Sábados:<br>9h-12:30H</p>
     </div>
-    <div class="CDfooter">
-      <div class="copyright">
-        <p>Copyright &copy; 2021 Lavricartaxo-Cooperativa Agro-Pecuária do Cartaxo, C.R.L.</p>
-      </div>
-      <div class="desendesign">
-        <p>Desenvolvimento e Design:<a href="https://www.analogia.net/?opx=entrar">ANALOGIA.NET</a></p>
-      </div> 
+  </div>
+  <div class="suporteFooter">
+    <p>
+    <p class="tittleFooter">SUPORTE</p><br>Questões Frequentes<br><a href="contatos.html">Contatos</a></p><a
+      href="https://www.livroreclamacoes.pt/inicio"><img src="Images/rb.png" class="livrodereclamacoes"></a>
+  </div>
+  <div class="CDfooter">
+    <div class="copyright">
+      <p>Copyright &copy; 2021 Lavricartaxo-Cooperativa Agro-Pecuária do Cartaxo, C.R.L.</p>
     </div>
+    <div class="desendesign">
+      <p>Desenvolvimento e Design:<a href="https://www.analogia.net/?opx=entrar">ANALOGIA.NET</a></p>
+    </div>
+  </div>
 </footer>
+
 </html>
