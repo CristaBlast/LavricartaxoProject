@@ -87,33 +87,25 @@ function resize() {
     }
     document.getElementById("menuClose").style.visibility = "hidden";
     document.getElementById("menuBars").style.visibility = "visible";
-    if(document.getElementById("searchMG").style.display == "none")
-    {
-    document.getElementById("search").style.width = "55%";
-    }
   }
 
   if (window.innerWidth == 681) {
     document.getElementById("nav").style.display = "block";
     document.getElementById("nav").style.visibility = "visible";
+    document.getElementById("menuBars").style.visibility = "hidden";
+    document.getElementById("menuClose").style.visibility = "hidden";
     for (let a = 1; a <= 7; a++) {
       document.getElementById("op" + a).style.display = "inline-block";
-    }
-    if(document.getElementById("searchMG").style.display == "none")
-    {
-    document.getElementById("search").style.width = "40%";
     }
   }
 
   if (window.innerWidth > 681) {
     document.getElementById("nav").style.display = "block";
     document.getElementById("nav").style.visibility = "visible";
+    document.getElementById("menuBars").style.visibility = "hidden";
+    document.getElementById("menuClose").style.visibility = "hidden";
     for (let a = 1; a <= 7; a++) {
       document.getElementById("op" + a).style.display = "inline-block";
-    }
-    if(document.getElementById("searchMG").style.display == "none")
-    {
-      document.getElementById("search").style.width = "22%";
     }
   }
 }
@@ -149,7 +141,8 @@ function closeSearchBar()
 function scrollFunction() 
 {
 
-  if (window.innerWidth <= 500) {
+  if (window.innerWidth <= 500) 
+  {
     if (document.body.scrollTop > 121 || document.documentElement.scrollTop > 121) 
     {
       document.getElementById("navScrollD").style.top = "0";
@@ -160,7 +153,8 @@ function scrollFunction()
     }
   }
 
-  if (window.innerWidth == 681) {
+  if (window.innerWidth == 681) 
+  {
     if (document.body.scrollTop > 165 || document.documentElement.scrollTop > 165) 
     {
       document.getElementById("navScrollD").style.top = "0";
@@ -171,8 +165,9 @@ function scrollFunction()
     }
   }
 
-  if (window.innerWidth > 681) {
-      if (document.body.scrollTop > 132 || document.documentElement.scrollTop > 132) 
+  if (window.innerWidth > 681) 
+  {
+    if (document.body.scrollTop > 132 || document.documentElement.scrollTop > 132) 
     {
       document.getElementById("navScrollD").style.top = "0";
     } 
@@ -183,20 +178,12 @@ function scrollFunction()
   }
 }
 
-function fixPhoneMenu()
-{
-  if (document.body.scrollTop < 121 || document.documentElement.scrollTop < 121) 
-  {
-    document.getElementById("nav").position = "initial";
-    document.getElementById("nav").marginTop = "0%";
-    document.getElementById("navMenuScrollD").marginTop = "0%";
-    document.getElementById("iconMenu").marginTop = "0%";
-  }
-  else
-  {
-    document.getElementById("nav").position = "fixed";
-    document.getElementById("nav").marginTop = "-15%";
-    document.getElementById("navMenuScrollD").marginTop = "15%";
-    document.getElementById("iconMenu").marginTop = "15%";
-  }
-}
+
+//document.getElementById("nav").position = "fixed";
+// document.getElementById("nav").marginTop = "-15%";
+// document.getElementById("navMenuScrollD").marginTop = "15%";
+// document.getElementById("iconMenu").marginTop = "15%";
+// document.getElementById("nav").position = "initial";
+// document.getElementById("nav").marginTop = "0%";
+// document.getElementById("navMenuScrollD").marginTop = "0%";
+// document.getElementById("iconMenu").marginTop = "0%";
