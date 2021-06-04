@@ -153,13 +153,13 @@ function scrollFunction()
 {
 
   if (window.innerWidth <= 500) {
-    if (document.body.scrollTop > 132 || document.documentElement.scrollTop > 132) 
+    if (document.body.scrollTop > 121 || document.documentElement.scrollTop > 121) 
     {
       document.getElementById("navScrollD").style.top = "0";
     } 
     else 
     {
-      document.getElementById("navScrollD").style.top = "-132px";
+      document.getElementById("navScrollD").style.top = "-121px";
     }
   }
 
