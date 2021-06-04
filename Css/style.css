@@ -150,14 +150,13 @@ a:hover {
 
 .navScrollD {
   display: block;
+  /* visibility: hidden; */
   background-color: #4bc726;
   position: fixed;
   width: 100%;
   z-index: 10;
-  top: 0px;
-
-  /**/
-
+  top: -100px;
+  transition: 0.5s;
   border-bottom: 1px solid#37911b;
 }
 

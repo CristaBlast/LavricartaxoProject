@@ -149,20 +149,15 @@ function closeSearchBar()
   document.getElementById("search").style.width = "0%";
 }
 
-window.onscroll = function() {
+function scrollFunction() 
+{
 
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) 
+  if (document.body.scrollTop > 132 || document.documentElement.scrollTop > 132) 
   {
-    document.getElementById("navScrollD").style.top = "visible";
+    document.getElementById("navScrollD").style.top = "0";
   } 
-
   else 
   {
-    document.getElementById("navScrollD").style.visibility = "hidden";
+    document.getElementById("navScrollD").style.top = "-100px";
   }
-};
-
-// function scrollFunction() 
-// {
-  
-// }
+}
