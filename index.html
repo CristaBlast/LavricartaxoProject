@@ -13,7 +13,7 @@
       <script src="JS/script.js"></script>
       <title>Lavricartaxo</title>
   </head>
-<body onload="slideshow()" onresize="resize()" onscroll="scrollFunction()">
+<body onload="slideshow();fixPhoneMenu()" onresize="resize()" onscroll="scrollFunction();fixPhoneMenu()">
   <div class="header"> <!--Header-->
     <div class="top"> <!--Header Subsection Top-->
       <div class="logo"> <!--Div logo-->
@@ -50,8 +50,8 @@
     </ul>
   </nav>
   <nav id="navScrollD" class="navScrollD">
-    <img src="Images/icon.png" class="iconMenu">
-    <ul class="navMenuScrollD"> <!--Menu -->
+    <img src="Images/icon.png" class="iconMenu" id="iconMenu">
+    <ul class="navMenuScrollD" id="navMenuScrollD"> <!--Menu -->
           <a href="#"><li class="menuTextScrollD">INICIO</li></a>
           <a href="quemsomos.html"><li class="menuTextScrollD">QUEM SOMOS</li></a>
           <a href="galeria.html"><li class="menuTextScrollD">GALERIA</li></a>
@@ -76,7 +76,7 @@
     <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
   </div> -->
   <!--End Search Bar -->
-  
+
   <div class="main"> <!--"Body"/Main/Content-->
     <div class="news"> <!--Div news widget-->
       <script type="text/javascript" src="JS/newsWidget.js?widgettitle=Noticías&amp;categories=126,127,128,129,&amp;showRelease=0&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=1&amp;headlinecolor=000000&amp;briefcolor=000000&amp;textcolor=000000&amp;typeface=sans-serif&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=solid&amp;showimages=0&amp;numstories=5&amp;bgcolor=rgba(255, 255, 255, 0)&amp;urldest=local"></script> <!--News widget-->

@@ -1316,6 +1316,8 @@ footer {
     text-align: center;
     display: none;
     width: 100%;
+    position: fixed;
+    margin-top: -15%;
   }
 
   li {
@@ -1325,15 +1327,14 @@ footer {
     width: 100%;
     list-style: none;
   }
+
   /*End Menu*/
 
   /*Menu Scroll Down*/
 
   .iconMenu {
     width: 11%;
-    height: auto;
-    float: left;
-    padding: 0.5% 0.5% 0.5% 0.5%;
+    margin-top: 15%;
   }
 
   .menuTextScrollD {
@@ -1342,6 +1343,7 @@ footer {
 
   .navMenuScrollD {
     width: 100%;
+    margin-top: 15%;
   }
 
   .navScrollD {
@@ -1381,18 +1383,13 @@ footer {
     float: left;
     padding-right: 5px;
     padding-left: 5px;
-    padding-bottom: 7px;
-    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     border: none;
     margin-left: 7%;
-    margin-bottom: 1%;
     display: block;
     font-size: 18px;
     width: 70%;
-  }
-
-  .searchBarScrollD:focus {
-    outline: none;
   }
 
   /*End Searchbar Scroll Down*/

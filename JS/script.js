@@ -65,7 +65,6 @@ function topButtonO() {
   document.getElementById("menuBars").style.visibility = "hidden";
   document.getElementById("menuClose").style.visibility = "visible";
   document.getElementById("nav").style.display = "block";
-  // document.getElementById("nav").style.height = "auto"; do animation :3 XD
   for (let a = 1; a <= 7; a++) {
     document.getElementById("op" + a).style.display = "block";
   }
@@ -75,14 +74,12 @@ function topButtonC() {
   document.getElementById("menuClose").style.visibility = "hidden";
   document.getElementById("menuBars").style.visibility = "visible";
   document.getElementById("nav").style.display = "none";
-  // document.getElementById("nav").style.height = "0%"; do animation :3 XD
   for (let a = 1; a <= 7; a++) {
     document.getElementById("op" + a).style.display = "block";
   }
 }
 
 function resize() {
-  // alert(window.innerWidth);
   if (window.innerWidth == 500) {
     document.getElementById("nav").style.display = "none";
     for (let a = 1; a <= 7; a++) {
@@ -184,5 +181,22 @@ function scrollFunction()
       document.getElementById("navScrollD").style.top = "-132px";
     }
   }
-  
+}
+
+function fixPhoneMenu()
+{
+  if (document.body.scrollTop < 121 || document.documentElement.scrollTop < 121) 
+  {
+    document.getElementById("nav").position = "initial";
+    document.getElementById("nav").marginTop = "0%";
+    document.getElementById("navMenuScrollD").marginTop = "0%";
+    document.getElementById("iconMenu").marginTop = "0%";
+  }
+  else
+  {
+    document.getElementById("nav").position = "fixed";
+    document.getElementById("nav").marginTop = "-15%";
+    document.getElementById("navMenuScrollD").marginTop = "15%";
+    document.getElementById("iconMenu").marginTop = "15%";
+  }
 }
