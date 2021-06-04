@@ -152,12 +152,37 @@ function closeSearchBar()
 function scrollFunction() 
 {
 
-  if (document.body.scrollTop > 132 || document.documentElement.scrollTop > 132) 
-  {
-    document.getElementById("navScrollD").style.top = "0";
-  } 
-  else 
-  {
-    document.getElementById("navScrollD").style.top = "-100px";
+  if (window.innerWidth <= 500) {
+    if (document.body.scrollTop > 132 || document.documentElement.scrollTop > 132) 
+    {
+      document.getElementById("navScrollD").style.top = "0";
+    } 
+    else 
+    {
+      document.getElementById("navScrollD").style.top = "-132px";
+    }
   }
+
+  if (window.innerWidth == 681) {
+    if (document.body.scrollTop > 165 || document.documentElement.scrollTop > 165) 
+    {
+      document.getElementById("navScrollD").style.top = "0";
+    } 
+    else 
+    {
+      document.getElementById("navScrollD").style.top = "-165px";
+    }
+  }
+
+  if (window.innerWidth > 681) {
+      if (document.body.scrollTop > 132 || document.documentElement.scrollTop > 132) 
+    {
+      document.getElementById("navScrollD").style.top = "0";
+    } 
+    else 
+    {
+      document.getElementById("navScrollD").style.top = "-132px";
+    }
+  }
+  
 }
