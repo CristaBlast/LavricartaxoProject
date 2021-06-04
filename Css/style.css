@@ -79,21 +79,10 @@ a {
 
 .menuText:hover {
   color: white;
-  /* background-color: #c7c226; */
 }
-
-/* .navMenu{
-  width: 100%;
-} */
 
 nav {
   background-color: #4bc726;
-
-  /*To fixate the menu to the top while scrolling down*/
-  /* position: -webkit-sticky;
-  position: sticky;
-  top: 0; */
-
   text-align: center;
   z-index: 10;
   visibility: visible;
@@ -130,7 +119,6 @@ a:hover {
   color: black;
   font-family: sans-serif;
   font-size: 18px;
-  font-weight: 500;
   padding: 0% 1.5% 1% 1.5%;
   font-weight: bold;
   background-color: #4bc726;
@@ -155,7 +143,7 @@ a:hover {
   width: 100%;
   z-index: 10;
   top: -100px;
-  transition: 0.5s;
+  transition: 0.1s;
   border-bottom: 1px solid#37911b;
 }
 
@@ -165,6 +153,7 @@ a:hover {
   color: black;
   font-size: 30px;
   margin-left: 1%;
+  padding-top: 1%;
 }
 
 .searchMGSearchScrollD:hover {
@@ -386,7 +375,7 @@ a:hover {
 
 /*Searchbar*/
 
-.search {
+/* .search {
   margin-top: 3%;
   position: fixed;
   background-color: rgba(255, 255, 255, 0);
@@ -461,7 +450,7 @@ a:hover {
 
 .searchBar:focus {
   outline: none;
-}
+} */
 
 /*End searchbar*/
 
