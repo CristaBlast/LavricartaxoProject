@@ -158,6 +158,7 @@ function scrollFunction()
     if (document.body.scrollTop > 165 || document.documentElement.scrollTop > 165) 
     {
       document.getElementById("navScrollD").style.top = "0";
+      
     } 
     else 
     {
