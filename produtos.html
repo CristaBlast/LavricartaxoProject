@@ -14,7 +14,7 @@
       <title>Lavricartaxo</title>
 </head>
   
-<body onresize="resize()">
+<body onresize="resize()"  onscroll="scrollFunction()">
   <div class="header"> <!--Header-->
     <div class="top"> <!--Header Subsection Top-->
       <div class="logo"> <!--Div logo-->
@@ -39,28 +39,33 @@
   </div>
   <button class="topBtnPhone openMenuBars" id="menuBars" onclick="topButtonO()"><i class="fas fa-bars"></i></button> <!--Top Button Phone Mode-->
   <button class="topBtnPhone closeMenuCross" id="menuClose" onclick="topButtonC()"><i class="fas fa-times"></i></button> <!--Top Button Phone Mode-->
-  <nav id="nav">
+  <nav id="nav" class="nav">
     <ul class="navMenu"> <!--Menu-->
-      <a href="index.html"><li class="menuText" id="op1">INICIO</li></a>
+      <a href="#"><li class="menuText" id="op1">INICIO</li></a>
       <a href="quemsomos.html"><li class="menuText" id="op2">QUEM SOMOS</li></a>
       <a href="galeria.html"><li class="menuText" id="op3">GALERIA</li></a>
-      <a href="#"><li class="menuText" id="op4">PRODUTOS</li></a>
+      <a href="produtos.html"><li class="menuText" id="op4">PRODUTOS</li></a>
       <a href="contatos.html"><li class="menuText" id="op5">CONTATOS</li></a>
       <a href="marcas.html"><li class="menuText" id="op6">MARCAS</li></a>
       <a href="associados.html"><li class="menuText" id="op7">ASSOCIADOS</li></a>
     </ul>
   </nav>
-  <!-- Search Bar-->
-  <div class="search" id="search">
-    <a onclick="openSearchBar()" id="searchMG"><i class="fas fa-search searchMG"></i></a>
-    <div class="searchBarnMG">
-      <input type="text" class="searchBar" id="searchBar" placeholder="Procurar...">
-      <a onclick="" id="searchMGSearch"><i class="fas fa-search searchMGSearch"></i></a>
-    </div>
-    <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
-  </div>
-  <!--End Search Bar -->
-  <div class="backgroundIMG">
+  <nav id="navScrollD" class="navScrollD">
+    <img src="Images/icon.png" class="iconMenu">
+    <ul class="navMenuScrollD"> <!--Menu -->
+          <a href="#"><li class="menuTextScrollD">INICIO</li></a>
+          <a href="quemsomos.html"><li class="menuTextScrollD">QUEM SOMOS</li></a>
+          <a href="galeria.html"><li class="menuTextScrollD">GALERIA</li></a>
+          <a href="produtos.html"><li class="menuTextScrollD">PRODUTOS</li></a>
+          <a href="contatos.html"><li class="menuTextScrollD">CONTATOS</li></a>
+          <a href="marcas.html"><li class="menuTextScrollD">MARCAS</li></a>
+          <a href="associados.html"><li class="menuTextScrollD">ASSOCIADOS</li></a>
+        </ul>
+        <div class="searchBarnMGScrollD">
+          <input type="text" class="searchBarScrollD" id="searchBarScrollD" placeholder="Procurar...">
+          <a onclick="" id="searchMGSearchScrollD"><i class="fas fa-search searchMGSearchScrollD"></i></a>
+        </div>
+  </nav>
   <div class="main">
     <br>
     <br>
@@ -81,64 +86,7 @@
     <br>
     <br>
     <br>
-  <!-- </br>
-    <div class="tittleProductCategory">
-      <p>Categorias</p>
-    </div>
-    <br>
-    <br>
-    <div class="productsCategories">
-      <a href="produtos.html">
-        <div class="productsCategoriesplaceHolders">
-          <i class="fab fa-pagelines categoriesIcons"></i>
-          <p class="tituloCategoria">ADUBOS</p>
-        </div>
-      </a>
-      <a href="produtos.html">
-        <div class="productsCategoriesplaceHolders">
-          <i class="fas fa-microscope categoriesIcons"></i>
-          <p class="tituloCategoria">AGROQUIMICOS</p>
-        </div>
-      </a>
-      <a href="produtos.html">
-        <div class="productsCategoriesplaceHolders">
-          <i class="fas fa-horse-head categoriesIcons"></i>
-          <p class="tituloCategoria">ALIMENTAÇÃO ANIMAL</p>
-        </div>
-      </a>
-      <a href="produtos.html">
-        <div class="productsCategoriesplaceHolders">
-          <i class="fas fa-hammer categoriesIcons"></i>
-          <p class="tituloCategoria">BRICOLAGE</p>
-        </div>
-      </a>
-      <a href="produtos.html">
-        <div class="productsCategoriesplaceHolders">
-          <i class="fas fa-tractor categoriesIcons"></i>
-          <p class="tituloCategoria">MÁQUINA</p>
-        </div>
-      </a>
-      <a href="produtos.html">
-        <div class="productsCategoriesplaceHolders">
-          <i class="fas fa-paw categoriesIcons"></i>
-          <p class="tituloCategoria">PETCARE</p>
-        </div>
-      </a>
-      <a href="produtos.html">
-        <div class="productsCategoriesplaceHolders">
-          <i class="fas fa-book categoriesIcons"></i>
-          <p class="tituloCategoria">SERVIÇOS</p>
-        </div>
-      </a>
-      <a href="produtos.html">
-        <div class="productsCategoriesplaceHolders">
-          <i class="fas fa-stethoscope categoriesIcons"></i>
-          <p class="tituloCategoria">VETERENÁRIA</p>
-        </div>
-      </a>      
-    </div> -->
   </div>
-</div>
   </body>
 <footer class="footerBottom"> <!--Footer-->
   <div class="wheretofindusFooter">
