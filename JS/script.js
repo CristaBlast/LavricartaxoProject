@@ -103,24 +103,43 @@ function resize() {
     }
     document.getElementById("menuClose").style.visibility = "hidden";
     document.getElementById("menuBars").style.visibility = "visible";
+    document.getElementById("navScrollD").style.height = "8%";
   }
 
   if (window.innerWidth == 681) {
-    document.getElementById("nav").style.display = "block";
-    document.getElementById("nav").style.visibility = "visible";
-    document.getElementById("menuBars").style.visibility = "hidden";
-    document.getElementById("menuClose").style.visibility = "hidden";
-    for (let a = 1; a <= 7; a++) {
-      document.getElementById("op" + a).style.display = "inline-block";
-    }
-  }
+    // if(document.getElementById("navMenuScrollD").style.visibility == "visible")
+    // {
+    //   document.getElementById("navScrollD").style.height = "auto";
+    //   document.getElementById("menuClose").style.visibility = "hidden";
+    //   document.getElementById("menuBars").style.visibility = "visible";
 
-  if (window.innerWidth > 681) {
+    //   document.getElementById("navMenuScrollD").style.visibility = "hidden";
+    // }
+    // else{
+      document.getElementById("nav").style.display = "block";
+      document.getElementById("nav").style.visibility = "visible";
+      document.getElementById("menuBars").style.visibility = "hidden";
+      document.getElementById("menuClose").style.visibility = "hidden";
+      document.getElementById("iconMenu").style.width = "8%";
+      for (let a = 1; a <= 7; a++) 
+      {
+        document.getElementById("op" + a).style.display = "inline-block";
+      }
+    // }
+      
+    }
+
+  if (window.innerWidth > 681) 
+  {
     document.getElementById("nav").style.display = "block";
     document.getElementById("nav").style.visibility = "visible";
     document.getElementById("menuBars").style.visibility = "hidden";
     document.getElementById("menuClose").style.visibility = "hidden";
-    for (let a = 1; a <= 7; a++) {
+    document.getElementById("iconMenu").style.width = "5%";
+    document.getElementById("menuTextScrollD").style.width = "auto";
+    document.getElementById("navScrollD").style.height = "auto";
+    for (let a = 1; a <= 7; a++) 
+    {
       document.getElementById("op" + a).style.display = "inline-block";
     }
   }
