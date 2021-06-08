@@ -95,7 +95,8 @@ function topButtonC()
   }
 }
 
-function resize() {
+function resize() 
+{
   if (window.innerWidth <= 500) {
     document.getElementById("nav").style.display = "none";
     for (let a = 1; a <= 7; a++) {
@@ -107,15 +108,6 @@ function resize() {
   }
 
   if (window.innerWidth == 681) {
-    // if(document.getElementById("navMenuScrollD").style.visibility == "visible")
-    // {
-    //   document.getElementById("navScrollD").style.height = "auto";
-    //   document.getElementById("menuClose").style.visibility = "hidden";
-    //   document.getElementById("menuBars").style.visibility = "visible";
-
-    //   document.getElementById("navMenuScrollD").style.visibility = "hidden";
-    // }
-    // else{
       document.getElementById("nav").style.display = "block";
       document.getElementById("nav").style.visibility = "visible";
       document.getElementById("menuBars").style.visibility = "hidden";
@@ -125,8 +117,12 @@ function resize() {
       {
         document.getElementById("op" + a).style.display = "inline-block";
       }
-    // }
+
       
+      // for (let a = 1; a <= 7; a++) 
+      // {
+      //   document.getElementById("ops" + a).style.display = "none";
+      // }
     }
 
   if (window.innerWidth > 681) 
