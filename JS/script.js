@@ -71,6 +71,7 @@ function topButtonO() {
       document.getElementById("op" + a).style.display = "block";
     }
   }
+}
 
   // if (window.innerWidth == 681) {
   //   document.getElementsByClassName("menuTextScrollD").visibility = "visible";
@@ -81,7 +82,6 @@ function topButtonO() {
   // document.getElementById("nav").style.display = "block";
   // for (let a = 1; a <= 7; a++) {
   //   document.getElementById("op" + a).style.display = "block";
-  }
 
 function topButtonOTablet()
 {
@@ -99,6 +99,7 @@ function topButtonC()
       document.getElementById("op" + a).style.display = "block";
     }
   }
+}
 
   // if (window.innerWidth == 681) {
   //   document.getElementsByClassName("menuTextScrollD").visibility = "hidden";
@@ -111,11 +112,10 @@ function topButtonC()
   // for (let a = 1; a <= 7; a++) {
   //   document.getElementById("op" + a).style.display = "block";
   // }
-}
 
 function topButtonCTablet()
 {
-  
+
 }
 
 function resize() {
@@ -148,34 +148,6 @@ function resize() {
     }
   }
 }
-
-// function openSearchBar()
-// {
-//   document.getElementById("closeSearch").style.display = "block";
-//   document.getElementById("searchBar").style.display = "block";
-//   document.getElementById("searchMGSearch").style.display = "block";
-//   document.getElementById("searchMG").style.display = "none";
-//   if (window.innerWidth <= 500) {
-//     document.getElementById("search").style.width = "55%";
-//   }
-
-//   if (window.innerWidth == 681) {
-//     document.getElementById("search").style.width = "40%";
-//   }
-
-//   if (window.innerWidth > 681) {
-//     document.getElementById("search").style.width = "22%";
-//   }
-// }
-
-// function closeSearchBar()
-// {
-//   document.getElementById("closeSearch").style.display = "none";
-//   document.getElementById("searchBar").style.display = "none";
-//   document.getElementById("searchMGSearch").style.display = "none";
-//   document.getElementById("searchMG").style.display = "block";
-//   document.getElementById("search").style.width = "0%";
-// }
 
 function scrollFunction() 
 {
