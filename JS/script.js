@@ -62,21 +62,50 @@ function searchBar() {
 }
 
 function topButtonO() {
-  document.getElementById("menuBars").style.visibility = "hidden";
-  document.getElementById("menuClose").style.visibility = "visible";
-  document.getElementById("nav").style.display = "block";
-  for (let a = 1; a <= 7; a++) {
-    document.getElementById("op" + a).style.display = "block";
+  if (window.innerWidth == 500) {
+    document.getElementById("menuBars").style.visibility = "hidden";
+    document.getElementById("menuClose").style.visibility = "visible";
+    document.getElementById("nav").style.display = "block";
+    for (let a = 1; a <= 7; a++) 
+    {
+      document.getElementById("op" + a).style.display = "block";
+    }
   }
-}
 
-function topButtonC() {
-  document.getElementById("menuClose").style.visibility = "hidden";
-  document.getElementById("menuBars").style.visibility = "visible";
-  document.getElementById("nav").style.display = "none";
-  for (let a = 1; a <= 7; a++) {
-    document.getElementById("op" + a).style.display = "block";
+  // if (window.innerWidth == 681) {
+  //   document.getElementsByClassName("menuTextScrollD").visibility = "visible";
+  //   document.getElementById("navScrollD").height = "10%";
+  // }
+  // document.getElementById("menuBars").style.visibility = "hidden";
+  // document.getElementById("menuClose").style.visibility = "visible";
+  // document.getElementById("nav").style.display = "block";
+  // for (let a = 1; a <= 7; a++) {
+  //   document.getElementById("op" + a).style.display = "block";
   }
+
+function topButtonC() 
+{
+  if (window.innerWidth == 500) {
+    document.getElementById("menuClose").style.visibility = "hidden";
+    document.getElementById("menuBars").style.visibility = "visible";
+    document.getElementById("nav").style.display = "none";
+    for (let a = 1; a <= 7; a++) 4
+    {
+      document.getElementById("op" + a).style.display = "block";
+    }
+  }
+
+  // if (window.innerWidth == 681) {
+  //   document.getElementsByClassName("menuTextScrollD").visibility = "hidden";
+  //   document.getElementById("navScrollD").height = "auto";
+  // }
+
+  // document.getElementById("menuClose").style.visibility = "hidden";
+  // document.getElementById("menuBars").style.visibility = "visible";
+  // document.getElementById("nav").style.display = "none";
+  // for (let a = 1; a <= 7; a++) {
+  //   document.getElementById("op" + a).style.display = "block";
+  // }
 }
 
 function resize() {
@@ -110,33 +139,33 @@ function resize() {
   }
 }
 
-function openSearchBar()
-{
-  document.getElementById("closeSearch").style.display = "block";
-  document.getElementById("searchBar").style.display = "block";
-  document.getElementById("searchMGSearch").style.display = "block";
-  document.getElementById("searchMG").style.display = "none";
-  if (window.innerWidth <= 500) {
-    document.getElementById("search").style.width = "55%";
-  }
+// function openSearchBar()
+// {
+//   document.getElementById("closeSearch").style.display = "block";
+//   document.getElementById("searchBar").style.display = "block";
+//   document.getElementById("searchMGSearch").style.display = "block";
+//   document.getElementById("searchMG").style.display = "none";
+//   if (window.innerWidth <= 500) {
+//     document.getElementById("search").style.width = "55%";
+//   }
 
-  if (window.innerWidth == 681) {
-    document.getElementById("search").style.width = "40%";
-  }
+//   if (window.innerWidth == 681) {
+//     document.getElementById("search").style.width = "40%";
+//   }
 
-  if (window.innerWidth > 681) {
-    document.getElementById("search").style.width = "22%";
-  }
-}
+//   if (window.innerWidth > 681) {
+//     document.getElementById("search").style.width = "22%";
+//   }
+// }
 
-function closeSearchBar()
-{
-  document.getElementById("closeSearch").style.display = "none";
-  document.getElementById("searchBar").style.display = "none";
-  document.getElementById("searchMGSearch").style.display = "none";
-  document.getElementById("searchMG").style.display = "block";
-  document.getElementById("search").style.width = "0%";
-}
+// function closeSearchBar()
+// {
+//   document.getElementById("closeSearch").style.display = "none";
+//   document.getElementById("searchBar").style.display = "none";
+//   document.getElementById("searchMGSearch").style.display = "none";
+//   document.getElementById("searchMG").style.display = "block";
+//   document.getElementById("search").style.width = "0%";
+// }
 
 function scrollFunction() 
 {
@@ -158,11 +187,12 @@ function scrollFunction()
     if (document.body.scrollTop > 165 || document.documentElement.scrollTop > 165) 
     {
       document.getElementById("navScrollD").style.top = "0";
-      
+      document.getElementById("menuBars").style.visibility = "visible";
     } 
     else 
     {
       document.getElementById("navScrollD").style.top = "-165px";
+      document.getElementById("menuBars").style.visibility = "hidden";
     }
   }
 
