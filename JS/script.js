@@ -83,6 +83,11 @@ function topButtonO() {
   //   document.getElementById("op" + a).style.display = "block";
   }
 
+function topButtonOTablet()
+{
+
+}
+
 function topButtonC() 
 {
   if (window.innerWidth == 500) {
@@ -106,6 +111,11 @@ function topButtonC()
   // for (let a = 1; a <= 7; a++) {
   //   document.getElementById("op" + a).style.display = "block";
   // }
+}
+
+function topButtonCTablet()
+{
+  
 }
 
 function resize() {

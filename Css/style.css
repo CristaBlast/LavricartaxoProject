@@ -867,7 +867,7 @@ footer {
   /*Menu Scroll Down*/
 
   .iconMenu {
-    width: 10%;
+    width: 8%;
     height: auto;
     float: left;
     padding: 0.5% 0.5% 0.5% 0.5%;
@@ -880,21 +880,11 @@ footer {
   }
 
   .menuTextScrollD {
-    /* text-decoration: none;
-    color: black;
-    font-family: sans-serif;
-    font-size: 17px;
-    padding: 0% 1.5% 1% 1.5%;
-    font-weight: bold;
-    width: auto;
-    float: left;
-    margin-top: 1.5%; */
-    /* display: block; */
-    /* position: absolute; */
     width: 100%;
     margin-top: 1%;
     margin-bottom: 1%;
-    /* visibility: hidden; */
+
+    visibility: hidden;
   }
 
   .navScrollD {
@@ -903,7 +893,8 @@ footer {
     z-index: 10;
     top: -165px;
     transition: 0.1s;
-    /* height: 10%;  */
+
+    height: 8%; 
   }
 
   /*Searchbar Scroll Down*/
