@@ -63,8 +63,13 @@ function topButtonO()
   }
 
   if (window.innerWidth == 681) {
-    document.getElementById("menuBars").visibility = "hidden";
-    document.getElementById("menuClose").visibility = "visible";
+    document.getElementById("menuBars").style.visibility = "hidden";
+    document.getElementById("menuClose").style.visibility = "visible";
+    for (let a = 1; a <= 7; a++)
+    {
+      document.getElementById("ops" + a).style.visibility = "visible";
+    }
+    document.getElementById("navScrollD").style.height = "auto";
   }
 }
 
@@ -74,15 +79,19 @@ function topButtonC()
     document.getElementById("menuClose").style.visibility = "hidden";
     document.getElementById("menuBars").style.visibility = "visible";
     document.getElementById("nav").style.display = "none";
-    for (let a = 1; a <= 7; a++) 4
+    for (let a = 1; a <= 7; a++)
     {
       document.getElementById("op" + a).style.display = "block";
     }
   }
-
   if (window.innerWidth == 681) {
-    document.getElementById("menuBars").visibility = "visible";
-    document.getElementById("menuClose").visibility = "hidden";
+    document.getElementById("menuBars").style.visibility = "visible";
+    document.getElementById("menuClose").style.visibility = "hidden";
+    for (let a = 1; a <= 7; a++)
+    {
+      document.getElementById("ops" + a).style.visibility = "hidden";
+    }
+    document.getElementById("navScrollD").style.height = "8%";
   }
 }
 
@@ -138,11 +147,18 @@ function scrollFunction()
     {
       document.getElementById("navScrollD").style.top = "0";
       document.getElementById("menuBars").style.visibility = "visible";
+      document.getElementById("menuClose").style.visibility = "hidden";
     } 
     else 
     {
       document.getElementById("navScrollD").style.top = "-165px";
       document.getElementById("menuBars").style.visibility = "hidden";
+      document.getElementById("menuClose").style.visibility = "hidden";
+      for (let a = 1; a <= 7; a++)
+      {
+        document.getElementById("ops" + a).style.visibility = "hidden";
+      }
+      document.getElementById("navScrollD").style.height = "8%";
     }
   }
 
