@@ -50,19 +50,9 @@ function showSlides(a) {
   slides[slideIndex - 1].style.display = "block";
 }
 
-function searchBar() {
-  var cg = 1;
-  if (cg == 1) {
-    document.getElementById("searchBar").style.visibility = "visible";
-    cg = 0;
-  } else {
-    document.getElementById("searchBar").style.visibility = "hidden";
-    cg = 1;
-  }
-}
-
-function topButtonO() {
-  if (window.innerWidth == 500) {
+function topButtonO() 
+{
+  if (window.innerWidth <= 500) {
     document.getElementById("menuBars").style.visibility = "hidden";
     document.getElementById("menuClose").style.visibility = "visible";
     document.getElementById("nav").style.display = "block";
@@ -71,19 +61,16 @@ function topButtonO() {
       document.getElementById("op" + a).style.display = "block";
     }
   }
-}
 
-function topButtonOTablet()
-{
   if (window.innerWidth == 681) {
-    document.getElementsByClassName("menuTextScrollD").visibility = "visible";
-    document.getElementById("navScrollD").height = "8%";
+    document.getElementById("menuBars").visibility = "hidden";
+    document.getElementById("menuClose").visibility = "visible";
   }
 }
 
 function topButtonC() 
 {
-  if (window.innerWidth == 500) {
+  if (window.innerWidth <= 500) {
     document.getElementById("menuClose").style.visibility = "hidden";
     document.getElementById("menuBars").style.visibility = "visible";
     document.getElementById("nav").style.display = "none";
@@ -92,18 +79,15 @@ function topButtonC()
       document.getElementById("op" + a).style.display = "block";
     }
   }
-}
 
-function topButtonCTablet()
-{
   if (window.innerWidth == 681) {
-    document.getElementsByClassName("menuTextScrollD").visibility = "hidden";
-    document.getElementById("navScrollD").height = "auto";
+    document.getElementById("menuBars").visibility = "visible";
+    document.getElementById("menuClose").visibility = "hidden";
   }
 }
 
 function resize() {
-  if (window.innerWidth == 500) {
+  if (window.innerWidth <= 500) {
     document.getElementById("nav").style.display = "none";
     for (let a = 1; a <= 7; a++) {
       document.getElementById("op" + a).style.display = "none";
