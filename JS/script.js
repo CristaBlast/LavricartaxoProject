@@ -73,19 +73,12 @@ function topButtonO() {
   }
 }
 
-  // if (window.innerWidth == 681) {
-  //   document.getElementsByClassName("menuTextScrollD").visibility = "visible";
-  //   document.getElementById("navScrollD").height = "10%";
-  // }
-  // document.getElementById("menuBars").style.visibility = "hidden";
-  // document.getElementById("menuClose").style.visibility = "visible";
-  // document.getElementById("nav").style.display = "block";
-  // for (let a = 1; a <= 7; a++) {
-  //   document.getElementById("op" + a).style.display = "block";
-
 function topButtonOTablet()
 {
-
+  if (window.innerWidth == 681) {
+    document.getElementsByClassName("menuTextScrollD").visibility = "visible";
+    document.getElementById("navScrollD").height = "8%";
+  }
 }
 
 function topButtonC() 
@@ -101,21 +94,12 @@ function topButtonC()
   }
 }
 
-  // if (window.innerWidth == 681) {
-  //   document.getElementsByClassName("menuTextScrollD").visibility = "hidden";
-  //   document.getElementById("navScrollD").height = "auto";
-  // }
-
-  // document.getElementById("menuClose").style.visibility = "hidden";
-  // document.getElementById("menuBars").style.visibility = "visible";
-  // document.getElementById("nav").style.display = "none";
-  // for (let a = 1; a <= 7; a++) {
-  //   document.getElementById("op" + a).style.display = "block";
-  // }
-
 function topButtonCTablet()
 {
-
+  if (window.innerWidth == 681) {
+    document.getElementsByClassName("menuTextScrollD").visibility = "hidden";
+    document.getElementById("navScrollD").height = "auto";
+  }
 }
 
 function resize() {
@@ -190,13 +174,3 @@ function scrollFunction()
     }
   }
 }
-
-
-//document.getElementById("nav").position = "fixed";
-// document.getElementById("nav").marginTop = "-15%";
-// document.getElementById("navMenuScrollD").marginTop = "15%";
-// document.getElementById("iconMenu").marginTop = "15%";
-// document.getElementById("nav").position = "initial";
-// document.getElementById("nav").marginTop = "0%";
-// document.getElementById("navMenuScrollD").marginTop = "0%";
-// document.getElementById("iconMenu").marginTop = "0%";

@@ -36,8 +36,8 @@
       </div>          
     </div>    
   </div>
-  <button class="topBtnPhone openMenuBars" id="menuBars" onclick="topButtonO()"><i class="fas fa-bars"></i></button> <!--Top Button Phone Mode-->
-  <button class="topBtnPhone closeMenuCross" id="menuClose" onclick="topButtonC()"><i class="fas fa-times"></i></button> <!--Top Button Phone Mode-->
+  <button class="topBtnPhone openMenuBars" id="menuBars" onclick="topButtonO(); topButtonOTablet()"><i class="fas fa-bars"></i></button> <!--Top Button Phone Mode-->
+  <button class="topBtnPhone closeMenuCross" id="menuClose" onclick="topButtonC(); topButtonCTablet()"><i class="fas fa-times"></i></button> <!--Top Button Phone Mode-->
   <nav id="nav" class="nav">
     <ul class="navMenu"> <!--Menu-->
       <a href="#"><li class="menuText" id="op1">INICIO</li></a>
@@ -65,18 +65,6 @@
       <a onclick="" id="searchMGSearchScrollD"><i class="fas fa-search searchMGSearchScrollD"></i></a>
     </div>
   </nav> 
-
-  <!-- Search Bar-->
-  <!-- <div class="search" id="search">
-    <a onclick="openSearchBar()" id="searchMG"><i class="fas fa-search searchMG"></i></a>
-    <div class="searchBarnMG">
-      <input type="text" class="searchBar" id="searchBar" placeholder="Procurar...">
-      <a onclick="" id="searchMGSearch"><i class="fas fa-search searchMGSearch"></i></a>
-    </div>
-    <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
-  </div> -->
-  <!--End Search Bar -->
-
   <div class="main"> <!--"Body"/Main/Content-->
     <div class="news"> <!--Div news widget-->
       <script type="text/javascript" src="JS/newsWidget.js?widgettitle=Noticías&amp;categories=126,127,128,129,&amp;showRelease=0&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=1&amp;headlinecolor=000000&amp;briefcolor=000000&amp;textcolor=000000&amp;typeface=sans-serif&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=solid&amp;showimages=0&amp;numstories=5&amp;bgcolor=rgba(255, 255, 255, 0)&amp;urldest=local"></script> <!--News widget-->
