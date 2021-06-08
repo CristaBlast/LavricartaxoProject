@@ -146,14 +146,21 @@ function scrollFunction()
     if (document.body.scrollTop > 165 || document.documentElement.scrollTop > 165) 
     {
       document.getElementById("navScrollD").style.top = "0";
-      document.getElementById("menuBars").style.visibility = "visible";
-      document.getElementById("menuClose").style.visibility = "hidden";
+      if( document.getElementById("navScrollD").style.height == "auto")
+      {
+        document.getElementById("menuBars").style.visibility = "hidden";
+      }
+      else
+      {
+        document.getElementById("menuClose").style.visibility = "hidden";
+        document.getElementById("menuBars").style.visibility = "visible";
+      }
     } 
     else 
     {
       document.getElementById("navScrollD").style.top = "-165px";
       document.getElementById("menuBars").style.visibility = "hidden";
-      document.getElementById("menuClose").style.visibility = "hidden";
+      document.getElementById("menuClose").style.visibility = "hidden";      
       for (let a = 1; a <= 7; a++)
       {
         document.getElementById("ops" + a).style.visibility = "hidden";
