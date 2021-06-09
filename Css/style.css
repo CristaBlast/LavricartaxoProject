@@ -69,32 +69,24 @@ a {
   color: black;
   font-family: sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: bold;
   padding-top: 1%;
   padding-bottom: 1%;
   visibility: visible;
   font-weight: bold;
   background-color: #4bc726;
-  margin-top: 0.5%;
 }
 
 .menuText:hover {
   color: white;
-  background-color: #c7c226;
 }
-
-/* .navMenu{
-  width: 100%;
-} */
 
 nav {
   background-color: #4bc726;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
   text-align: center;
   z-index: 10;
   visibility: visible;
+  border-bottom: 1px solid#37911b;
 }
 
 li {
@@ -111,23 +103,95 @@ a:hover {
   text-decoration: none;
 }
 
-.downArrow {
-  font-size: 20px;
-  vertical-align: middle;
+/*End Menu*/
+
+/*Menu Scroll Down*/
+
+.iconMenu {
+  width: 5%;
+  height: auto;
+  float: left;
+  padding: 0.5% 0.5% 0.5% 0.5%;
 }
 
-.dropDownProducsMenu {
-  position: absolute;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  width: 14%;
-  text-align: center;
-  background-color: #604020;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin-left: 42%;
+.menuTextScrollD {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 0% 1.5% 1% 1.5%;
+  font-weight: bold;
+  background-color: #4bc726;
+  width: auto;
+  float: left;
+  margin-top: 1.5%;
 }
+
+.menuTextScrollD:hover {
+  color: white;
+}
+
+.navMenuScrollD {
+  width: 100%;
+}
+
+.navScrollD {
+  display: block;
+  background-color: #4bc726;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: -132px;
+  transition: 0.1s;
+  border-bottom: 1px solid#37911b;
+}
+
+/*Searchbar Scroll Down*/
+
+.searchMGSearchScrollD {
+  color: black;
+  font-size: 30px;
+  margin-left: 1%;
+  padding-top: 1%;
+}
+
+.searchMGSearchScrollD:hover {
+  color: black;
+}
+
+.searchBarnMGScrollD {
+  background-color: white;
+  width: 20%;
+  height: 90%;
+  float: right;
+  margin-top: 1%;
+  margin-right: 1%;
+  vertical-align: middle;
+  border-radius: 20px;
+  border: 1px rgb(0, 0, 0, 0.753) solid;
+}
+
+.searchBarScrollD {
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: none;
+  margin-left: 7%;
+  margin-bottom: 1%;
+  display: block;
+  font-size: 18px;
+  width: 70%;
+}
+
+.searchBarScrollD:focus {
+  outline: none;
+}
+
+/*End Searchbar Scroll Down*/
+
+/*End Menu Scroll Down*/
 
 .selectPM {
   color: black;
@@ -141,16 +205,9 @@ a:hover {
   color: white;
 }
 
-/*End menu*/
-
 /*End top*/
 
 /*main*/
-
-/* .backgroundIMG {
-  background-image: url(../Images/background.jpg);
-  background-size: cover;
-} */
 
 .main {
   font-size: 14px;
@@ -187,6 +244,10 @@ a:hover {
   border-radius: 40%;
 }
 
+.map {
+  text-align: center;
+}
+
 /*Form*/
 
 .tittleContacts {
@@ -200,14 +261,12 @@ a:hover {
   font-size: 14px;
 }
 
-.formContacts
-{
+.formContacts {
   width: 40%;
   margin-left: 30%;
 }
 
-.labels
-{
+.labels {
   float: left;
   width: 15%;
 }
@@ -223,8 +282,7 @@ a:hover {
   outline: none;
 }
 
-.divInputName
-{
+.divInputName {
   width: 100%;
 }
 
@@ -233,8 +291,7 @@ a:hover {
   float: left;
 }
 
-.divInputEmail
-{
+.divInputEmail {
   width: 100%;
 }
 
@@ -243,8 +300,7 @@ a:hover {
   float: left;
 }
 
-.divInputCellphone
-{
+.divInputCellphone {
   width: 100%;
 }
 
@@ -253,8 +309,7 @@ a:hover {
   float: left;
 }
 
-.divInputMatter
-{
+.divInputMatter {
   width: 100%;
 }
 
@@ -263,8 +318,7 @@ a:hover {
   float: left;
 }
 
-.divInputEnterprise
-{
+.divInputEnterprise {
   width: 100%;
 }
 
@@ -273,8 +327,7 @@ a:hover {
   float: left;
 }
 
-.divInputMessage
-{
+.divInputMessage {
   width: 100%;
 }
 
@@ -282,13 +335,14 @@ a:hover {
   width: 100%;
   height: 100px;
   float: left;
+  resize:vertical;
 }
 
 .textContatosI {
   margin-left: 5%;
 }
 
-.button{
+.button {
   float: left;
   width: auto;
   padding: 2% 3% 2% 3%;
@@ -297,13 +351,11 @@ a:hover {
   background-color: white;
 }
 
-.button:focus
-{
+.button:focus {
   outline: none;
 }
 
-.btnSend
-{
+.btnSend {
   margin-left: 5%;
   float: left;
   border: none;
@@ -311,8 +363,7 @@ a:hover {
   color: white;
 }
 
-.btnClean
-{
+.btnClean {
   margin-right: 5%;
   float: right;
   border: none;
@@ -320,19 +371,16 @@ a:hover {
   color: white;
 }
 
-/*Form*/
+/*End Form*/
 
 /*Searchbar*/
 
-.search {
+/* .search {
   margin-top: 3%;
   position: fixed;
   background-color: rgba(255, 255, 255, 0);
   z-index: 999999;
   height: 9%;
-  /* border-top: 1px rgba(0, 0, 0, 0.753) solid;
-  border-right: 1px rgba(0, 0, 0, 0.753) solid;
-  border-bottom: 1px rgba(0, 0, 0, 0.753) solid; */
   transition: 0.5s;
   width: 0%;
 }
@@ -354,7 +402,6 @@ a:hover {
   position: fixed;
   color: black;
   font-size: 30px;
-  /* margin-top: 1%; */
   margin-left: 1%;
   margin-top: 1%;
 }
@@ -363,8 +410,7 @@ a:hover {
   color: black;
 }
 
-.searchBarnMG
-{
+.searchBarnMG {
   background-color: white;
   width: 85%;
   height: 90%;
@@ -404,7 +450,7 @@ a:hover {
 
 .searchBar:focus {
   outline: none;
-}
+} */
 
 /*End searchbar*/
 
@@ -515,11 +561,6 @@ a:hover {
 
 /*Marcas da pagina marcas*/
 
-/* .titleBrands
-{
-  
-} */
-
 .marcasGallery {
   width: 100%;
   float: left;
@@ -541,7 +582,6 @@ a:hover {
 /*Gallery*/
 
 .gallery {
-  /* padding-left: 1%; */
   width: 100%;
   height: auto;
 }
@@ -730,6 +770,13 @@ footer {
   color: gray;
 }
 
+/*Random Classes*/
+
+.w100
+{
+  width: 100%;
+}
+
 @media only screen and (max-width: 992px) {
   /*Tablet*/
 
@@ -738,7 +785,6 @@ footer {
   /*Top*/
 
   .top {
-    width: 100%;
     padding-top: 1%;
     vertical-align: middle;
     text-align: center;
@@ -774,8 +820,22 @@ footer {
   /*Menu*/
 
   .topBtnPhone {
+    width: 10%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    float: left;
     visibility: hidden;
-    position: absolute;
+    font-size: 40px;
+    position: fixed;
+    z-index: 9999999999999999999999999999;
+    margin-left: 90%;
+    margin-top: -22%;
+    color: white;
+  }
+
+  .closeMenuCross {
+    visibility: hidden;
   }
 
   .menuText {
@@ -789,13 +849,6 @@ footer {
     visibility: visible;
     font-weight: bold;
     display: inline-block;
-  }
-
-  nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    text-align: center;
   }
 
   li {
@@ -812,23 +865,70 @@ footer {
     text-decoration: none;
   }
 
-  /*searchbar*/
+  /*Menu Scroll Down*/
 
-  /* .search {
-    
-  } */
-
-  .searchMG {
-    margin-top: 2%;
-    margin-left: 2%;
+  .iconMenu {
+    width: 8%;
+    height: auto;
+    float: left;
+    padding: 0.5% 0.5% 0.5% 0.5%;
   }
 
-  .searchMGSearch {
-    margin-top: 2%;
-    margin-left: 2%;
+  .menuTextScrollD {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    visibility: hidden;
   }
 
-  /*End searchbar*/
+  .navScrollD {
+    display: block;
+    width: 100%;
+    z-index: 10;
+    top: -165px;
+    transition: 0.1s;
+
+    height: 8%; 
+  }
+
+  /*Searchbar Scroll Down*/
+
+  .searchMGSearchScrollD {
+    color: black;
+    font-size: 30px;
+    margin-left: 1%;
+    padding-top: 1%;
+  }
+
+  .searchBarnMGScrollD {
+    width: 50%;
+    height: 6%;
+    margin-top: 1%;
+    margin-left: 25%;
+    vertical-align: middle;
+    border-radius: 20px;
+    border: 1px rgb(0, 0, 0, 0.753) solid;
+    position: fixed;
+  }
+
+  .searchBarScrollD {
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: none;
+    margin-left: 7%;
+    margin-bottom: 1%;
+    display: block;
+    font-size: 18px;
+    width: 70%;
+  }
+
+  /*End Searchbar Scroll Down*/
+
+  /*End Menu Scroll Down*/
 
   /* main */
 
@@ -969,8 +1069,6 @@ footer {
 
   .welcome {
     width: 100%;
-    /* text-align: justify;
-    margin-left: 1%; */
   }
 
   .gallery {
@@ -986,101 +1084,93 @@ footer {
 
   /*Form*/
 
-.tittleContacts {
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-}
+  .tittleContacts {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
 
-.introContatcs {
-  text-align: center;
-  font-size: 14px;
-}
+  .introContatcs {
+    text-align: center;
+    font-size: 14px;
+  }
 
-.formContacts
-{
-  width: 60%;
-  margin-left: 20%;
-}
+  .formContacts {
+    width: 60%;
+    margin-left: 20%;
+  }
 
-.labels
-{
-  float: left;
-  width: 22%;
-}
+  .labels {
+    float: left;
+    width: 22%;
+  }
 
-.inputs {
-  padding-left: 0.5%;
-  padding-top: 0.5%;
-  padding-right: 0.5%;
-  padding-bottom: 0.5%;
-}
+  .inputs {
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.5%;
+  }
 
-.divInputName
-{
-  width: 100%;
-}
+  .divInputName {
+    width: 100%;
+  }
 
-.inputName {
-  width: 55%;
-  float: left;
-}
+  .inputName {
+    width: 55%;
+    float: left;
+  }
 
-.divInputEmail
-{
-  width: 100%;
-}
+  .divInputEmail {
+    width: 100%;
+  }
 
-.inputEmail {
-  width: 55%;
-  float: left;
-}
+  .inputEmail {
+    width: 55%;
+    float: left;
+  }
 
-.divInputCellphone
-{
-  width: 100%;
-}
+  .divInputCellphone {
+    width: 100%;
+  }
 
-.inputCellphone {
-  width: 20%;
-  float: left;
-}
+  .inputCellphone {
+    width: 20%;
+    float: left;
+  }
 
-.divInputMatter
-{
-  width: 100%;
-}
+  .divInputMatter {
+    width: 100%;
+  }
 
-.inputMatter {
-  width: 55%;
-  float: left;
-}
+  .inputMatter {
+    width: 55%;
+    float: left;
+  }
 
-.divInputEnterprise
-{
-  width: 100%;
-}
+  .divInputEnterprise {
+    width: 100%;
+  }
 
-.inputEnterprise {
-  width: 55%;
-  float: left;
-}
+  .inputEnterprise {
+    width: 55%;
+    float: left;
+  }
 
-.divInputMessage
-{
-  width: 100%;
-}
+  .divInputMessage {
+    width: 100%;
+  }
 
-.inputMessage {
-  width: 100%;
-  height: 100px;
-}
+  .inputMessage {
+    width: 100%;
+    height: 100px;
+  }
 
-.textContatosI {
-  margin-left: 5%;
-}
+  .textContatosI {
+    margin-left: 5%;
+  }
 
-/*Form*/
+  /*Form*/
 
   /*footer*/
 
@@ -1151,42 +1241,12 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  /*Phone*/
+  /*Phone*/ /*Otimizied? :3*/
 
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  /*Top*/
 
-  /* header */
-
-  .header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 9;
-  }
-
-  /* top */
-
-  .top {
-    width: auto;
-    padding-top: 1%;
-    vertical-align: middle;
-    text-align: center;
-    z-index: 9999999;
-  }
-
-  .logo {
-    vertical-align: middle;
-    display: inline-block;
-    width: auto;
-  }
-
-  .logoIMG {
-    height: 70px;
+  .top{
+    border-bottom: 1px solid#37911b;
   }
 
   .weatherWidget {
@@ -1204,22 +1264,18 @@ footer {
     display: inline-block;
   }
 
-  /* menu */
+  /*Menu*/
 
   .topBtnPhone {
     width: 10%;
     height: 10%;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    float: left;
     visibility: visible;
     font-size: 40px;
-    position: absolute;
+    position: fixed;
     z-index: 999;
     margin-left: 90%;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
     margin-top: -26%;
     color: white;
   }
@@ -1232,22 +1288,18 @@ footer {
     font-size: 20px;
     font-weight: bold;
     display: none;
-    font-weight: normal;
-    color: white;
     padding-top: 2%;
     padding-bottom: 2%;
   }
 
-  .menuText:hover {
-    font-weight: bold;
-  }
-
   nav {
+    padding-top: 0%;
     text-align: center;
     display: none;
-    position: fixed;
-    margin-top: 25%;
     width: 100%;
+    position: fixed;
+    margin-top: 0%; 
+    /* margin-top: -15%; */
   }
 
   li {
@@ -1258,36 +1310,52 @@ footer {
     list-style: none;
   }
 
-  /*searchbar*/
+  /*End Menu*/
 
-  /* .search {
-    
-  } */
+  /*Menu Scroll Down*/
 
-  .searchMG {
-    margin-top: 3%;
+  .iconMenu {
+    width: 11%;
+    margin-top: 0%;
   }
 
-  .searchMGSearch {
-    margin-top: 3%;
+  .menuTextScrollD {
+    display: none;
   }
 
-  /*End searchbar*/
-
-  /* main */
-
-  .slideshow {
+  .navScrollD {
+    display: block;
+    position: fixed;
     width: 100%;
+    top: -123px;
+    transition: 0.1s;
     height: auto;
   }
+
+  /*Searchbar Scroll Down*/
+
+  .searchMGSearchScrollD {
+    font-size: 30px;
+    margin-left: 1%;
+    padding-top: 1%;
+  }
+
+  .searchBarnMGScrollD {
+    width: 70%;
+    height: 80%;
+    margin-top: -9.5%;
+    margin-right: 15%;
+    position: initial;
+  }
+
+  /*End Searchbar Scroll Down*/
+
+  /*End Menu Scroll Down*/
+
+  /*Main*/
 
   .slideshowimgs {
-    width: 100%;
     height: auto;
-  }
-
-  .news {
-    display: none;
   }
 
   .newsTabletPhone {
@@ -1337,11 +1405,6 @@ footer {
     margin-left: -6%;
   }
 
-  .welcome {
-    width: 98%;
-    text-align: justify;
-  }
-
   .gallery {
     padding-left: 0%;
     width: 100%;
@@ -1353,100 +1416,94 @@ footer {
     height: 300px;
   }
 
-  /*Form*/
+  /*Form*/ /*To see ;-;*/
 
-.tittleContacts {
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-}
+  .tittleContacts {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
 
-.introContatcs {
-  text-align: center;
-  font-size: 14px;
-}
+  .introContatcs {
+    text-align: center;
+    font-size: 14px;
+  }
 
-.formContacts
-{
-  width: 98%;
-  margin-left: 1%;
-  margin-right: 1%;
-}
+  .formContacts {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 
-.labels
-{
-  float: left;
-  width: 20%;
-}
+  .labels {
+    float: left;
+    width: 20%;
+  }
 
-.inputs {
-  padding-left: 1%;
-  padding-top: 1%;
-  padding-right: 1%;
-  padding-bottom: 1%;
-}
+  .inputs {
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+  }
 
-.divInputName
-{
-  width: 100%;
-}
+  .divInputName {
+    width: 100%;
+  }
 
-.inputName {
-  width: 70%;
-}
+  .inputName {
+    width: 70%;
+  }
 
-.divInputEmail
-{
-  width: 100%;
-}
+  .divInputEmail {
+    width: 100%;
+  }
 
-.inputEmail {
-  width: 70%;
-}
+  .inputEmail {
+    width: 70%;
+  }
 
-.divInputCellphone
-{
-  width: 100%;
-}
+  .divInputCellphone {
+    width: 100%;
+  }
 
-.inputCellphone {
-  width: 30%;
-}
+  .inputCellphone {
+    width: 30%;
+  }
 
-.divInputMatter
-{
-  width: 100%;
-}
+  .divInputMatter {
+    width: 100%;
+  }
 
-.inputMatter {
-  width: 70%;
-}
+  .inputMatter {
+    width: 70%;
+  }
 
-.divInputEnterprise
-{
-  width: 100%;
-}
+  .divInputEnterprise {
+    width: 100%;
+  }
 
-.inputEnterprise {
-  width: 70%;
-}
+  .inputEnterprise {
+    width: 70%;
+  }
 
-.divInputMessage
-{
-  width: 100%;
-}
+  .divInputMessage {
+    width: 100%;
+    
+  }
 
-.inputMessage {
-  width: 100%;
-}
+  .inputMessage {
+    width: 100%;
+    
+  }
 
-.textContatosI {
-  margin-left: 5%;
-}
+  .textContatosI {
+    margin-left: 5%;
+  }
 
-/*Form*/
+  /*End Form*/
 
-  /*footer*/
+  /*Footer*/
 
   a {
     font-size: 11px;

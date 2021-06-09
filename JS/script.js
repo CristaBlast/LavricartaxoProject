@@ -50,102 +50,160 @@ function showSlides(a) {
   slides[slideIndex - 1].style.display = "block";
 }
 
-function searchBar() {
-  var cg = 1;
-  if (cg == 1) {
-    document.getElementById("searchBar").style.visibility = "visible";
-    cg = 0;
-  } else {
-    document.getElementById("searchBar").style.visibility = "hidden";
-    cg = 1;
+function topButtonO() 
+{
+  if (window.innerWidth <= 500) {
+    document.getElementById("menuBars").style.visibility = "hidden";
+    document.getElementById("menuClose").style.visibility = "visible";
+    document.getElementById("nav").style.display = "block";
+    for (let a = 1; a <= 7; a++) 
+    {
+      document.getElementById("op" + a).style.display = "block";
+    }
+  }
+
+  if (window.innerWidth == 681) {
+    document.getElementById("menuBars").style.visibility = "hidden";
+    document.getElementById("menuClose").style.visibility = "visible";
+    for (let a = 1; a <= 7; a++)
+    {
+      document.getElementById("ops" + a).style.visibility = "visible";
+    }
+    document.getElementById("navScrollD").style.height = "auto";
   }
 }
 
-function topButtonO() {
-  document.getElementById("menuBars").style.visibility = "hidden";
-  document.getElementById("menuClose").style.visibility = "visible";
-  document.getElementById("nav").style.display = "block";
-  // document.getElementById("nav").style.height = "auto"; do animation :3 XD
-  for (let a = 1; a <= 7; a++) {
-    document.getElementById("op" + a).style.display = "block";
+function topButtonC() 
+{
+  if (window.innerWidth <= 500) {
+    document.getElementById("menuClose").style.visibility = "hidden";
+    document.getElementById("menuBars").style.visibility = "visible";
+    document.getElementById("nav").style.display = "none";
+    for (let a = 1; a <= 7; a++)
+    {
+      document.getElementById("op" + a).style.display = "block";
+    }
+  }
+  if (window.innerWidth == 681) {
+    document.getElementById("menuBars").style.visibility = "visible";
+    document.getElementById("menuClose").style.visibility = "hidden";
+    document.getElementById("navScrollD").style.height = "8%";
+    for (let a = 1; a <= 7; a++)
+    {
+      document.getElementById("ops" + a).style.visibility = "hidden";
+    }
+    
   }
 }
 
-function topButtonC() {
-  document.getElementById("menuClose").style.visibility = "hidden";
-  document.getElementById("menuBars").style.visibility = "visible";
-  document.getElementById("nav").style.display = "none";
-  // document.getElementById("nav").style.height = "0%"; do animation :3 XD
-  for (let a = 1; a <= 7; a++) {
-    document.getElementById("op" + a).style.display = "block";
-  }
-}
-
-function resize() {
-  // alert(window.innerWidth);
-  if (window.innerWidth == 500) {
+function resize() 
+{
+  if (window.innerWidth <= 500) {
     document.getElementById("nav").style.display = "none";
     for (let a = 1; a <= 7; a++) {
       document.getElementById("op" + a).style.display = "none";
     }
     document.getElementById("menuClose").style.visibility = "hidden";
     document.getElementById("menuBars").style.visibility = "visible";
-    if(document.getElementById("searchMG").style.display == "none")
-    {
-    document.getElementById("search").style.width = "55%";
-    }
+    document.getElementById("navScrollD").style.height = "8%";
+    document.getElementById("iconMenu").style.width = "11%";
   }
 
   if (window.innerWidth == 681) {
-    document.getElementById("nav").style.display = "block";
-    document.getElementById("nav").style.visibility = "visible";
-    for (let a = 1; a <= 7; a++) {
-      document.getElementById("op" + a).style.display = "inline-block";
+      document.getElementById("nav").style.display = "block";
+      document.getElementById("nav").style.visibility = "visible";
+      document.getElementById("nav").style.marginTop = "0%";
+      document.getElementById("menuBars").style.visibility = "hidden";
+      document.getElementById("menuClose").style.visibility = "hidden";
+      document.getElementById("iconMenu").style.width = "8%";
+      
+      for (let a = 1; a <= 7; a++) 
+      {
+        document.getElementById("op" + a).style.display = "inline-block";
+      }
+      for (let a = 1; a <= 7; a++)
+      {
+        document.getElementById("ops" + a).style.visibility = "hidden";
+      }
     }
-    if(document.getElementById("searchMG").style.display == "none")
-    {
-    document.getElementById("search").style.width = "40%";
-    }
-  }
 
-  if (window.innerWidth > 681) {
+  if (window.innerWidth > 681) 
+  {
     document.getElementById("nav").style.display = "block";
     document.getElementById("nav").style.visibility = "visible";
-    for (let a = 1; a <= 7; a++) {
+    document.getElementById("nav").style.marginTop = "0%";
+    document.getElementById("menuBars").style.visibility = "hidden";
+    document.getElementById("menuClose").style.visibility = "hidden";
+    document.getElementById("iconMenu").style.width = "5%";
+    document.getElementById("navScrollD").style.height = "auto";
+    for (let a = 1; a <= 7; a++) 
+    {
       document.getElementById("op" + a).style.display = "inline-block";
     }
-    if(document.getElementById("searchMG").style.display == "none")
-    {
-      document.getElementById("search").style.width = "22%";
-    }
-    
+    for (let a = 1; a <= 7; a++)
+      {
+        document.getElementById("ops" + a).style.visibility = "visible";
+      }
   }
 }
 
-function openSearchBar()
+function scrollFunction() 
 {
-  document.getElementById("closeSearch").style.display = "block";
-  document.getElementById("searchBar").style.display = "block";
-  document.getElementById("searchMGSearch").style.display = "block";
-  document.getElementById("searchMG").style.display = "none";
-  if (window.innerWidth <= 500) {
-    document.getElementById("search").style.width = "55%";
+
+  if (window.innerWidth <= 500) 
+  {
+    if (document.body.scrollTop > 116 || document.documentElement.scrollTop > 116) 
+    {
+      document.getElementById("navScrollD").style.top = "0";
+      document.getElementById("navScrollD").style.height = "8%";
+      document.getElementById("iconMenu").style.width = "11%";
+      document.getElementById("nav").style.marginTop = "-15%";
+      
+    } 
+    else 
+    {
+      document.getElementById("navScrollD").style.top = "-123px";
+      document.getElementById("nav").style.marginTop = "0%";
+    }
   }
 
-  if (window.innerWidth == 681) {
-    document.getElementById("search").style.width = "40%";
+  if (window.innerWidth == 681) 
+  {
+    if (document.body.scrollTop > 165 || document.documentElement.scrollTop > 165) 
+    {
+      document.getElementById("navScrollD").style.top = "0";
+      if( document.getElementById("navScrollD").style.height == "auto")
+      {
+        document.getElementById("menuBars").style.visibility = "hidden";
+      }
+      else
+      {
+        document.getElementById("menuClose").style.visibility = "hidden";
+        document.getElementById("menuBars").style.visibility = "visible";
+      }
+    } 
+    else 
+    {
+      document.getElementById("navScrollD").style.top = "-165px";
+      document.getElementById("menuBars").style.visibility = "hidden";
+      document.getElementById("menuClose").style.visibility = "hidden";      
+      for (let a = 1; a <= 7; a++)
+      {
+        document.getElementById("ops" + a).style.visibility = "hidden";
+      }
+      document.getElementById("navScrollD").style.height = "8%";
+    }
   }
 
-  if (window.innerWidth > 681) {
-    document.getElementById("search").style.width = "22%";
+  if (window.innerWidth > 681) 
+  {
+    if (document.body.scrollTop > 132 || document.documentElement.scrollTop > 132) 
+    {
+      document.getElementById("navScrollD").style.top = "0";
+    } 
+    else 
+    {
+      document.getElementById("navScrollD").style.top = "-132px";
+    }
   }
-}
-
-function closeSearchBar()
-{
-  document.getElementById("closeSearch").style.display = "none";
-  document.getElementById("searchBar").style.display = "none";
-  document.getElementById("searchMGSearch").style.display = "none";
-  document.getElementById("searchMG").style.display = "block";
-  document.getElementById("search").style.width = "0%";
 }

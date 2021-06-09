@@ -13,7 +13,7 @@
     <script src="JS/script.js"></script>
     <title>Lavricartaxo</title>
 </head>
-<body onresize="resize()">
+<body onresize="resize()"  onscroll="scrollFunction()">
   <div class="header"> <!--Header-->
     <div class="top"> <!--Header Subsection Top-->
       <div class="logo"> <!--Div logo-->
@@ -38,7 +38,7 @@
   </div>
   <button class="topBtnPhone openMenuBars" id="menuBars" onclick="topButtonO()"><i class="fas fa-bars"></i></button> <!--Top Button Phone Mode-->
   <button class="topBtnPhone closeMenuCross" id="menuClose" onclick="topButtonC()"><i class="fas fa-times"></i></button> <!--Top Button Phone Mode-->
-  <nav id="nav">
+  <nav id="nav" class="nav">
     <ul class="navMenu"> <!--Menu-->
       <a href="index.html"><li class="menuText" id="op1">INICIO</li></a>
       <a href="#"><li class="menuText" id="op2">QUEM SOMOS</li></a>
@@ -49,19 +49,24 @@
       <a href="associados.html"><li class="menuText" id="op7">ASSOCIADOS</li></a>
     </ul>
   </nav>
-  <!--Search Bar-->
-  <div class="search" id="search">
-    <a onclick="openSearchBar()" id="searchMG"><i class="fas fa-search searchMG"></i></a>
-    <div class="searchBarnMG">
-      <input type="text" class="searchBar" id="searchBar" placeholder="Procurar...">
-      <a onclick="" id="searchMGSearch"><i class="fas fa-search searchMGSearch"></i></a>
+  <nav id="navScrollD" class="navScrollD">
+    <img src="Images/icon.png" class="iconMenu" id="iconMenu">
+    <ul class="navMenuScrollD" id="navMenuScrollD"> <!--Menu -->
+          <a href="index.html"><li class="menuTextScrollD"  id="ops1">INICIO</li></a>
+          <a href="#"><li class="menuTextScrollD" id="ops2">QUEM SOMOS</li></a>
+          <a href="galeria.html"><li class="menuTextScrollD" id="ops3">GALERIA</li></a>
+          <a href="produtos.html"><li class="menuTextScrollD" id="ops4">PRODUTOS</li></a>
+          <a href="contatos.html"><li class="menuTextScrollD" id="ops5">CONTATOS</li></a>
+          <a href="marcas.html"><li class="menuTextScrollD" id="ops6">MARCAS</li></a>
+          <a href="associados.html"><li class="menuTextScrollD" id="ops7">ASSOCIADOS</li></a>
+    </ul>
+    <div class="searchBarnMGScrollD">
+      <input type="text" class="searchBarScrollD" id="searchBarScrollD" placeholder="Procurar...">
+      <a onclick="" id="searchMGSearchScrollD"><i class="fas fa-search searchMGSearchScrollD"></i></a>
     </div>
-    <a onclick="closeSearchBar()" id="closeSearch"><i class="fas fa-angle-left closeSearch"></i></a>
-  </div>
-  <!--End Search Bar-->
-  <div class="backgroundIMG">
+  </nav>
   <div class="main">
-    <div class="welcome">
+    <div class="welcome w100">
       </br><h1>Quem Somos</h1>
       </br>Constituída em 1982 e sediada na cidade do Cartaxo, a LAVRICARTAXO - Cooperativa Agro-Pecuária do Cartaxo, C.R.L. (antigo Grémio da Lavoura) é uma entidade com estatuto jurídico de cooperativa agrícola, composta por vários associados que procuraram criar uma estrutura forte e competitiva no sector da comercialização de produtos para a agricultura.
       </br></br>Apresentamos soluções para uma vasta franja do sector, nomeadamente: Adubos, Agro-Químicos, Produtos Fitofarmacêuticos, Rações, Máquinas, entre outros.
@@ -74,8 +79,15 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </div>
-</div>
 </body>
 <footer class="footerBottom"> <!--Footer-->
   <div class="wheretofindusFooter">
