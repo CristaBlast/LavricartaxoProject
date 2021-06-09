@@ -87,11 +87,12 @@ function topButtonC()
   if (window.innerWidth == 681) {
     document.getElementById("menuBars").style.visibility = "visible";
     document.getElementById("menuClose").style.visibility = "hidden";
+    document.getElementById("navScrollD").style.height = "8%";
     for (let a = 1; a <= 7; a++)
     {
       document.getElementById("ops" + a).style.visibility = "hidden";
     }
-    document.getElementById("navScrollD").style.height = "8%";
+    
   }
 }
 
@@ -105,39 +106,44 @@ function resize()
     document.getElementById("menuClose").style.visibility = "hidden";
     document.getElementById("menuBars").style.visibility = "visible";
     document.getElementById("navScrollD").style.height = "8%";
+    document.getElementById("iconMenu").style.width = "11%";
   }
 
   if (window.innerWidth == 681) {
       document.getElementById("nav").style.display = "block";
       document.getElementById("nav").style.visibility = "visible";
+      document.getElementById("nav").style.marginTop = "0%";
       document.getElementById("menuBars").style.visibility = "hidden";
       document.getElementById("menuClose").style.visibility = "hidden";
       document.getElementById("iconMenu").style.width = "8%";
+      
       for (let a = 1; a <= 7; a++) 
       {
         document.getElementById("op" + a).style.display = "inline-block";
       }
-
-      
-      // for (let a = 1; a <= 7; a++) 
-      // {
-      //   document.getElementById("ops" + a).style.display = "none";
-      // }
+      for (let a = 1; a <= 7; a++)
+      {
+        document.getElementById("ops" + a).style.visibility = "hidden";
+      }
     }
 
   if (window.innerWidth > 681) 
   {
     document.getElementById("nav").style.display = "block";
     document.getElementById("nav").style.visibility = "visible";
+    document.getElementById("nav").style.marginTop = "0%";
     document.getElementById("menuBars").style.visibility = "hidden";
     document.getElementById("menuClose").style.visibility = "hidden";
     document.getElementById("iconMenu").style.width = "5%";
-    document.getElementById("menuTextScrollD").style.width = "auto";
     document.getElementById("navScrollD").style.height = "auto";
     for (let a = 1; a <= 7; a++) 
     {
       document.getElementById("op" + a).style.display = "inline-block";
     }
+    for (let a = 1; a <= 7; a++)
+      {
+        document.getElementById("ops" + a).style.visibility = "visible";
+      }
   }
 }
 
@@ -146,13 +152,18 @@ function scrollFunction()
 
   if (window.innerWidth <= 500) 
   {
-    if (document.body.scrollTop > 121 || document.documentElement.scrollTop > 121) 
+    if (document.body.scrollTop > 116 || document.documentElement.scrollTop > 116) 
     {
       document.getElementById("navScrollD").style.top = "0";
+      document.getElementById("navScrollD").style.height = "8%";
+      document.getElementById("iconMenu").style.width = "11%";
+      document.getElementById("nav").style.marginTop = "-15%";
+      
     } 
     else 
     {
-      document.getElementById("navScrollD").style.top = "-121px";
+      document.getElementById("navScrollD").style.top = "-123px";
+      document.getElementById("nav").style.marginTop = "0%";
     }
   }
 

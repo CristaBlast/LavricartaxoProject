@@ -770,6 +770,13 @@ footer {
   color: gray;
 }
 
+/*Random Classes*/
+
+.w100
+{
+  width: 100%;
+}
+
 @media only screen and (max-width: 992px) {
   /*Tablet*/
 
@@ -1238,6 +1245,10 @@ footer {
 
   /*Top*/
 
+  .top{
+    border-bottom: 1px solid#37911b;
+  }
+
   .weatherWidget {
     display: none;
   }
@@ -1282,11 +1293,13 @@ footer {
   }
 
   nav {
+    padding-top: 0%;
     text-align: center;
     display: none;
     width: 100%;
     position: fixed;
-    margin-top: -15%;
+    margin-top: 0%; 
+    /* margin-top: -15%; */
   }
 
   li {
@@ -1303,7 +1316,7 @@ footer {
 
   .iconMenu {
     width: 11%;
-    margin-top: 15%;
+    margin-top: 0%;
   }
 
   .menuTextScrollD {
@@ -1314,7 +1327,7 @@ footer {
     display: block;
     position: fixed;
     width: 100%;
-    top: -121px;
+    top: -123px;
     transition: 0.1s;
     height: auto;
   }
@@ -1329,8 +1342,8 @@ footer {
 
   .searchBarnMGScrollD {
     width: 70%;
-    height: 90%;
-    margin-top: -9%;
+    height: 80%;
+    margin-top: -9.5%;
     margin-right: 15%;
     position: initial;
   }
